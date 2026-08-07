@@ -8,7 +8,8 @@
   </head>
 
   <body class="bg-white text-gray-900 font-sans leading-relaxed">
-    {{ partial "nav-mobile.html" . }} {{- block "main" . }}{{- end }}
+    {{- partial "dev/dev-tools.html" . -}} {{ partial "nav-mobile.html" . }} {{-
+    block "main" . }}{{- end }}
 
     <script>
       (function () {
