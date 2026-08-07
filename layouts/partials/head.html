@@ -1,0 +1,56 @@
+{{- if site.Params.analytics.google.SiteVerificationTag }}
+<meta name="google-site-verification" content="{{ site.Params.analytics.google.SiteVerificationTag }}">
+{{- end }}
+{{- if site.Params.analytics.yandex.SiteVerificationTag }}
+<meta name="yandex-verification" content="{{ site.Params.analytics.yandex.SiteVerificationTag }}">
+{{- end }}
+{{- if site.Params.analytics.bing.SiteVerificationTag }}
+<meta name="msvalidate.01" content="{{ site.Params.analytics.bing.SiteVerificationTag }}">
+{{- end }}
+
+
+{{- /* CSS */}}
+
+{{ with resources.Get "css/main.css" }}
+  {{ $opts := dict "minify" (not hugo.IsDevelopment) }}
+  {{ with . | css.TailwindCSS $opts }}
+    {{ if hugo.IsDevelopment }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{ else }}
+      {{ with . | fingerprint }}
+        <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+
+{{- /* Font Preloading */}}
+<link rel="preload" href="{{ "fonts/lexend-v25-latin-regular.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ "fonts/lexend-v25-latin-600.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ "fonts/lexend-v25-latin-800.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+
+	
+{{- /* RSS Feed */}}
+{{ range .AlternativeOutputFormats -}}
+<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+{{ end -}}
+
+
+{{- /* Favicons */}}
+
+{{- /* Favicons */}}
+<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+<link rel="manifest" href="/favicons/site.webmanifest">
+<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#e5512d">
+<link rel="shortcut icon" href="/favicons/favicon.ico">
+<meta name="msapplication-TileColor" content="#e5512d">
+<meta name="msapplication-config" content="/favicons/browserconfig.xml">
+<meta name="theme-color" content="#e5512d">
+
+
+{{- if hugo.IsProduction | or (eq site.Params.env "production") }}
+{{- template "_internal/google_analytics.html" . }}
+{{- end -}}
