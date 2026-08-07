@@ -1,0 +1,111 @@
+# locale = 'en-us'
+
+title = 'The Douglas Lab'
+
+enableRobotsTXT = true
+
+disableKinds = ["taxonomy", "term"] # turn off taxonomy terms so template doesnt look for them.
+
+[permalinks.page]
+"pages" = "/:slugorcontentbasename/"
+
+
+[outputs]
+page = [ "html" ]
+home = [ "html", "json", "rss", "imagessitemap" ]
+
+[outputFormats.IMAGESSITEMAP]
+MediaType = "application/xml"
+BaseName = "imagessitemap"
+isPlainText = false
+isHTML = false
+noUgly = true
+permalinkable = false
+
+[sitemap]
+changefreq = "weekly"
+priority = 0.8
+filename = "sitemap.xml"
+
+
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false  # or true if you want /en/ prefix
+
+[build]
+  [build.buildStats]
+    enable = true
+  [[build.cachebusters]]
+    source = 'assets/notwatching/hugo_stats\.json'
+    target = 'css'
+  [[build.cachebusters]]
+    source = '(postcss|tailwind)\.config\.js'
+    target = 'css'
+
+[module]
+  [[module.mounts]]
+    source = 'assets'
+    target = 'assets'
+  [[module.mounts]]
+    disableWatch = true
+    source = 'hugo_stats.json'
+    target = 'assets/notwatching/hugo_stats.json'
+
+[languages.en]
+  contentDir = 'content/english'
+  label = 'English'
+  weight = 10
+  [[languages.en.menus.main]]
+    identifier = 'research'
+    name = 'Research'
+    url = '/'
+    weight = 1
+  [[languages.en.menus.main]]
+    identifier = 'people'
+    name = 'People'
+    url = '/people/'
+    weight = 10
+  [[languages.en.menus.main]]
+    identifier = 'publications'
+    name = 'Publications'
+    url = '/publications/'
+    weight = 20
+  [[languages.en.menus.main]]
+    identifier = 'downloads'
+    name = 'Downloads'
+    url = '/downloads/'
+    weight = 30
+  [[languages.en.menus.main]]
+    identifier = 'contact'
+    name = 'Contact'
+    url = '/contact/'
+    weight = 40
+
+[languages.es]
+  contentDir = 'content/espanol'
+  label = 'español'
+  weight = 20
+  [[languages.es.menus.main]]
+    identifier = 'research'
+    name = 'Investigación'
+    url = '/es/'
+    weight = 1
+  [[languages.es.menus.main]]
+    identifier = 'people'
+    name = 'Personas'
+    url = '/es/people/'
+    weight = 10
+  [[languages.es.menus.main]]
+    identifier = 'publications'
+    name = 'Publicaciones'
+    url = '/es/publications/'
+    weight = 20
+  [[languages.es.menus.main]]
+    identifier = 'downloads'
+    name = 'Descargas'
+    url = '/es/downloads/'
+    weight = 30
+  [[languages.es.menus.main]]
+    identifier = 'contact'
+    name = 'Contacto'
+    url = '/es/contact/'
+    weight = 40

@@ -1,0 +1,2 @@
+GIMP:
+Image > Scale Image, and in Quality > Interpolation I usually put None,
