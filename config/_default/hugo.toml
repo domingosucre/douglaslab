@@ -41,6 +41,13 @@ defaultContentLanguageInSubdir = false  # or true if you want /en/ prefix
     source = '(postcss|tailwind)\.config\.js'
     target = 'css'
 
+
+# the following caches is used only by github for github pages
+# remove if you change hosting
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [module]
   [[module.mounts]]
     source = 'assets'
