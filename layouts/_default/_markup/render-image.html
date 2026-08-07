@@ -1,0 +1,15 @@
+{{ if false}} This is the source override for all - pay attention - inline
+MARKDOWN images {{ end }}
+
+<img
+  src="{{ .Destination | relURL }}"
+  alt="{{ .Text }}"
+  {{
+  with
+  .Title
+  }}
+  title="{{ . }}"
+  {{
+  end
+  }}
+/>

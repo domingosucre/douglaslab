@@ -1,13 +1,13 @@
 ---
 title: I guess this is the front page of english stuff
 description: See above
-picture: research.png
+picture_left: 01_research_left_100.png
+picture_right: artwork_research_1000.png
 ---
 
 # What are we doing?
 
 We aim to use the building blocks of life to create novel tools and devices to perform useful tasks on the nanoscale. A short introduction to our research can be found here.
-
 
 # How do we do it?
 
