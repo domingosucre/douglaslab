@@ -1,0 +1,11 @@
+{{- $link := .Get "link" | default (.Get 0) -}}
+{{- $text := .Get "text" | default (.Get 1) -}}
+{{- $external := .Get "external" | default (.Get 2) -}}
+
+<div class="flex flex-wrap justify-center gap-6 mt-16 mb-16">
+    <a class="relative" href="{{ $link }}"
+       {{- if in (slice "true" "yes" true) $external }} target="_blank" rel="noopener noreferrer"{{ end }}>
+        <span class="absolute top-0 left-0 mt-1 ml-1 h-full w-full rounded bg-black"></span>
+        <span class="relative inline-block h-full w-full rounded border-2 border-black bg-white px-16 py-6 text-3xl font-bold text-black transition duration-200 bg-yellow-400 hover:bg-black hover:text-gray-100">{{ $text }}</span>
+    </a>
+</div>

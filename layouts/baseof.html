@@ -7,62 +7,9 @@
     {{- block "metatags" . }}{{ end }} {{ partial "head.html" . }}
   </head>
 
-  <body class="text-gray-900 font-sans leading-relaxed bg-black">
+  <body class="text-black font-sans bg-black">
     {{- partial "dev/dev-tools.html" . -}} {{ partial "nav-mobile.html" . }} {{-
-    block "main" . }}{{- end }}
-
-    <script>
-      (function () {
-        // Wait for DOM to be ready
-        if (document.readyState === "loading") {
-          document.addEventListener("DOMContentLoaded", initThemeToggle);
-        } else {
-          initThemeToggle();
-        }
-
-        function initThemeToggle() {
-          const toggleButtons = document.querySelectorAll(".theme-toggle-btn");
-
-          // Initialize theme
-          const savedTheme = localStorage.getItem("theme");
-          const systemDark = window.matchMedia(
-            "(prefers-color-scheme: dark)",
-          ).matches;
-
-          if (savedTheme === "dark" || (!savedTheme && systemDark)) {
-            document.documentElement.classList.add("dark");
-          }
-
-          // Toggle function
-          function toggleTheme() {
-            if (document.documentElement.classList.contains("dark")) {
-              document.documentElement.classList.remove("dark");
-              localStorage.setItem("theme", "light");
-            } else {
-              document.documentElement.classList.add("dark");
-              localStorage.setItem("theme", "dark");
-            }
-          }
-
-          // Add listeners to all buttons
-          toggleButtons.forEach(function (button) {
-            button.addEventListener("click", toggleTheme);
-          });
-
-          // System preference changes
-          window
-            .matchMedia("(prefers-color-scheme: dark)")
-            .addEventListener("change", function (e) {
-              if (!localStorage.getItem("theme")) {
-                if (e.matches) {
-                  document.documentElement.classList.add("dark");
-                } else {
-                  document.documentElement.classList.remove("dark");
-                }
-              }
-            });
-        }
-      })();
-    </script>
+    block "main" . }}{{- end }} {{ if false}} {{- partial "dark-toggle.html" .
+    }} {{ end }}
   </body>
 </html>
