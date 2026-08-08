@@ -1,8 +1,8 @@
 ---
 title: I guess this is the front page of english stuff
 description: See above
-picture_left: 01_research_left_100.png
-picture_right: artwork_research_1000.png
+picture_left: research_left.png
+picture_right: artwork_research.png
 ---
 
 # What are we doing?

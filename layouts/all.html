@@ -2,29 +2,40 @@
 "main" }}
 
 
-  <div class="grid grid-cols-12 w-full">
+  <div class="grid grid-cols-16">
     {{ partial "menu.html" . }}
   </div>
 
   <div class="w-full  mx-auto">
-    <div class="grid grid-cols-12 w-full">
+    <div class="grid grid-cols-16 h-screen bg-black">
 
       <!-- left column: thin sliver image -->
-      <div class="hidden xl:block xl:col-span-1"
+      <!-- note: max-h-256 is the he hight of the image, in the next 2 columns -->
+      <div class="hidden xl:block xl:col-span-1 
+                      max-h-256
+
+"
            style="background-image:url('{{ printf "images/%s" .Params.picture_left | relURL }}');
                   background-repeat:no-repeat;
+                  background-size:cover;
                   background-position:left top;">
       </div>
 
-      <!-- right column: wide artwork image -->
-      <div class="order-1 lg:order-3 hidden h-64 sm:h-32 lg:h-auto md:block md:col-span-12 lg:col-span-6 xl:col-span-5 2xl:col-span-6 3xl:col-span-7"
-           style="background-image:url('{{ printf "images/%s" .Params.picture_right | relURL }}');
-                  background-repeat:no-repeat;
-                  background-position:left top;">
-      </div>
+       <!-- right column: wide artwork image -->
+      <div class="order-1 lg:order-3 hidden
+            max-h-256
 
+            md:block md:col-span-16 lg:col-span-6 xl:col-span-7 2xl:col-span-7 3xl:col-span-5
+            aspect-[5/3] lg:aspect-auto lg:h-full"
+     style="background-image:url('{{ printf "images/%s" .Params.picture_right | relURL }}');
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-position:center;">
+    </div>
+    
       <!-- center -->
-      <div class="order-2 lg:order-2 col-span-12 md:col-span-12 lg:col-span-6 xl:col-span-6 2xl:col-span-5 3xl:col-span-4
+      <div class="order-2 lg:order-2 col-span-16
+                  md:col-span-16 lg:col-span-10 xl:col-span-8 2xl:col-span-8 3xl:col-span-10
                   prose prose-lg max-w-none bg-white drop-shadow-2xl p-12">
         {{ .Content }}
       </div>

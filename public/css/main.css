@@ -234,8 +234,8 @@
   .order-2 {
     order: 2;
   }
-  .col-span-12 {
-    grid-column: span 12 / span 12;
+  .col-span-16 {
+    grid-column: span 16 / span 16;
   }
   .container {
     width: 100%;
@@ -902,20 +902,29 @@
   .table {
     display: table;
   }
+  .aspect-\[5\/3\] {
+    aspect-ratio: 5/3;
+  }
   .h-1\/3 {
     height: calc(1 / 3 * 100%);
   }
   .h-8 {
     height: calc(var(--spacing) * 8);
   }
-  .h-64 {
-    height: calc(var(--spacing) * 64);
-  }
   .h-full {
     height: 100%;
   }
   .h-screen {
     height: 100vh;
+  }
+  .max-h-64 {
+    max-height: calc(var(--spacing) * 64);
+  }
+  .max-h-128 {
+    max-height: calc(var(--spacing) * 128);
+  }
+  .max-h-256 {
+    max-height: calc(var(--spacing) * 256);
   }
   .min-h-\[40px\] {
     min-height: 40px;
@@ -1005,6 +1014,9 @@
   .grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
+  .grid-cols-16 {
+    grid-template-columns: repeat(16, minmax(0, 1fr));
+  }
   .items-center {
     align-items: center;
   }
@@ -1053,6 +1065,9 @@
       border-color: color-mix(in oklab, var(--color-white) 50%, transparent);
     }
   }
+  .bg-black {
+    background-color: var(--color-black);
+  }
   .bg-blue-200 {
     background-color: var(--color-blue-200);
   }
@@ -1091,9 +1106,6 @@
   }
   .p-4 {
     padding: calc(var(--spacing) * 4);
-  }
-  .p-6 {
-    padding: calc(var(--spacing) * 6);
   }
   .p-12 {
     padding: calc(var(--spacing) * 12);
@@ -1209,11 +1221,6 @@
   .ring-blue-500 {
     --tw-ring-color: var(--color-blue-500);
   }
-  .drop-shadow {
-    --tw-drop-shadow-size: drop-shadow(0 1px 2px var(--tw-drop-shadow-color, rgb(0 0 0 / 0.1))) drop-shadow(0 1px 1px var(--tw-drop-shadow-color, rgb(0 0 0 / 0.06)));
-    --tw-drop-shadow: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow( 0 1px 1px rgb(0 0 0 / 0.06));
-    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
-  }
   .drop-shadow-2xl {
     --tw-drop-shadow-size: drop-shadow(0 25px 25px var(--tw-drop-shadow-color, rgb(0 0 0 / 0.15)));
     --tw-drop-shadow: drop-shadow(var(--drop-shadow-2xl));
@@ -1279,16 +1286,13 @@
     .sm\:hidden {
       display: none;
     }
-    .sm\:h-32 {
-      height: calc(var(--spacing) * 32);
-    }
     .sm\:bg-red-200 {
       background-color: var(--color-red-200);
     }
   }
   @media (width >= 48rem) {
-    .md\:col-span-12 {
-      grid-column: span 12 / span 12;
+    .md\:col-span-16 {
+      grid-column: span 16 / span 16;
     }
     .md\:block {
       display: block;
@@ -1311,17 +1315,11 @@
     .lg\:order-3 {
       order: 3;
     }
-    .lg\:col-span-1 {
-      grid-column: span 1 / span 1;
-    }
-    .lg\:col-span-5 {
-      grid-column: span 5 / span 5;
-    }
     .lg\:col-span-6 {
       grid-column: span 6 / span 6;
     }
-    .lg\:col-span-7 {
-      grid-column: span 7 / span 7;
+    .lg\:col-span-10 {
+      grid-column: span 10 / span 10;
     }
     .lg\:block {
       display: block;
@@ -1329,8 +1327,11 @@
     .lg\:hidden {
       display: none;
     }
-    .lg\:h-auto {
-      height: auto;
+    .lg\:aspect-auto {
+      aspect-ratio: auto;
+    }
+    .lg\:h-full {
+      height: 100%;
     }
     .lg\:bg-green-200 {
       background-color: var(--color-green-200);
@@ -1340,14 +1341,11 @@
     .xl\:col-span-1 {
       grid-column: span 1 / span 1;
     }
-    .xl\:col-span-5 {
-      grid-column: span 5 / span 5;
-    }
-    .xl\:col-span-6 {
-      grid-column: span 6 / span 6;
-    }
     .xl\:col-span-7 {
       grid-column: span 7 / span 7;
+    }
+    .xl\:col-span-8 {
+      grid-column: span 8 / span 8;
     }
     .xl\:block {
       display: block;
@@ -1360,11 +1358,11 @@
     }
   }
   @media (width >= 96rem) {
-    .\32 xl\:col-span-5 {
-      grid-column: span 5 / span 5;
+    .\32 xl\:col-span-7 {
+      grid-column: span 7 / span 7;
     }
-    .\32 xl\:col-span-6 {
-      grid-column: span 6 / span 6;
+    .\32 xl\:col-span-8 {
+      grid-column: span 8 / span 8;
     }
     .\32 xl\:block {
       display: block;
