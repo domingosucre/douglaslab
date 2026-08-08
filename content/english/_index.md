@@ -22,3 +22,5 @@ We are collaborating with Dynamicland to reimagine how computing is used in the 
 # Would you like to know more?
 
 [We share informal progress updates here](https://posts.dynamic.land/@shawn).
+
+## [Join the lab!](/contact)
