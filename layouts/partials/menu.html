@@ -3,7 +3,11 @@
       {{ range .Site.Menus.main }}
         <li>
           <a href="{{ .URL }}"
-             class="{{ if $.IsMenuCurrent "main" . }} underline {{ end }}  text-gray-500  2xl:text-2xl font-pixel hover:text-white">
+             class="{{ if $.IsMenuCurrent "main" . }} underline {{ end }}  text-gray-500  2xl:text-2xl font-pixel 
+            transition delay-150 duration-300 ease-in-out hover:-translate-y-1 
+             hover:text-white
+
+             ">
             {{ .Name }}
           </a>
         </li>
