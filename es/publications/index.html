@@ -31,7 +31,7 @@
 <meta name="theme-color" content="#e5512d">
   </head>
 
-  <body class="text-gray-900 font-sans leading-relaxed bg-black">
+  <body class="text-black font-sans bg-black">
 <div class="fixed top-0 right-0 mt-12 mr-8 z-50">
 <div id="size-indicator"
      class="flex items-center justify-center w-8 h-8 mb-2 text-sm text-slate-600 uppercase bg-slate-200 rounded-full
@@ -238,7 +238,7 @@
       
         <li>
           <a href="/es/"
-             class="  text-gray-500  2xl:text-2xl font-pixel 
+             class="  text-gray-400 text-lg 2xl:text-2xl font-pixel 
             transition delay-150 duration-300 ease-in-out hover:-translate-y-1 
              hover:text-white
 
@@ -249,7 +249,7 @@
       
         <li>
           <a href="/es/people/"
-             class="  text-gray-500  2xl:text-2xl font-pixel 
+             class="  text-gray-400 text-lg 2xl:text-2xl font-pixel 
             transition delay-150 duration-300 ease-in-out hover:-translate-y-1 
              hover:text-white
 
@@ -260,7 +260,7 @@
       
         <li>
           <a href="/es/publications/"
-             class="  text-gray-500  2xl:text-2xl font-pixel 
+             class="  text-gray-400 text-lg 2xl:text-2xl font-pixel 
             transition delay-150 duration-300 ease-in-out hover:-translate-y-1 
              hover:text-white
 
@@ -271,7 +271,7 @@
       
         <li>
           <a href="/es/downloads/"
-             class="  text-gray-500  2xl:text-2xl font-pixel 
+             class="  text-gray-400 text-lg 2xl:text-2xl font-pixel 
             transition delay-150 duration-300 ease-in-out hover:-translate-y-1 
              hover:text-white
 
@@ -282,7 +282,7 @@
       
         <li>
           <a href="/es/contact/"
-             class="  text-gray-500  2xl:text-2xl font-pixel 
+             class="  text-gray-400 text-lg 2xl:text-2xl font-pixel 
             transition delay-150 duration-300 ease-in-out hover:-translate-y-1 
              hover:text-white
 
@@ -294,7 +294,7 @@
     </ul>
 
     
-      <ul class="flex gap-2 border-l pl-4  text-gray-500  2xl:text-normal font-pixel">
+      <ul class="flex gap-2 border-l pl-4  text-gray-400  2xl:text-normal font-pixel">
         
           <li class="">
             <a class="hover:text-white" href="/publications/">en</a>
@@ -338,7 +338,10 @@
       
       <div class="order-2 lg:order-2 col-span-16
                   md:col-span-16 lg:col-span-10 xl:col-span-8 2xl:col-span-8 3xl:col-span-8
-                  prose prose-lg max-w-none bg-white drop-shadow-2xl p-12">
+                  max-w-none 
+                  prose lg:prose-lg xl:prose-xl 2xl:prose-2xl
+                  bg-white drop-shadow-2xl 
+                  p-12">
         <h1 id="spanish">spanish</h1>
 <p>This will be the publications page
 sdfdsfsdf
@@ -349,60 +352,6 @@ sadasdsadsad</p>
 
 
     </div>
-  </div>
-
-    <script>
-      (function () {
-        
-        if (document.readyState === "loading") {
-          document.addEventListener("DOMContentLoaded", initThemeToggle);
-        } else {
-          initThemeToggle();
-        }
-
-        function initThemeToggle() {
-          const toggleButtons = document.querySelectorAll(".theme-toggle-btn");
-
-          
-          const savedTheme = localStorage.getItem("theme");
-          const systemDark = window.matchMedia(
-            "(prefers-color-scheme: dark)",
-          ).matches;
-
-          if (savedTheme === "dark" || (!savedTheme && systemDark)) {
-            document.documentElement.classList.add("dark");
-          }
-
-          
-          function toggleTheme() {
-            if (document.documentElement.classList.contains("dark")) {
-              document.documentElement.classList.remove("dark");
-              localStorage.setItem("theme", "light");
-            } else {
-              document.documentElement.classList.add("dark");
-              localStorage.setItem("theme", "dark");
-            }
-          }
-
-          
-          toggleButtons.forEach(function (button) {
-            button.addEventListener("click", toggleTheme);
-          });
-
-          
-          window
-            .matchMedia("(prefers-color-scheme: dark)")
-            .addEventListener("change", function (e) {
-              if (!localStorage.getItem("theme")) {
-                if (e.matches) {
-                  document.documentElement.classList.add("dark");
-                } else {
-                  document.documentElement.classList.remove("dark");
-                }
-              }
-            });
-        }
-      })();
-    </script>
+  </div> 
   </body>
 </html>
