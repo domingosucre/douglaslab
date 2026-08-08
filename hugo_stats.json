@@ -3,7 +3,12 @@
     "tags": [
       "a",
       "body",
+<<<<<<< HEAD
       "br",
+=======
+      "button",
+      "caption",
+>>>>>>> d2281f6 (a pixel art font replacement for headers. im not convinced yet)
       "div",
       "h1",
       "h2",
@@ -89,6 +94,7 @@
 =======
       "p",
       "script",
+<<<<<<< HEAD
       "title"
     ],
     "classes": [
@@ -106,6 +112,7 @@
       "lg:col-span-1",
       "lg:col-span-5",
       "lg:col-span-6",
+<<<<<<< HEAD
 >>>>>>> d46450b (.)
       "max-w-none",
       "mb-16",
@@ -128,11 +135,91 @@
       "p-6",
       "pl-4",
 =======
+=======
+=======
+      "span",
+      "table",
+      "tbody",
+      "td",
+      "th",
+      "thead",
+      "title",
+      "tr",
+      "ul"
+    ],
+    "classes": [
+      "-z-50",
+      "2xl:bg-pink-200",
+      "2xl:block",
+      "2xl:col-span-7",
+      "2xl:col-span-8",
+      "2xl:hidden",
+      "3xl:bg-violet-200",
+      "3xl:block",
+      "3xl:col-span-10",
+      "3xl:col-span-5",
+      "3xl:hidden",
+      "aspect-[5/3]",
+      "bg-black",
+      "bg-opacity-25",
+      "bg-red-200",
+      "bg-slate-200",
+      "bg-white",
+      "bg-white/[.95]",
+      "block",
+      "border-l",
+      "border-slate-200",
+      "border-t",
+      "border-white/50",
+      "border-y-8",
+      "bottom-0",
+      "col-span-12",
+      "col-span-16",
+      "container",
+      "drop-shadow-2xl",
+      "fixed",
+      "flex",
+      "font-pixel",
+      "font-sans",
+      "font-semibold",
+      "gap-2",
+      "gap-4",
+      "grid",
+      "grid-cols-16",
+      "h-1/3",
+      "h-8",
+      "h-full",
+      "h-screen",
+      "hidden",
+      "inset-0",
+      "italic",
+      "items-center",
+      "justify-center",
+      "justify-end",
+      "leading-relaxed",
+      "lg:aspect-auto",
+      "lg:bg-green-200",
+      "lg:block",
+      "lg:col-span-10",
+      "lg:col-span-6",
+      "lg:h-full",
+      "lg:hidden",
+      "lg:order-2",
+      "lg:order-3",
+      "max-h-256",
+>>>>>>> 8eb73dd (a pixel art font replacement for headers. im not convinced yet)
+      "max-w-none",
+      "mb-2",
+      "md:bg-yellow-200",
+      "md:block",
+<<<<<<< HEAD
+>>>>>>> d2281f6 (a pixel art font replacement for headers. im not convinced yet)
       "md:col-span-1",
       "md:col-span-3",
       "md:col-span-8",
       "mx-auto",
       "p-6",
+<<<<<<< HEAD
 >>>>>>> d46450b (.)
       "prose",
       "prose-sm",
@@ -154,7 +241,50 @@
       "transition",
       "w-16",
       "w-20",
+=======
+=======
+      "md:col-span-16",
+      "md:hidden",
+      "mr-8",
+      "mt-12",
+      "mx-auto",
+      "order-1",
+      "order-2",
+      "overflow-y-auto",
+      "p-12",
+      "p-2",
+      "p-4",
+      "pl-4",
+      "pointer-events-auto",
+      "pointer-events-none",
+      "pr-2",
+>>>>>>> 8eb73dd (a pixel art font replacement for headers. im not convinced yet)
+      "prose",
+      "prose-lg",
+      "right-0",
+      "rounded-full",
+      "scroll-auto",
+      "scroll-py-4",
+      "sm:bg-red-200",
+      "sm:block",
+      "sm:hidden",
+      "table-auto",
+      "table-collapse",
+      "text-2xl",
+      "text-gray-900",
+      "text-left",
+      "text-right",
+      "text-slate-600",
+      "text-sm",
+      "text-white",
+      "text-xl",
+      "top-0",
+      "touch-auto",
+      "uppercase",
+      "w-8",
+>>>>>>> d2281f6 (a pixel art font replacement for headers. im not convinced yet)
       "w-full",
+<<<<<<< HEAD
       "xl:col-span-1",
 <<<<<<< HEAD
       "xl:col-span-10",
@@ -166,18 +296,43 @@
 =======
       "xl:col-span-5",
       "xl:col-span-6"
+<<<<<<< HEAD
 >>>>>>> d46450b (.)
     ],
     "ids": [
       "about-page",
       "come-visit",
       "downloads",
+=======
+=======
+      "xl:bg-blue-200",
+      "xl:block",
+      "xl:col-span-1",
+      "xl:col-span-7",
+      "xl:col-span-8",
+      "xl:hidden",
+      "z-50"
+>>>>>>> 8eb73dd (a pixel art font replacement for headers. im not convinced yet)
+    ],
+    "ids": [
+      "about-page",
+      "container-area",
+      "container-menu",
+      "frontpage",
+>>>>>>> d2281f6 (a pixel art font replacement for headers. im not convinced yet)
       "frontpage-in-spanish",
       "get-in-touch",
       "how-do-we-do-it",
+<<<<<<< HEAD
       "join-the-lab",
       "people-in-the-lab",
       "publications",
+=======
+      "parameter-area",
+      "parameter-menu",
+      "people-page",
+      "size-indicator",
+>>>>>>> d2281f6 (a pixel art font replacement for headers. im not convinced yet)
       "spanish",
       "usps-vs-commercial-deliveries",
       "what-are-we-doing",

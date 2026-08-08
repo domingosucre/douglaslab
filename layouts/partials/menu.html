@@ -1,4 +1,5 @@
   <nav class="col-span-16 flex justify-end items-center gap-4 p-4">
+<<<<<<< HEAD
     <ul class="flex gap-4">
       {{ range .Site.Menus.main }}
         <li>
@@ -8,6 +9,13 @@
              hover:text-white
 
              ">
+=======
+    <ul class="flex gap-4 text-white text-2xl font-pixel">
+      {{ range .Site.Menus.main }}
+        <li>
+          <a href="{{ .URL }}"
+             class="{{ if $.IsMenuCurrent "main" . }} underline {{ end }}">
+>>>>>>> d2281f6 (a pixel art font replacement for headers. im not convinced yet)
             {{ .Name }}
           </a>
         </li>
@@ -15,7 +23,11 @@
     </ul>
 
     {{ if .IsTranslated }}
+<<<<<<< HEAD
       <ul class="flex gap-2 border-l pl-4  text-gray-400  2xl:text-normal font-pixel">
+=======
+      <ul class="flex gap-2 border-l pl-4 text-white text-2xl font-pixel">
+>>>>>>> d2281f6 (a pixel art font replacement for headers. im not convinced yet)
         {{ range .Translations }}
           <li class="">
             <a class="hover:text-white" href="{{ .RelPermalink }}">{{ .Language.Label }}</a>
