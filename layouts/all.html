@@ -7,7 +7,7 @@
   </div>
 
   <div class="w-full  mx-auto">
-    <div class="grid grid-cols-16 h-screen bg-black">
+    <div class="grid grid-cols-16 h-screen">
 
       <!-- left column: thin sliver image -->
       <!-- note: max-h-256 is the he hight of the image, in the next 2 columns -->
@@ -30,7 +30,8 @@
      style="background-image:url('{{ printf "images/%s" .Params.picture_right | relURL }}');
             background-repeat:no-repeat;
             background-size:cover;
-            background-position:center;">
+            background-position:center;
+            ">
     </div>
     
       <!-- center -->

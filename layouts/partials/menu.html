@@ -1,9 +1,9 @@
-  <nav class="col-span-12 flex justify-end items-center gap-4 p-4">
-    <ul class="flex gap-4">
+  <nav class="col-span-16 flex justify-end items-center gap-4 p-4">
+    <ul class="flex gap-4 text-white text-2xl font-pixel">
       {{ range .Site.Menus.main }}
         <li>
           <a href="{{ .URL }}"
-             class="{{ if $.IsMenuCurrent "main" . }}font-semibold underline{{ end }}">
+             class="{{ if $.IsMenuCurrent "main" . }} underline {{ end }}">
             {{ .Name }}
           </a>
         </li>
@@ -11,7 +11,7 @@
     </ul>
 
     {{ if .IsTranslated }}
-      <ul class="flex gap-2 border-l pl-4">
+      <ul class="flex gap-2 border-l pl-4 text-white text-2xl font-pixel">
         {{ range .Translations }}
           <li>
             <a href="{{ .RelPermalink }}">{{ .Language.Label }}</a>
