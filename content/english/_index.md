@@ -17,7 +17,7 @@ We build with biomolecules, especially DNA and proteins, thus most of our work i
 
 ![An illustration of busy lab-members being busy!](/images/computation.png)
 
-We# are collaborating with Dynamicland to reimagine how computing is used in the science lab. Early prototypes can be seen in this 10-min video. We've outlined our guiding principles and long-term vision in this document.
+We are collaborating with [Dynamicland](https://dynamicland.org/) to reimagine how computing is used in the science lab. Early prototypes can be seen in [this 10-min video](https://dynamicland.org/2022/Biomolecular_design_in_Realtalk/). We've outlined our guiding principles and long-term vision in [this document](https://dynamicland.org/2024/The_communal_science_lab.pdf).
 
 ## Would you like to know more?
 
