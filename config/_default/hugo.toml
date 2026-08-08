@@ -59,7 +59,7 @@ defaultContentLanguageInSubdir = false  # or true if you want /en/ prefix
 
 [languages.en]
   contentDir = 'content/english'
-  label = 'English'
+  label = 'en'
   weight = 10
   [[languages.en.menus.main]]
     identifier = 'research'
@@ -89,7 +89,7 @@ defaultContentLanguageInSubdir = false  # or true if you want /en/ prefix
 
 [languages.es]
   contentDir = 'content/espanol'
-  label = 'español'
+  label = 'es'
   weight = 20
   [[languages.es.menus.main]]
     identifier = 'research'
