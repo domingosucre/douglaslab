@@ -2,7 +2,7 @@
 title: I guess this is the front page of english stuff
 description: See above
 picture_left: research_left.png
-picture_right: artwork_research.png
+picture_right: research_right.png
 ---
 
 ## What are we doing?

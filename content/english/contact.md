@@ -1,10 +1,11 @@
 ---
-title: Downloads
+title: Contact
 description: See above
-picture: downloads.png
+picture_left: contact_right.png
+picture_right: contact_right.png
 ---
 
-This will be the downloads page
+This will be the contact page
 sdfdsfsdf
 sdfsdfs
 sadasdsadsad
