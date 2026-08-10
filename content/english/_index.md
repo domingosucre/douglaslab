@@ -17,26 +17,10 @@ We build with biomolecules, especially DNA and proteins, thus most of our work i
 
 ![An illustration of busy lab-members being busy!](/images/computation.png)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 We are collaborating with [Dynamicland](https://dynamicland.org/) to reimagine how computing is used in the science lab. Early prototypes can be seen in [this 10-min video](https://dynamicland.org/2022/Biomolecular_design_in_Realtalk/). We've outlined our guiding principles and long-term vision in [this document](https://dynamicland.org/2024/The_communal_science_lab.pdf).
-=======
-We# are collaborating with Dynamicland to reimagine how computing is used in the science lab. Early prototypes can be seen in this 10-min video. We've outlined our guiding principles and long-term vision in this document.
->>>>>>> ef25709 (.)
-=======
-We are collaborating with [Dynamicland](https://dynamicland.org/) to reimagine how computing is used in the science lab. Early prototypes can be seen in [this 10-min video](https://dynamicland.org/2022/Biomolecular_design_in_Realtalk/). We've outlined our guiding principles and long-term vision in [this document](https://dynamicland.org/2024/The_communal_science_lab.pdf).
->>>>>>> f14906e (.)
 
 ## Would you like to know more?
 
 [We share informal progress updates here](https://posts.dynamic.land/@shawn).
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 {{< button link="/contact" text="Join the lab!" >}}
-=======
-## [Join the lab!](/contact)
->>>>>>> d2404f6 (.)
-=======
-{{< button link="/contact" text="Join the lab!" >}}
->>>>>>> ef25709 (.)

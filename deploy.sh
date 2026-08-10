@@ -9,9 +9,10 @@ git commit -am "commiting files to gh-pages"
 # and since gh-pages is pure build output with nothing worth preserving,
 # the simplest fix is to just wipe it and let subtree push recreate it fresh"
 
-# If you'd rather not delete history for some reason (unlikely to matter here, but worth naming as the alternative), you could instead do a force push:
-#
-# git push origin `git subtree split --prefix public`:gh-pages --force
+# actually, dont do this below, or Github resets your github pages settings, when 
+# it notices gh-pages being empty
+#git push origin --delete gh-pages
+#git subtree push --prefix public origin gh-pages
 
-git push origin --delete gh-pages
-git subtree push --prefix public origin gh-pages
+git push origin `git subtree split --prefix public`:gh-pages --force
+
