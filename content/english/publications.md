@@ -6,11 +6,9 @@ picture_left: publications_left.png
 picture_right: publications_right.png
 ---
 
-## Publications 
-
+## Publications
 
 **A Logic-Gated Nanorobot for Targeted Transport of Molecular Payloads.** SM Douglas, I Bachelet, GM Church (2012) Science. 335:831–4 [pdf](https://www.dropbox.com/s/2hgv3n1d2bnxt6a/22344439.pdf?dl=0) – [pubmed](http://www.ncbi.nlm.nih.gov/pubmed/22344439) – [publisher](http://www.sciencemag.org/content/335/6070/831.abstract)
-
 
 **Multilayer DNA Origami Packed on a Square Lattice.** Y Ke, SM Douglas, M Liu, J Sharma, A Cheng, A Leung, Y Liu, WM Shih, H Yan. (2009) JACS. 131: 15903-8 [pdf](https://dl.dropbox.com/u/5290041/publications/19807088.pdf) – [pubmed](http://www.ncbi.nlm.nih.gov/pubmed/19807088) – [publisher](http://pubs.acs.org/doi/abs/10.1021/ja906381y)
 
@@ -25,4 +23,3 @@ picture_right: publications_right.png
 ---
 
 For older publications, visit **[this page](http://www.shawndouglas.com/publications)**.
-

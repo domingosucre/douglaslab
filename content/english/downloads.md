@@ -2,14 +2,7 @@
 title: Downloads
 slug: "downloads"
 description: See above
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> 078a22c (.)
-=======
-
->>>>>>> ee6b4ba (.)
 picture_left: downloads_left.png
 picture_right: downloads_right.png
 ---

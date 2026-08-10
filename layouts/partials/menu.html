@@ -1,40 +1,13 @@
-  <nav class="col-span-16 flex justify-end items-center gap-4 p-4">
-<<<<<<< HEAD
-<<<<<<< HEAD
+<nav class="col-span-16 flex justify-end items-center gap-4 p-4">
     <ul class="flex gap-4">
       {{ range .Site.Menus.main }}
         <li>
           <a href="{{ .URL }}"
              class="{{ if $.IsMenuCurrent "main" . }} underline {{ end }}  text-gray-400 text-lg 2xl:text-2xl font-pixel 
-<<<<<<< HEAD
             transition delay-150 duration-300 ease-in-out hover:-translate-y-1 
              hover:text-white
 
              ">
-=======
-    <ul class="flex gap-4 text-white text-2xl font-pixel">
-      {{ range .Site.Menus.main }}
-        <li>
-          <a href="{{ .URL }}"
-             class="{{ if $.IsMenuCurrent "main" . }} underline {{ end }}">
->>>>>>> d2281f6 (a pixel art font replacement for headers. im not convinced yet)
-=======
-    <ul class="flex gap-4">
-      {{ range .Site.Menus.main }}
-        <li>
-          <a href="{{ .URL }}"
-<<<<<<< HEAD
-             class="{{ if $.IsMenuCurrent "main" . }} underline {{ end }}  text-gray-500  2xl:text-2xl font-pixel hover:text-white">
->>>>>>> ef16244 (some color stuff)
-=======
-             class="{{ if $.IsMenuCurrent "main" . }} underline {{ end }}  text-gray-500  2xl:text-2xl font-pixel 
-=======
->>>>>>> ef25709 (.)
-            transition delay-150 duration-300 ease-in-out hover:-translate-y-1 
-             hover:text-white
-
-             ">
->>>>>>> c2c51e3 (added some transition to top menu)
             {{ .Name }}
           </a>
         </li>
@@ -42,19 +15,7 @@
     </ul>
 
     {{ if .IsTranslated }}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       <ul class="flex gap-2 border-l pl-4  text-gray-400  2xl:text-normal font-pixel">
-=======
-      <ul class="flex gap-2 border-l pl-4 text-white text-2xl font-pixel">
->>>>>>> d2281f6 (a pixel art font replacement for headers. im not convinced yet)
-=======
-      <ul class="flex gap-2 border-l pl-4  text-gray-500  2xl:text-normal font-pixel">
->>>>>>> ef16244 (some color stuff)
-=======
-      <ul class="flex gap-2 border-l pl-4  text-gray-400  2xl:text-normal font-pixel">
->>>>>>> ef25709 (.)
         {{ range .Translations }}
           <li class="">
             <a class="hover:text-white" href="{{ .RelPermalink }}">{{ .Language.Label }}</a>
@@ -64,3 +25,6 @@
       </ul>
     {{ end }}
   </nav>
+
+
+

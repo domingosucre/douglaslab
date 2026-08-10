@@ -4,15 +4,8 @@
 @source "hugo_stats.json";
 
 /* dark mode toggled via a .dark class, not prefers-color-scheme */
-<<<<<<< HEAD
-<<<<<<< HEAD
 /* @custom-variant dark (&:where(.dark, .dark *)); */
-=======
 @custom-variant dark (&:where(.dark, .dark *));
->>>>>>> d2281f6 (a pixel art font replacement for headers. im not convinced yet)
-=======
-/* @custom-variant dark (&:where(.dark, .dark *)); */
->>>>>>> ef25709 (.)
 
 @theme {
   /* screens */
@@ -60,7 +53,6 @@
 @font-face {
   font-display: swap;
   font-family: "pixel";
-<<<<<<< HEAD
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/Silkscreen-Bold.ttf") format("truetype");
@@ -99,43 +91,3 @@ h6 {
   line-height: 1.2;
   margin-bottom: 0.5rem;
 }
-=======
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/Silkscreen-Bold.ttf") format("truetype");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Lexend";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/lexend-v25-latin-regular.woff2") format("woff2");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Lexend";
-  font-style: normal;
-  font-weight: 600;
-  src: url("../fonts/lexend-v25-latin-600.woff2") format("woff2");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Lexend";
-  font-style: normal;
-  font-weight: 800;
-  src: url("../fonts/lexend-v25-latin-800.woff2") format("woff2");
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  line-height: 1.2;
-  margin-bottom: 0.5rem;
-}
->>>>>>> d2281f6 (a pixel art font replacement for headers. im not convinced yet)
