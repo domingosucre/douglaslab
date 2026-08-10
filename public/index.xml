@@ -1,14 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>I guess this is the front page of english stuff on The Douglas Lab</title><link>https://domingosucre.github.io/douglaslab/</link><description>Recent content in I guess this is the front page of english stuff on The Douglas Lab</description><generator>Hugo</generator><language>en</language><atom:link href="https://domingosucre.github.io/douglaslab/index.xml" rel="self" type="application/rss+xml"/><item><title>Downloads</title><link>https://domingosucre.github.io/douglaslab/404/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://domingosucre.github.io/douglaslab/404/</guid><description>&lt;p&gt;This will be the downloads page
-sdfdsfsdf
-sdfsdfs
-sadasdsadsad&lt;/p&gt;</description></item><item><title>Downloads</title><link>https://domingosucre.github.io/douglaslab/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://domingosucre.github.io/douglaslab/contact/</guid><description>&lt;p&gt;This will be the downloads page
-sdfdsfsdf
-sdfsdfs
-sadasdsadsad&lt;/p&gt;</description></item><item><title>Downloads</title><link>https://domingosucre.github.io/douglaslab/downloads/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://domingosucre.github.io/douglaslab/downloads/</guid><description>&lt;p&gt;This will be the downloads page
-sdfdsfsdf
-sdfsdfs
-sadasdsadsad&lt;/p&gt;</description></item><item><title>People</title><link>https://domingosucre.github.io/douglaslab/people/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://domingosucre.github.io/douglaslab/people/</guid><description>&lt;h2 id="people-page"&gt;PEOPLE PAGE&lt;/h2&gt;
-&lt;p&gt;BLAH BLAH BLAH&lt;/p&gt;</description></item><item><title>Publications</title><link>https://domingosucre.github.io/douglaslab/publications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://domingosucre.github.io/douglaslab/publications/</guid><description>&lt;p&gt;This will be the publications page
-sdfdsfsdf
-sdfsdfs
-sadasdsadsad&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>I guess this is the front page of english stuff on The Douglas Lab</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content in I guess this is the front page of english stuff on The Douglas Lab</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Downloads</title>
+				<link>http://localhost:1313/404/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/404/</guid>
+				<description>&lt;p&gt;This will be the downloads page&#xA;sdfdsfsdf&#xA;sdfsdfs&#xA;sadasdsadsad&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Downloads</title>
+				<link>http://localhost:1313/contact/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/contact/</guid>
+				<description>&lt;p&gt;This will be the downloads page&#xA;sdfdsfsdf&#xA;sdfsdfs&#xA;sadasdsadsad&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Downloads</title>
+				<link>http://localhost:1313/downloads/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/downloads/</guid>
+				<description>&lt;p&gt;This will be the downloads page&#xA;sdfdsfsdf&#xA;sdfsdfs&#xA;sadasdsadsad&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>People</title>
+				<link>http://localhost:1313/people/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/people/</guid>
+				<description>&lt;h2 id=&#34;people-page&#34;&gt;PEOPLE PAGE&lt;/h2&gt;&#xA;&lt;p&gt;BLAH BLAH BLAH&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Publications</title>
+				<link>http://localhost:1313/publications/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/publications/</guid>
+				<description>&lt;p&gt;This will be the publications page&#xA;sdfdsfsdf&#xA;sdfsdfs&#xA;sadasdsadsad&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

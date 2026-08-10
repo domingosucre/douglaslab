@@ -9,6 +9,7 @@
     --color-red-200: oklch(88.5% 0.062 18.334);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     --color-red-300: oklch(80.8% 0.114 19.571);
     --color-yellow-200: oklch(94.5% 0.129 101.54);
     --color-yellow-400: oklch(85.2% 0.199 91.936);
@@ -19,6 +20,10 @@
     --color-yellow-200: oklch(94.5% 0.129 101.54);
     --color-yellow-400: oklch(85.2% 0.199 91.936);
 >>>>>>> 2120fc1 (.)
+=======
+    --color-yellow-200: oklch(94.5% 0.129 101.54);
+    --color-yellow-400: oklch(85.2% 0.199 91.936);
+>>>>>>> 65dfd68 (updated text on front page.)
     --color-green-200: oklch(92.5% 0.084 155.995);
     --color-blue-200: oklch(88.2% 0.059 254.128);
     --color-blue-500: oklch(62.3% 0.214 259.815);
@@ -28,12 +33,16 @@
     --color-slate-600: oklch(44.6% 0.043 257.281);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
     --color-gray-100: oklch(96.7% 0.003 264.542);
     --color-gray-200: oklch(92.8% 0.006 264.531);
     --color-gray-300: oklch(87.2% 0.01 258.338);
     --color-gray-400: oklch(70.7% 0.022 261.325);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     --color-gray-200: oklch(92.8% 0.006 264.531);
@@ -44,6 +53,10 @@
     --color-gray-500: oklch(55.1% 0.027 264.364);
     --color-gray-700: oklch(37.3% 0.034 259.733);
     --color-gray-900: oklch(21% 0.034 264.665);
+=======
+    --color-gray-500: oklch(55.1% 0.027 264.364);
+    --color-gray-700: oklch(37.3% 0.034 259.733);
+>>>>>>> 65dfd68 (updated text on front page.)
     --color-zinc-900: oklch(21% 0.006 285.885);
     --color-black: #000;
     --color-white: #fff;
@@ -58,14 +71,18 @@
     --text-lg--line-height: calc(1.75 / 1.125);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     --text-xl: 1.25rem;
     --text-xl--line-height: calc(1.75 / 1.25);
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
     --text-2xl: 1.5rem;
     --text-2xl--line-height: calc(2 / 1.5);
     --text-3xl: 1.875rem;
     --text-3xl--line-height: calc(2.25 / 1.875);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     --text-2xl: 1.5rem;
@@ -76,6 +93,10 @@
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
     --leading-relaxed: 1.625;
+=======
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+>>>>>>> 65dfd68 (updated text on front page.)
     --radius-xl: 0.75rem;
     --drop-shadow-2xl: 0 25px 25px rgb(0 0 0 / 0.15);
     --ease-out: cubic-bezier(0, 0, 0.2, 1);
@@ -267,6 +288,7 @@
   }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   .left-0 {
     left: 0px;
   }
@@ -277,6 +299,11 @@
     left: 0px;
   }
 >>>>>>> 2120fc1 (.)
+=======
+  .left-0 {
+    left: 0px;
+  }
+>>>>>>> 65dfd68 (updated text on front page.)
   .-z-50 {
     z-index: calc(50 * -1);
   }
@@ -289,6 +316,7 @@
   .order-2 {
     order: 2;
   }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   .col-span-12 {
@@ -310,6 +338,11 @@
     grid-column: span 16 / span 16;
   }
 >>>>>>> 2120fc1 (.)
+=======
+  .col-span-16 {
+    grid-column: span 16 / span 16;
+  }
+>>>>>>> 65dfd68 (updated text on front page.)
   .container {
     width: 100%;
     @media (width >= 640px) {
@@ -750,6 +783,7 @@
     }
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   .prose-lg {
     font-size: 1.125rem;
     line-height: 1.7777778;
@@ -968,22 +1002,30 @@
 =======
 >>>>>>> 89496c7 (updated readme)
 =======
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
   .mt-1 {
     margin-top: var(--spacing);
   }
   .mt-3 {
     margin-top: calc(var(--spacing) * 3);
   }
+<<<<<<< HEAD
   .mt-6 {
     margin-top: calc(var(--spacing) * 6);
   }
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
   .mt-12 {
     margin-top: calc(var(--spacing) * 12);
   }
   .mt-16 {
     margin-top: calc(var(--spacing) * 16);
   }
+<<<<<<< HEAD
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
   .mr-8 {
     margin-right: calc(var(--spacing) * 8);
   }
@@ -992,11 +1034,14 @@
   }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
   }
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
   .mb-16 {
     margin-bottom: calc(var(--spacing) * 16);
   }
@@ -1004,10 +1049,13 @@
     margin-left: var(--spacing);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 89496c7 (updated readme)
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
   .block {
     display: block;
   }
@@ -1020,6 +1068,7 @@
   .hidden {
     display: none;
   }
+<<<<<<< HEAD
   .inline {
     display: inline;
   }
@@ -1035,6 +1084,11 @@
     display: inline-block;
   }
 >>>>>>> 2120fc1 (.)
+=======
+  .inline-block {
+    display: inline-block;
+  }
+>>>>>>> 65dfd68 (updated text on front page.)
   .table {
     display: table;
   }
@@ -1049,6 +1103,7 @@
   }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   .h-64 {
     height: calc(var(--spacing) * 64);
   }
@@ -1056,6 +1111,8 @@
 >>>>>>> 89496c7 (updated readme)
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
   .h-full {
     height: 100%;
   }
@@ -1158,6 +1215,7 @@
   }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   .grid-cols-20 {
     grid-template-columns: repeat(20, minmax(0, 1fr));
   }
@@ -1171,6 +1229,11 @@
     flex-wrap: wrap;
   }
 >>>>>>> 2120fc1 (.)
+=======
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+>>>>>>> 65dfd68 (updated text on front page.)
   .items-center {
     align-items: center;
   }
@@ -1188,6 +1251,7 @@
   }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   .gap-6 {
     gap: calc(var(--spacing) * 6);
   }
@@ -1198,6 +1262,11 @@
     gap: calc(var(--spacing) * 6);
   }
 >>>>>>> 2120fc1 (.)
+=======
+  .gap-6 {
+    gap: calc(var(--spacing) * 6);
+  }
+>>>>>>> 65dfd68 (updated text on front page.)
   .overflow-y-auto {
     overflow-y: auto;
   }
@@ -1206,6 +1275,7 @@
   }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   .rounded {
     border-radius: 0.25rem;
   }
@@ -1216,6 +1286,11 @@
     border-radius: 0.25rem;
   }
 >>>>>>> 2120fc1 (.)
+=======
+  .rounded {
+    border-radius: 0.25rem;
+  }
+>>>>>>> 65dfd68 (updated text on front page.)
   .rounded-full {
     border-radius: calc(infinity * 1px);
   }
@@ -1224,17 +1299,23 @@
   }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
   .border-2 {
     border-style: var(--tw-border-style);
     border-width: 2px;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 89496c7 (updated readme)
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
   .border-3 {
     border-style: var(--tw-border-style);
     border-width: 3px;
@@ -1301,6 +1382,7 @@
   }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   .bg-yellow-400 {
     background-color: var(--color-yellow-400);
   }
@@ -1311,6 +1393,11 @@
     background-color: var(--color-yellow-400);
   }
 >>>>>>> 2120fc1 (.)
+=======
+  .bg-yellow-400 {
+    background-color: var(--color-yellow-400);
+  }
+>>>>>>> 65dfd68 (updated text on front page.)
   .object-cover {
     object-fit: cover;
   }
@@ -1322,6 +1409,7 @@
   }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   .p-6 {
     padding: calc(var(--spacing) * 6);
   }
@@ -1329,6 +1417,8 @@
 >>>>>>> 89496c7 (updated readme)
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
   .p-12 {
     padding: calc(var(--spacing) * 12);
   }
@@ -1346,6 +1436,7 @@
   }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   .px-16 {
     padding-inline: calc(var(--spacing) * 16);
   }
@@ -1356,6 +1447,11 @@
     padding-inline: calc(var(--spacing) * 16);
   }
 >>>>>>> 2120fc1 (.)
+=======
+  .px-16 {
+    padding-inline: calc(var(--spacing) * 16);
+  }
+>>>>>>> 65dfd68 (updated text on front page.)
   .py-1 {
     padding-block: var(--spacing);
   }
@@ -1367,6 +1463,7 @@
   }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
   }
@@ -1377,6 +1474,11 @@
     padding-block: calc(var(--spacing) * 6);
   }
 >>>>>>> 2120fc1 (.)
+=======
+  .py-6 {
+    padding-block: calc(var(--spacing) * 6);
+  }
+>>>>>>> 65dfd68 (updated text on front page.)
   .pr-2 {
     padding-right: calc(var(--spacing) * 2);
   }
@@ -1403,21 +1505,27 @@
   }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
   }
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
   .text-3xl {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height));
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 89496c7 (updated readme)
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
   .text-lg {
     font-size: var(--text-lg);
     line-height: var(--tw-leading, var(--text-lg--line-height));
@@ -1431,12 +1539,15 @@
     line-height: var(--tw-leading, var(--text-xs--line-height));
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   .leading-relaxed {
     --tw-leading: var(--leading-relaxed);
     line-height: var(--leading-relaxed);
   }
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
@@ -1447,8 +1558,11 @@
   }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
   .text-black {
     color: var(--color-black);
   }
@@ -1456,10 +1570,13 @@
     color: var(--color-gray-400);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 89496c7 (updated readme)
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
   .text-gray-500 {
     color: var(--color-gray-500);
   }
@@ -1467,11 +1584,14 @@
     color: var(--color-gray-700);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   .text-gray-900 {
     color: var(--color-gray-900);
   }
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
   .text-slate-600 {
     color: var(--color-slate-600);
   }
@@ -1538,12 +1658,15 @@
     transition-delay: 150ms;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   .duration-100 {
     --tw-duration: 100ms;
     transition-duration: 100ms;
   }
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
   .duration-200 {
     --tw-duration: 200ms;
     transition-duration: 200ms;
@@ -1579,18 +1702,22 @@
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     .hover\:scale-110:hover {
       --tw-scale-x: 110%;
       --tw-scale-y: 110%;
       --tw-scale-z: 110%;
       scale: var(--tw-scale-x) var(--tw-scale-y);
     }
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
     .hover\:bg-black:hover {
       background-color: var(--color-black);
     }
     .hover\:text-gray-100:hover {
       color: var(--color-gray-100);
     }
+<<<<<<< HEAD
 =======
 >>>>>>> 89496c7 (updated readme)
 =======
@@ -1607,6 +1734,8 @@
       color: var(--color-gray-900);
     }
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
     .hover\:text-white:hover {
       color: var(--color-white);
     }
@@ -1646,6 +1775,7 @@
   @media (width >= 768px) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     .md\:col-span-1 {
       grid-column: span 1 / span 1;
     }
@@ -1671,12 +1801,18 @@
       grid-column: span 16 / span 16;
     }
 >>>>>>> 2120fc1 (.)
+=======
+    .md\:col-span-16 {
+      grid-column: span 16 / span 16;
+    }
+>>>>>>> 65dfd68 (updated text on front page.)
     .md\:block {
       display: block;
     }
     .md\:hidden {
       display: none;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     .md\:h-\[34rem\] {
@@ -1686,6 +1822,8 @@
 >>>>>>> 89496c7 (updated readme)
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
     .md\:bg-yellow-200 {
       background-color: var(--color-yellow-200);
     }
@@ -1703,6 +1841,7 @@
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     .lg\:col-span-1 {
       grid-column: span 1 / span 1;
     }
@@ -1713,6 +1852,8 @@
 >>>>>>> 89496c7 (updated readme)
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
     .lg\:col-span-6 {
       grid-column: span 6 / span 6;
     }
@@ -1721,8 +1862,11 @@
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
     .lg\:prose-lg {
       font-size: 1.125rem;
       line-height: 1.7777778;
@@ -1923,10 +2067,13 @@
       margin-bottom: 0;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 89496c7 (updated readme)
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
     .lg\:block {
       display: block;
     }
@@ -1936,6 +2083,7 @@
     .lg\:aspect-auto {
       aspect-ratio: auto;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     .lg\:h-80 {
@@ -1948,6 +2096,8 @@
 >>>>>>> 89496c7 (updated readme)
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
     .lg\:h-full {
       height: 100%;
     }
@@ -1961,6 +2111,7 @@
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     .xl\:col-span-5 {
       grid-column: span 5 / span 5;
     }
@@ -1971,12 +2122,15 @@
 >>>>>>> 89496c7 (updated readme)
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
     .xl\:col-span-7 {
       grid-column: span 7 / span 7;
     }
     .xl\:col-span-8 {
       grid-column: span 8 / span 8;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     .xl\:col-span-9 {
@@ -1987,6 +2141,8 @@
     }
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
     .xl\:prose-xl {
       font-size: 1.25rem;
       line-height: 1.8;
@@ -2187,16 +2343,20 @@
       margin-bottom: 0;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 89496c7 (updated readme)
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
     .xl\:block {
       display: block;
     }
     .xl\:hidden {
       display: none;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     .xl\:h-\[26rem\] {
@@ -2206,11 +2366,14 @@
 >>>>>>> 89496c7 (updated readme)
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
     .xl\:bg-blue-200 {
       background-color: var(--color-blue-200);
     }
   }
   @media (width >= 1536px) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     .\32 xl\:col-span-5 {
@@ -2223,12 +2386,15 @@
 >>>>>>> 89496c7 (updated readme)
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
     .\32 xl\:col-span-7 {
       grid-column: span 7 / span 7;
     }
     .\32 xl\:col-span-8 {
       grid-column: span 8 / span 8;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     .\32 xl\:col-span-9 {
@@ -2239,6 +2405,8 @@
     }
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
     .\32 xl\:prose-2xl {
       font-size: 1.5rem;
       line-height: 1.6666667;
@@ -2439,16 +2607,20 @@
       margin-bottom: 0;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 89496c7 (updated readme)
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
     .\32 xl\:block {
       display: block;
     }
     .\32 xl\:hidden {
       display: none;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     .\32 xl\:h-\[31rem\] {
@@ -2458,6 +2630,8 @@
 >>>>>>> 89496c7 (updated readme)
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
     .\32 xl\:bg-pink-200 {
       background-color: var(--color-pink-200);
     }
@@ -2469,6 +2643,7 @@
   @media (width >= 1800px) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     .\33 xl\:col-span-4 {
       grid-column: span 4 / span 4;
     }
@@ -2476,12 +2651,15 @@
 >>>>>>> 89496c7 (updated readme)
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
     .\33 xl\:col-span-7 {
       grid-column: span 7 / span 7;
     }
     .\33 xl\:col-span-8 {
       grid-column: span 8 / span 8;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     .\33 xl\:col-span-9 {
@@ -2494,12 +2672,15 @@
 >>>>>>> 89496c7 (updated readme)
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
     .\33 xl\:block {
       display: block;
     }
     .\33 xl\:hidden {
       display: none;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     .\33 xl\:h-\[42rem\] {
@@ -2509,10 +2690,13 @@
 >>>>>>> 89496c7 (updated readme)
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
     .\33 xl\:bg-violet-200 {
       background-color: var(--color-violet-200);
     }
   }
+<<<<<<< HEAD
 <<<<<<< HEAD
   .dark\:bg-zinc-900:where(.dark, .dark *) {
     background-color: var(--color-zinc-900);
@@ -2520,6 +2704,8 @@
   .dark\:text-black:where(.dark, .dark *) {
     color: var(--color-black);
 =======
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
   @media (prefers-color-scheme: dark) {
     .dark\:bg-zinc-900 {
       background-color: var(--color-zinc-900);
@@ -2527,7 +2713,10 @@
     .dark\:text-black {
       color: var(--color-black);
     }
+<<<<<<< HEAD
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
   }
 }
 @layer base {
@@ -2550,11 +2739,14 @@
   src: url("../fonts/Silkscreen-Bold.ttf") format("truetype");
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 h1, h2, h3, h4, h5, h6 {
   font-family: "pixel";
   font-weight: normal;
   letter-spacing: -5px;
 =======
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
 @font-face {
   font-display: swap;
   font-family: "Lexend";
@@ -2579,7 +2771,10 @@ h1, h2, h3, h4, h5, h6 {
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   margin-bottom: 0.5rem;
+<<<<<<< HEAD
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
 }
 @property --tw-translate-x {
   syntax: "*";
@@ -2602,12 +2797,15 @@ h1, h2, h3, h4, h5, h6 {
   initial-value: solid;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 @property --tw-leading {
   syntax: "*";
   inherits: false;
 }
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
 @property --tw-font-weight {
   syntax: "*";
   inherits: false;
@@ -2740,6 +2938,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @property --tw-scale-x {
   syntax: "*";
   inherits: false;
@@ -2759,6 +2958,8 @@ h1, h2, h3, h4, h5, h6 {
 >>>>>>> 89496c7 (updated readme)
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
 @keyframes pulse {
   50% {
     opacity: 0.5;
@@ -2772,9 +2973,12 @@ h1, h2, h3, h4, h5, h6 {
       --tw-translate-z: 0;
       --tw-border-style: solid;
 <<<<<<< HEAD
+<<<<<<< HEAD
       --tw-leading: initial;
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
       --tw-font-weight: initial;
       --tw-shadow: 0 0 #0000;
       --tw-shadow-color: initial;
@@ -2807,6 +3011,7 @@ h1, h2, h3, h4, h5, h6 {
       --tw-ease: initial;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       --tw-scale-x: 1;
       --tw-scale-y: 1;
       --tw-scale-z: 1;
@@ -2814,6 +3019,8 @@ h1, h2, h3, h4, h5, h6 {
 >>>>>>> 89496c7 (updated readme)
 =======
 >>>>>>> 2120fc1 (.)
+=======
+>>>>>>> 65dfd68 (updated text on front page.)
     }
   }
 }
