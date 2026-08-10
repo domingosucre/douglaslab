@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "br",
 =======
       "button",
@@ -20,6 +21,8 @@
 >>>>>>> d2404f6 (.)
 =======
 >>>>>>> 2152581 (.)
+=======
+>>>>>>> 5a9e042 (.)
       "div",
       "h1",
       "h2",
@@ -153,6 +156,7 @@
 =======
       "nav",
       "p",
+<<<<<<< HEAD
       "script",
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -173,6 +177,9 @@
 >>>>>>> d2404f6 (.)
 =======
 >>>>>>> 2152581 (.)
+=======
+      "span",
+>>>>>>> 5a9e042 (.)
       "title",
       "ul"
     ],
@@ -180,8 +187,11 @@
       "2xl:col-span-7",
       "2xl:col-span-8",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       "2xl:hidden",
+=======
+>>>>>>> 5a9e042 (.)
       "2xl:prose-2xl",
 >>>>>>> ef25709 (.)
       "2xl:text-2xl",
@@ -189,18 +199,23 @@
       "3xl:col-span-7",
       "3xl:col-span-8",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       "3xl:hidden",
+=======
+>>>>>>> 5a9e042 (.)
       "absolute",
 >>>>>>> ef25709 (.)
       "aspect-[5/3]",
       "bg-black",
       "bg-white",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       "bg-white/[.95]",
+=======
+>>>>>>> 5a9e042 (.)
       "bg-yellow-400",
-      "block",
       "border-2",
       "border-black",
 >>>>>>> ef25709 (.)
@@ -208,7 +223,6 @@
       "col-span-16",
       "delay-150",
       "drop-shadow-2xl",
-      "duration-100",
       "duration-200",
       "duration-300",
       "ease-in-out",
@@ -222,20 +236,25 @@
       "gap-6",
       "grid",
       "grid-cols-16",
+<<<<<<< HEAD
+=======
+      "h-full",
+>>>>>>> 5a9e042 (.)
       "h-screen",
       "hidden",
       "hover:-translate-y-1",
       "hover:bg-black",
-      "hover:bg-yellow-400",
       "hover:text-gray-100",
-      "hover:text-gray-900",
       "hover:text-white",
 <<<<<<< HEAD
 =======
       "inline-block",
+<<<<<<< HEAD
       "inset-0",
       "italic",
 >>>>>>> ef25709 (.)
+=======
+>>>>>>> 5a9e042 (.)
       "items-center",
       "justify-end",
       "left-0",
@@ -251,10 +270,13 @@
 <<<<<<< HEAD
 =======
       "mb-16",
+<<<<<<< HEAD
       "mb-2",
       "mb-6",
       "md:bg-yellow-200",
 >>>>>>> ef25709 (.)
+=======
+>>>>>>> 5a9e042 (.)
       "md:block",
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -292,15 +314,19 @@
 >>>>>>> c2c51e3 (added some transition to top menu)
       "md:col-span-16",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       "md:hidden",
+=======
+>>>>>>> 5a9e042 (.)
       "ml-1",
-      "mr-8",
       "mt-1",
-      "mt-12",
       "mt-16",
+<<<<<<< HEAD
       "mt-6",
 >>>>>>> ef25709 (.)
+=======
+>>>>>>> 5a9e042 (.)
       "mx-auto",
       "order-1",
       "order-2",
@@ -314,30 +340,15 @@
       "text-gray-900",
 =======
       "px-16",
-      "px-6",
-      "py-2",
       "py-6",
       "relative",
-      "right-0",
       "rounded",
-      "rounded-full",
-      "scroll-auto",
-      "scroll-py-4",
-      "sm:bg-red-200",
-      "sm:block",
-      "sm:hidden",
-      "table-auto",
-      "table-collapse",
-      "text-2xl",
       "text-3xl",
       "text-black",
       "text-gray-400",
-      "text-left",
       "text-lg",
-      "text-right",
-      "text-slate-600",
-      "text-sm",
       "top-0",
+<<<<<<< HEAD
       "touch-auto",
 >>>>>>> ef25709 (.)
       "transition",
@@ -385,6 +396,10 @@
 =======
       "w-full",
 >>>>>>> 2152581 (.)
+=======
+      "transition",
+      "w-full",
+>>>>>>> 5a9e042 (.)
       "xl:block",
       "xl:col-span-1",
       "xl:col-span-7",
@@ -392,6 +407,7 @@
       "xl:col-span-8"
 =======
       "xl:col-span-8",
+<<<<<<< HEAD
       "xl:hidden",
       "xl:prose-xl",
       "z-50"
@@ -409,9 +425,16 @@
 >>>>>>> d2404f6 (.)
 =======
 >>>>>>> 2152581 (.)
+=======
+      "xl:prose-xl"
+    ],
+    "ids": [
+      "about-page",
+>>>>>>> 5a9e042 (.)
       "frontpage-in-spanish",
       "get-in-touch",
       "how-do-we-do-it",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -440,6 +463,9 @@
 =======
       "people-page",
 >>>>>>> 2152581 (.)
+=======
+      "people-page",
+>>>>>>> 5a9e042 (.)
       "spanish",
       "usps-vs-commercial-deliveries",
       "what-are-we-doing",
