@@ -1,31 +1,24 @@
 # TO DO
 
-<<<<<<< HEAD
-[ ] - the markdown isnt loading pictures, at github/prod and its something to do
+[x] - the markdown isnt loading pictures, at github/prod and its something to do
 with layouts/\_default/\_markup/render-image.html
 [x] - lighten the top menu color, its too faded out
-[ ] - translate all pages, place translation into markdown files
+[x] - translate pages into markdown files
 [x] - create a button for front page 'join the lab'
 [x] - replace h1,h2,h3, etc fonts with Lexend, because they look better
-[ ] - upscale the other images
+[x] - upscale the other images
 [ ] - usability for people with disabilities
+[ ] - keyboard navigation
 [ ] - nav menu usability
 [ ] - create mobile menu
 [ ] - copyright footer
 [ ] - logo area
-[ ] -robots.txt
+[ ] - metatag data (the modern ones)
+[ ] - json+ld metatags
+[ ] - robots.txt
 [ ] - sitemap.xml
 [ ] - imagesitemap.xml
 [ ] - humans.txt
-=======
-- lighten the top menu color, its too faded out
-- translate all pages, place translation into markdown files
-- create a button for front page 'join the lab'
-- replace h1,h2,h3, etc fonts with Lexend, because they look better
-- upscale the other images
-- usability for people with disabilities
-- nav menu usability
-- create mobile menu
-- copyright footer
-- logo area
->>>>>>> d2404f6 (.)
+[x] - 404 page added with new design
+[ ] - finish 404 page content
+[ ] - consider a larger breakpoint
