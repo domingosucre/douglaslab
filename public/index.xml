@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>I guess this is the front page of english stuff on The Douglas Lab</title><link>https://domingosucre.github.io/douglaslab/</link><description>Recent content in I guess this is the front page of english stuff on The Douglas Lab</description><generator>Hugo</generator><language>en</language><atom:link href="https://domingosucre.github.io/douglaslab/index.xml" rel="self" type="application/rss+xml"/><item><title>404</title><link>https://domingosucre.github.io/douglaslab/404/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://domingosucre.github.io/douglaslab/404/</guid><description>&lt;p&gt;This will be the 404 page
 sdfdsfsdf
 sdfsdfs
@@ -160,3 +161,62 @@ For shipments sent via FedEx, UPS, etc., use zip code: 94158&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;A Logic-Gated Nanorobot for Targeted Transport of Molecular Payloads.&lt;/strong&gt; SM Douglas, I Bachelet, GM Church (2012) Science. 335:831–4 &lt;a href="https://www.dropbox.com/s/2hgv3n1d2bnxt6a/22344439.pdf?dl=0"&gt;pdf&lt;/a&gt; – &lt;a href="http://www.ncbi.nlm.nih.gov/pubmed/22344439"&gt;pubmed&lt;/a&gt; – &lt;a href="http://www.sciencemag.org/content/335/6070/831.abstract"&gt;publisher&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Multilayer DNA Origami Packed on a Square Lattice.&lt;/strong&gt; Y Ke, SM Douglas, M Liu, J Sharma, A Cheng, A Leung, Y Liu, WM Shih, H Yan. (2009) JACS. 131: 15903-8 &lt;a href="https://dl.dropbox.com/u/5290041/publications/19807088.pdf"&gt;pdf&lt;/a&gt; – &lt;a href="http://www.ncbi.nlm.nih.gov/pubmed/19807088"&gt;pubmed&lt;/a&gt; – &lt;a href="http://pubs.acs.org/doi/abs/10.1021/ja906381y"&gt;publisher&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Folding DNA Into Twisted and Curved Nanoscale Shapes.&lt;/strong&gt; H Dietz, SM Douglas, WM Shih (2009) Science. 325:725–730 &lt;a href="https://dl.dropbox.com/u/5290041/publications/19661424.pdf"&gt;pdf&lt;/a&gt; – &lt;a href="http://www.ncbi.nlm.nih.gov/pubmed/19661424"&gt;pubmed&lt;/a&gt; – &lt;a href="http://www.sciencemag.org/cgi/content/abstract/325/5941/725"&gt;publisher&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
+=======
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>I guess this is the front page of english stuff on The Douglas Lab</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content in I guess this is the front page of english stuff on The Douglas Lab</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Douglas Lab | Research</title>
+				<link>http://localhost:1313/research/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/research/</guid>
+				<description>&lt;h2 id=&#34;frontpage&#34;&gt;frontpage&lt;/h2&gt;&#xA;&lt;h2 id=&#34;what-are-we-doing&#34;&gt;What are we doing?&lt;/h2&gt;&#xA;&lt;p&gt;We aim to use the building blocks of life to create novel tools and devices to perform useful tasks on the nanoscale. A short introduction to our research can be found &lt;a href=&#34;http://youtu.be/ITtGJUGXFKc&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-do-we-do-it&#34;&gt;How do we do it?&lt;/h2&gt;&#xA;&lt;p&gt;We build with biomolecules, especially DNA and proteins, so most of our work is focused on molecular design and related method development. We also write a lot of software to support these efforts.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Downloads</title>
+				<link>http://localhost:1313/404/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/404/</guid>
+				<description>&lt;p&gt;This will be the downloads page&#xA;sdfdsfsdf&#xA;sdfsdfs&#xA;sadasdsadsad&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Downloads</title>
+				<link>http://localhost:1313/contact/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/contact/</guid>
+				<description>&lt;p&gt;This will be the downloads page&#xA;sdfdsfsdf&#xA;sdfsdfs&#xA;sadasdsadsad&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Downloads</title>
+				<link>http://localhost:1313/downloads/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/downloads/</guid>
+				<description>&lt;p&gt;This will be the downloads page&#xA;sdfdsfsdf&#xA;sdfsdfs&#xA;sadasdsadsad&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>People</title>
+				<link>http://localhost:1313/people/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/people/</guid>
+				<description>&lt;h2 id=&#34;people-page&#34;&gt;PEOPLE PAGE&lt;/h2&gt;&#xA;&lt;p&gt;BLAH BLAH BLAH&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Publications</title>
+				<link>http://localhost:1313/publications/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/publications/</guid>
+				<description>&lt;p&gt;This will be the publications page&#xA;sdfdsfsdf&#xA;sdfsdfs&#xA;sadasdsadsad&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
+>>>>>>> d46450b (.)

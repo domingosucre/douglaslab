@@ -12,9 +12,9 @@
       "hr",
       "html",
       "img",
-      "li",
       "link",
       "meta",
+<<<<<<< HEAD
       "nav",
       "ol",
       "p",
@@ -86,11 +86,33 @@
       "lg:sticky",
       "max-h-full",
       "max-w-full",
+=======
+      "p",
+      "script",
+      "title"
+    ],
+    "classes": [
+      "2xl:col-span-5",
+      "2xl:col-span-6",
+      "3xl:col-span-4",
+      "3xl:col-span-7",
+      "bg-white",
+      "col-span-12",
+      "font-sans",
+      "grid",
+      "grid-cols-12",
+      "hidden",
+      "leading-relaxed",
+      "lg:col-span-1",
+      "lg:col-span-5",
+      "lg:col-span-6",
+>>>>>>> d46450b (.)
       "max-w-none",
       "mb-16",
       "mb-6",
       "mb-8",
       "md:block",
+<<<<<<< HEAD
       "md:col-span-20",
       "md:h-[34rem]",
       "ml-1",
@@ -105,6 +127,13 @@
       "p-4",
       "p-6",
       "pl-4",
+=======
+      "md:col-span-1",
+      "md:col-span-3",
+      "md:col-span-8",
+      "mx-auto",
+      "p-6",
+>>>>>>> d46450b (.)
       "prose",
       "prose-sm",
       "px-16",
@@ -126,14 +155,18 @@
       "w-16",
       "w-20",
       "w-full",
-      "xl:block",
       "xl:col-span-1",
+<<<<<<< HEAD
       "xl:col-span-10",
       "xl:col-span-9",
       "xl:h-[26rem]",
       "xl:p-12",
       "xl:prose-xl",
       "xl:text-2xl"
+=======
+      "xl:col-span-5",
+      "xl:col-span-6"
+>>>>>>> d46450b (.)
     ],
     "ids": [
       "about-page",
