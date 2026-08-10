@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
       "br",
+<<<<<<< HEAD
 =======
 =======
       "br",
@@ -40,6 +41,8 @@
       "button",
       "caption",
 >>>>>>> 078a22c (.)
+=======
+>>>>>>> 0d93008 (.)
       "div",
       "h1",
       "h2",
@@ -56,13 +59,13 @@
       "nav",
       "ol",
       "p",
-      "script",
       "span",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "strong",
+<<<<<<< HEAD
       "title",
       "ul"
     ],
@@ -217,14 +220,12 @@
 >>>>>>> 430ceea (.)
 =======
 >>>>>>> 078a22c (.)
+=======
+>>>>>>> 0d93008 (.)
       "title",
-      "tr",
       "ul"
     ],
     "classes": [
-      "-z-50",
-      "2xl:bg-pink-200",
-      "2xl:block",
       "2xl:col-span-10",
 <<<<<<< HEAD
       "2xl:col-span-7",
@@ -241,6 +242,7 @@
 >>>>>>> ee6b4ba (.)
       "2xl:col-span-9",
       "2xl:h-[31rem]",
+<<<<<<< HEAD
 <<<<<<< HEAD
       "2xl:h-[33rem]",
       "2xl:h-[35rem]",
@@ -267,12 +269,12 @@
 =======
       "2xl:hidden",
 >>>>>>> 078a22c (.)
+=======
+>>>>>>> 0d93008 (.)
       "2xl:prose-2xl",
 >>>>>>> ef25709 (.)
       "2xl:text-2xl",
       "2xl:text-normal",
-      "3xl:bg-violet-200",
-      "3xl:block",
       "3xl:col-span-10",
 <<<<<<< HEAD
       "3xl:col-span-7",
@@ -300,6 +302,7 @@
 >>>>>>> ee6b4ba (.)
       "3xl:col-span-9",
       "3xl:h-[42rem]",
+<<<<<<< HEAD
       "3xl:hidden",
 <<<<<<< HEAD
       "3xl:outline",
@@ -309,6 +312,8 @@
 >>>>>>> e9b0f75 (.)
 =======
 >>>>>>> 9281631 (.)
+=======
+>>>>>>> 0d93008 (.)
       "absolute",
 <<<<<<< HEAD
 >>>>>>> ef25709 (.)
@@ -316,10 +321,8 @@
 =======
 >>>>>>> ee6b4ba (.)
       "bg-black",
-      "bg-opacity-25",
-      "bg-red-200",
-      "bg-slate-200",
       "bg-white",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -337,8 +340,9 @@
 =======
       "bg-white/[.95]",
 >>>>>>> 078a22c (.)
+=======
+>>>>>>> 0d93008 (.)
       "bg-yellow-400",
-      "block",
       "border-2",
       "border-black",
 <<<<<<< HEAD
@@ -347,27 +351,19 @@
       "border-gray-300",
 >>>>>>> ee6b4ba (.)
       "border-l",
-      "border-slate-200",
-      "border-t",
-      "border-white/50",
-      "border-y-8",
-      "bottom-0",
       "col-span-16",
       "col-span-20",
-      "container",
       "delay-150",
       "download-item",
       "drop-shadow-3xl",
       "duration-200",
       "duration-300",
       "ease-in-out",
-      "fixed",
       "flex",
       "flex-wrap",
       "font-bold",
       "font-pixel",
       "font-sans",
-      "font-semibold",
       "gap-2",
       "gap-4",
       "gap-6",
@@ -386,6 +382,7 @@
 =======
 >>>>>>> 9281631 (.)
       "grid-cols-20",
+<<<<<<< HEAD
 >>>>>>> e9b0f75 (.)
       "h-1/3",
       "h-16",
@@ -399,6 +396,11 @@
       "h-1/3",
       "h-8",
 >>>>>>> 078a22c (.)
+=======
+      "h-16",
+      "h-20",
+      "h-64",
+>>>>>>> 0d93008 (.)
       "h-full",
 <<<<<<< HEAD
 >>>>>>> 5a9e042 (.)
@@ -421,6 +423,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "inset-0",
       "italic",
 >>>>>>> ef25709 (.)
@@ -436,6 +439,8 @@
       "inset-0",
       "italic",
 >>>>>>> 078a22c (.)
+=======
+>>>>>>> 0d93008 (.)
       "items-center",
 <<<<<<< HEAD
 =======
@@ -445,12 +450,9 @@
       "justify-end",
       "leading-tight",
       "left-0",
-      "lg:bg-green-200",
-      "lg:block",
       "lg:col-span-10",
       "lg:h-80",
       "lg:h-[23rem]",
-      "lg:hidden",
       "lg:order-2",
       "lg:order-3",
       "lg:prose-md",
@@ -461,6 +463,7 @@
 <<<<<<< HEAD
 =======
       "mb-16",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -483,6 +486,10 @@
       "mb-2",
       "md:bg-yellow-200",
 >>>>>>> 078a22c (.)
+=======
+      "mb-6",
+      "mb-8",
+>>>>>>> 0d93008 (.)
       "md:block",
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -533,6 +540,7 @@
       "md:col-span-20",
       "md:h-[34rem]",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "md:h-[]",
 >>>>>>> e9b0f75 (.)
 =======
@@ -548,11 +556,12 @@
 =======
       "md:hidden",
 >>>>>>> 078a22c (.)
+=======
+>>>>>>> 0d93008 (.)
       "ml-1",
-      "mr-8",
       "mt-1",
-      "mt-12",
       "mt-16",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "mt-6",
@@ -562,20 +571,17 @@
 =======
       "mt-4",
 >>>>>>> ca0fca9 (.)
+=======
+>>>>>>> 0d93008 (.)
       "mx-auto",
       "my-10",
       "object-contain",
       "object-cover",
       "order-1",
       "order-2",
-      "overflow-y-auto",
-      "p-2",
       "p-4",
       "p-6",
       "pl-4",
-      "pointer-events-auto",
-      "pointer-events-none",
-      "pr-2",
       "prose",
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -589,30 +595,19 @@
       "px-16",
       "py-6",
       "relative",
-      "right-0",
       "rounded",
-      "rounded-full",
       "rounded-sm",
-      "scroll-auto",
-      "scroll-py-4",
       "shrink-0",
-      "sm:bg-red-200",
-      "sm:block",
-      "sm:hidden",
       "space-y-6",
-      "table-auto",
-      "table-collapse",
       "text-2xl",
       "text-black",
       "text-gray-400",
       "text-gray-600",
-      "text-left",
       "text-lg",
-      "text-right",
-      "text-slate-600",
       "text-sm",
       "text-xl",
       "top-0",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -657,10 +652,13 @@
 >>>>>>> a061e6a (.)
 =======
       "uppercase",
+=======
+      "transition",
+>>>>>>> 0d93008 (.)
       "w-16",
       "w-20",
-      "w-8",
       "w-full",
+<<<<<<< HEAD
       "xl:bg-blue-200",
 >>>>>>> d2404f6 (.)
 =======
@@ -692,6 +690,8 @@
 =======
       "xl:bg-blue-200",
 >>>>>>> 078a22c (.)
+=======
+>>>>>>> 0d93008 (.)
       "xl:block",
       "xl:col-span-1",
       "xl:col-span-10",
@@ -736,6 +736,7 @@
       "xl:col-span-9",
       "xl:h-[26rem]",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "xl:h-[28rem]",
       "xl:h-[32rem]",
       "xl:h-[33rem]",
@@ -744,14 +745,16 @@
 =======
 >>>>>>> 9281631 (.)
       "xl:hidden",
+=======
+>>>>>>> 0d93008 (.)
       "xl:p-12",
       "xl:prose-xl",
-      "xl:text-2xl",
-      "z-50"
+      "xl:text-2xl"
     ],
     "ids": [
       "about-page",
       "come-visit",
+<<<<<<< HEAD
       "container-area",
       "container-menu",
 <<<<<<< HEAD
@@ -798,11 +801,14 @@
 =======
 >>>>>>> 078a22c (.)
 =======
+=======
+>>>>>>> 0d93008 (.)
       "downloads",
       "frontpage-in-spanish",
       "get-in-touch",
       "how-do-we-do-it",
       "join-the-lab",
+<<<<<<< HEAD
 >>>>>>> ca0fca9 (.)
       "parameter-area",
       "parameter-menu",
@@ -831,6 +837,10 @@
 >>>>>>> 430ceea (.)
 =======
 >>>>>>> 078a22c (.)
+=======
+      "people-in-the-lab",
+      "publications",
+>>>>>>> 0d93008 (.)
       "spanish",
       "usps-vs-commercial-deliveries",
       "what-are-we-doing",
