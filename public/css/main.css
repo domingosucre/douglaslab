@@ -12,9 +12,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8667b1c (really tweaked the layout so you can fully see each image)
     --color-red-300: oklch(80.8% 0.114 19.571);
+=======
+>>>>>>> 962f51d (tweaked padding in content column)
     --color-yellow-200: oklch(94.5% 0.129 101.54);
     --color-yellow-400: oklch(85.2% 0.199 91.936);
 =======
@@ -64,6 +67,7 @@
 >>>>>>> 2120fc1 (.)
     --color-gray-500: oklch(55.1% 0.027 264.364);
     --color-gray-700: oklch(37.3% 0.034 259.733);
+<<<<<<< HEAD
     --color-gray-900: oklch(21% 0.034 264.665);
 <<<<<<< HEAD
 =======
@@ -76,6 +80,8 @@
 >>>>>>> 7b10959 (all background images are resized and in place, including a better 404 page)
 =======
 >>>>>>> 1cc6cb9 (.)
+=======
+>>>>>>> 962f51d (tweaked padding in content column)
     --color-zinc-900: oklch(21% 0.006 285.885);
     --color-black: #000;
     --color-white: #fff;
@@ -1290,11 +1296,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   .grid-cols-18 {
     grid-template-columns: repeat(18, minmax(0, 1fr));
   }
 >>>>>>> 8667b1c (really tweaked the layout so you can fully see each image)
+=======
+>>>>>>> 962f51d (tweaked padding in content column)
   .grid-cols-20 {
     grid-template-columns: repeat(20, minmax(0, 1fr));
   }
@@ -1519,6 +1528,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   .p-6 {
     padding: calc(var(--spacing) * 6);
   }
@@ -1530,6 +1540,11 @@
 >>>>>>> 65dfd68 (updated text on front page.)
 =======
 >>>>>>> 7b10959 (all background images are resized and in place, including a better 404 page)
+=======
+  .p-6 {
+    padding: calc(var(--spacing) * 6);
+  }
+>>>>>>> 962f51d (tweaked padding in content column)
   .p-12 {
     padding: calc(var(--spacing) * 12);
   }
@@ -1725,6 +1740,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   .text-gray-900 {
     color: var(--color-gray-900);
   }
@@ -1739,6 +1755,8 @@
     color: var(--color-gray-900);
   }
 >>>>>>> 1cc6cb9 (.)
+=======
+>>>>>>> 962f51d (tweaked padding in content column)
   .text-slate-600 {
     color: var(--color-slate-600);
   }
@@ -1982,6 +2000,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     .md\:h-\[34rem\] {
       height: 34rem;
     }
@@ -2006,6 +2025,8 @@
     .md\:h-\[33rem\] {
       height: 33rem;
     }
+=======
+>>>>>>> 962f51d (tweaked padding in content column)
     .md\:h-\[34rem\] {
       height: 34rem;
     }
@@ -2019,6 +2040,15 @@
     }
   }
   @media (width >= 1024px) {
+    .lg\:fixed {
+      position: fixed;
+    }
+    .lg\:static {
+      position: static;
+    }
+    .lg\:sticky {
+      position: sticky;
+    }
     .lg\:order-2 {
       order: 2;
     }
@@ -2292,6 +2322,7 @@
       height: 23rem;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 89496c7 (updated readme)
 =======
@@ -2314,6 +2345,8 @@
       height: 26rem;
     }
 >>>>>>> 8667b1c (really tweaked the layout so you can fully see each image)
+=======
+>>>>>>> 962f51d (tweaked padding in content column)
     .lg\:h-full {
       height: 100%;
     }
@@ -2592,6 +2625,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     .xl\:h-\[26rem\] {
       height: 26rem;
     }
@@ -2623,8 +2657,16 @@
       height: 35rem;
     }
 >>>>>>> 8667b1c (really tweaked the layout so you can fully see each image)
+=======
+    .xl\:h-\[26rem\] {
+      height: 26rem;
+    }
+>>>>>>> 962f51d (tweaked padding in content column)
     .xl\:bg-blue-200 {
       background-color: var(--color-blue-200);
+    }
+    .xl\:p-12 {
+      padding: calc(var(--spacing) * 12);
     }
   }
   @media (width >= 1536px) {
@@ -2895,6 +2937,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     .\32 xl\:h-\[31rem\] {
       height: 31rem;
     }
@@ -2950,6 +2993,11 @@
       height: 55rem;
     }
 >>>>>>> 8667b1c (really tweaked the layout so you can fully see each image)
+=======
+    .\32 xl\:h-\[31rem\] {
+      height: 31rem;
+    }
+>>>>>>> 962f51d (tweaked padding in content column)
     .\32 xl\:bg-pink-200 {
       background-color: var(--color-pink-200);
     }
@@ -3015,6 +3063,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     .\33 xl\:h-\[42rem\] {
       height: 42rem;
     }
@@ -3052,19 +3101,13 @@
       height: 45rem;
     }
 >>>>>>> 8667b1c (really tweaked the layout so you can fully see each image)
+=======
+    .\33 xl\:h-\[42rem\] {
+      height: 42rem;
+    }
+>>>>>>> 962f51d (tweaked padding in content column)
     .\33 xl\:bg-violet-200 {
       background-color: var(--color-violet-200);
-    }
-    .\33 xl\:outline {
-      outline-style: var(--tw-outline-style);
-      outline-width: 1px;
-    }
-    .\33 xl\:outline-10 {
-      outline-style: var(--tw-outline-style);
-      outline-width: 10px;
-    }
-    .\33 xl\:outline-red-300 {
-      outline-color: var(--color-red-300);
     }
   }
 <<<<<<< HEAD
@@ -3327,6 +3370,7 @@ h1, h2, h3, h4, h5, h6 {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @property --tw-scale-x {
   syntax: "*";
   inherits: false;
@@ -3357,6 +3401,8 @@ h1, h2, h3, h4, h5, h6 {
   initial-value: solid;
 }
 >>>>>>> 8667b1c (really tweaked the layout so you can fully see each image)
+=======
+>>>>>>> 962f51d (tweaked padding in content column)
 @keyframes pulse {
   50% {
     opacity: 0.5;
@@ -3414,6 +3460,7 @@ h1, h2, h3, h4, h5, h6 {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       --tw-scale-x: 1;
       --tw-scale-y: 1;
       --tw-scale-z: 1;
@@ -3428,6 +3475,8 @@ h1, h2, h3, h4, h5, h6 {
 =======
       --tw-outline-style: solid;
 >>>>>>> 8667b1c (really tweaked the layout so you can fully see each image)
+=======
+>>>>>>> 962f51d (tweaked padding in content column)
     }
   }
 }
