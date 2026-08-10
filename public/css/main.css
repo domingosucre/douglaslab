@@ -8,12 +8,17 @@
       "Courier New", monospace;
     --color-red-200: oklch(88.5% 0.062 18.334);
 <<<<<<< HEAD
+<<<<<<< HEAD
     --color-red-300: oklch(80.8% 0.114 19.571);
     --color-yellow-200: oklch(94.5% 0.129 101.54);
     --color-yellow-400: oklch(85.2% 0.199 91.936);
 =======
     --color-yellow-200: oklch(94.5% 0.129 101.54);
 >>>>>>> 89496c7 (updated readme)
+=======
+    --color-yellow-200: oklch(94.5% 0.129 101.54);
+    --color-yellow-400: oklch(85.2% 0.199 91.936);
+>>>>>>> 2120fc1 (.)
     --color-green-200: oklch(92.5% 0.084 155.995);
     --color-blue-200: oklch(88.2% 0.059 254.128);
     --color-blue-500: oklch(62.3% 0.214 259.815);
@@ -22,14 +27,20 @@
     --color-slate-200: oklch(92.9% 0.013 255.508);
     --color-slate-600: oklch(44.6% 0.043 257.281);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2120fc1 (.)
     --color-gray-100: oklch(96.7% 0.003 264.542);
     --color-gray-200: oklch(92.8% 0.006 264.531);
     --color-gray-300: oklch(87.2% 0.01 258.338);
     --color-gray-400: oklch(70.7% 0.022 261.325);
+<<<<<<< HEAD
 =======
     --color-gray-200: oklch(92.8% 0.006 264.531);
     --color-gray-300: oklch(87.2% 0.01 258.338);
 >>>>>>> 89496c7 (updated readme)
+=======
+>>>>>>> 2120fc1 (.)
     --color-gray-500: oklch(55.1% 0.027 264.364);
     --color-gray-700: oklch(37.3% 0.034 259.733);
     --color-gray-900: oklch(21% 0.034 264.665);
@@ -46,16 +57,22 @@
     --text-lg: 1.125rem;
     --text-lg--line-height: calc(1.75 / 1.125);
 <<<<<<< HEAD
+<<<<<<< HEAD
     --text-xl: 1.25rem;
     --text-xl--line-height: calc(1.75 / 1.25);
+=======
+>>>>>>> 2120fc1 (.)
     --text-2xl: 1.5rem;
     --text-2xl--line-height: calc(2 / 1.5);
     --text-3xl: 1.875rem;
     --text-3xl--line-height: calc(2.25 / 1.875);
+<<<<<<< HEAD
 =======
     --text-2xl: 1.5rem;
     --text-2xl--line-height: calc(2 / 1.5);
 >>>>>>> 89496c7 (updated readme)
+=======
+>>>>>>> 2120fc1 (.)
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
     --leading-relaxed: 1.625;
@@ -249,11 +266,17 @@
     bottom: 0px;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   .left-0 {
     left: 0px;
   }
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+  .left-0 {
+    left: 0px;
+  }
+>>>>>>> 2120fc1 (.)
   .-z-50 {
     z-index: calc(50 * -1);
   }
@@ -266,6 +289,7 @@
   .order-2 {
     order: 2;
   }
+<<<<<<< HEAD
 <<<<<<< HEAD
   .col-span-12 {
     grid-column: span 12 / span 12;
@@ -281,6 +305,11 @@
     grid-column: span 16 / span 16;
   }
 >>>>>>> 89496c7 (updated readme)
+=======
+  .col-span-16 {
+    grid-column: span 16 / span 16;
+  }
+>>>>>>> 2120fc1 (.)
   .container {
     width: 100%;
     @media (width >= 640px) {
@@ -720,6 +749,7 @@
       margin-bottom: 0;
     }
   }
+<<<<<<< HEAD
   .prose-lg {
     font-size: 1.125rem;
     line-height: 1.7777778;
@@ -937,6 +967,23 @@
   }
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+  .mt-1 {
+    margin-top: var(--spacing);
+  }
+  .mt-3 {
+    margin-top: calc(var(--spacing) * 3);
+  }
+  .mt-6 {
+    margin-top: calc(var(--spacing) * 6);
+  }
+  .mt-12 {
+    margin-top: calc(var(--spacing) * 12);
+  }
+  .mt-16 {
+    margin-top: calc(var(--spacing) * 16);
+  }
+>>>>>>> 2120fc1 (.)
   .mr-8 {
     margin-right: calc(var(--spacing) * 8);
   }
@@ -944,14 +991,23 @@
     margin-bottom: calc(var(--spacing) * 2);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  .mb-6 {
+    margin-bottom: calc(var(--spacing) * 6);
+  }
+>>>>>>> 2120fc1 (.)
   .mb-16 {
     margin-bottom: calc(var(--spacing) * 16);
   }
   .ml-1 {
     margin-left: var(--spacing);
   }
+<<<<<<< HEAD
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+>>>>>>> 2120fc1 (.)
   .block {
     display: block;
   }
@@ -968,11 +1024,17 @@
     display: inline;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   .inline-block {
     display: inline-block;
   }
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+  .inline-block {
+    display: inline-block;
+  }
+>>>>>>> 2120fc1 (.)
   .table {
     display: table;
   }
@@ -986,11 +1048,14 @@
     height: calc(var(--spacing) * 8);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   .h-64 {
     height: calc(var(--spacing) * 64);
   }
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+>>>>>>> 2120fc1 (.)
   .h-full {
     height: 100%;
   }
@@ -1092,6 +1157,7 @@
     grid-template-columns: repeat(16, minmax(0, 1fr));
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   .grid-cols-20 {
     grid-template-columns: repeat(20, minmax(0, 1fr));
   }
@@ -1100,6 +1166,11 @@
   }
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+>>>>>>> 2120fc1 (.)
   .items-center {
     align-items: center;
   }
@@ -1116,11 +1187,17 @@
     gap: calc(var(--spacing) * 4);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   .gap-6 {
     gap: calc(var(--spacing) * 6);
   }
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+  .gap-6 {
+    gap: calc(var(--spacing) * 6);
+  }
+>>>>>>> 2120fc1 (.)
   .overflow-y-auto {
     overflow-y: auto;
   }
@@ -1128,11 +1205,17 @@
     scroll-behavior: auto;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   .rounded {
     border-radius: 0.25rem;
   }
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+  .rounded {
+    border-radius: 0.25rem;
+  }
+>>>>>>> 2120fc1 (.)
   .rounded-full {
     border-radius: calc(infinity * 1px);
   }
@@ -1140,12 +1223,18 @@
     border-radius: var(--radius-xl);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2120fc1 (.)
   .border-2 {
     border-style: var(--tw-border-style);
     border-width: 2px;
   }
+<<<<<<< HEAD
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+>>>>>>> 2120fc1 (.)
   .border-3 {
     border-style: var(--tw-border-style);
     border-width: 3px;
@@ -1211,11 +1300,17 @@
     background-color: var(--color-yellow-200);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   .bg-yellow-400 {
     background-color: var(--color-yellow-400);
   }
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+  .bg-yellow-400 {
+    background-color: var(--color-yellow-400);
+  }
+>>>>>>> 2120fc1 (.)
   .object-cover {
     object-fit: cover;
   }
@@ -1226,11 +1321,14 @@
     padding: calc(var(--spacing) * 4);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   .p-6 {
     padding: calc(var(--spacing) * 6);
   }
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+>>>>>>> 2120fc1 (.)
   .p-12 {
     padding: calc(var(--spacing) * 12);
   }
@@ -1247,11 +1345,17 @@
     padding-inline: calc(var(--spacing) * 8);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   .px-16 {
     padding-inline: calc(var(--spacing) * 16);
   }
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+  .px-16 {
+    padding-inline: calc(var(--spacing) * 16);
+  }
+>>>>>>> 2120fc1 (.)
   .py-1 {
     padding-block: var(--spacing);
   }
@@ -1262,11 +1366,17 @@
     padding-block: calc(var(--spacing) * 3);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
   }
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+  .py-6 {
+    padding-block: calc(var(--spacing) * 6);
+  }
+>>>>>>> 2120fc1 (.)
   .pr-2 {
     padding-right: calc(var(--spacing) * 2);
   }
@@ -1292,12 +1402,22 @@
     font-family: var(--font-sans);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  .text-2xl {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-2xl--line-height));
+  }
+>>>>>>> 2120fc1 (.)
   .text-3xl {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height));
   }
+<<<<<<< HEAD
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+>>>>>>> 2120fc1 (.)
   .text-lg {
     font-size: var(--text-lg);
     line-height: var(--tw-leading, var(--text-lg--line-height));
@@ -1310,10 +1430,13 @@
     font-size: var(--text-xs);
     line-height: var(--tw-leading, var(--text-xs--line-height));
   }
+<<<<<<< HEAD
   .leading-relaxed {
     --tw-leading: var(--leading-relaxed);
     line-height: var(--leading-relaxed);
   }
+=======
+>>>>>>> 2120fc1 (.)
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
@@ -1323,23 +1446,32 @@
     font-weight: var(--font-weight-semibold);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2120fc1 (.)
   .text-black {
     color: var(--color-black);
   }
   .text-gray-400 {
     color: var(--color-gray-400);
   }
+<<<<<<< HEAD
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+>>>>>>> 2120fc1 (.)
   .text-gray-500 {
     color: var(--color-gray-500);
   }
   .text-gray-700 {
     color: var(--color-gray-700);
   }
+<<<<<<< HEAD
   .text-gray-900 {
     color: var(--color-gray-900);
   }
+=======
+>>>>>>> 2120fc1 (.)
   .text-slate-600 {
     color: var(--color-slate-600);
   }
@@ -1405,6 +1537,13 @@
   .delay-150 {
     transition-delay: 150ms;
   }
+<<<<<<< HEAD
+=======
+  .duration-100 {
+    --tw-duration: 100ms;
+    transition-duration: 100ms;
+  }
+>>>>>>> 2120fc1 (.)
   .duration-200 {
     --tw-duration: 200ms;
     transition-duration: 200ms;
@@ -1439,6 +1578,7 @@
       translate: var(--tw-translate-x) var(--tw-translate-y);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     .hover\:scale-110:hover {
       --tw-scale-x: 110%;
       --tw-scale-y: 110%;
@@ -1453,6 +1593,20 @@
     }
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+    .hover\:bg-black:hover {
+      background-color: var(--color-black);
+    }
+    .hover\:bg-yellow-400:hover {
+      background-color: var(--color-yellow-400);
+    }
+    .hover\:text-gray-100:hover {
+      color: var(--color-gray-100);
+    }
+    .hover\:text-gray-900:hover {
+      color: var(--color-gray-900);
+    }
+>>>>>>> 2120fc1 (.)
     .hover\:text-white:hover {
       color: var(--color-white);
     }
@@ -1491,6 +1645,7 @@
   }
   @media (width >= 768px) {
 <<<<<<< HEAD
+<<<<<<< HEAD
     .md\:col-span-1 {
       grid-column: span 1 / span 1;
     }
@@ -1511,6 +1666,11 @@
       grid-column: span 16 / span 16;
     }
 >>>>>>> 89496c7 (updated readme)
+=======
+    .md\:col-span-16 {
+      grid-column: span 16 / span 16;
+    }
+>>>>>>> 2120fc1 (.)
     .md\:block {
       display: block;
     }
@@ -1518,11 +1678,14 @@
       display: none;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     .md\:h-\[34rem\] {
       height: 34rem;
     }
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+>>>>>>> 2120fc1 (.)
     .md\:bg-yellow-200 {
       background-color: var(--color-yellow-200);
     }
@@ -1539,6 +1702,7 @@
       order: 3;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     .lg\:col-span-1 {
       grid-column: span 1 / span 1;
     }
@@ -1547,6 +1711,8 @@
     }
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+>>>>>>> 2120fc1 (.)
     .lg\:col-span-6 {
       grid-column: span 6 / span 6;
     }
@@ -1554,6 +1720,9 @@
       grid-column: span 10 / span 10;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2120fc1 (.)
     .lg\:prose-lg {
       font-size: 1.125rem;
       line-height: 1.7777778;
@@ -1753,8 +1922,11 @@
     .lg\:prose-lg :where(.lg\:prose-lg > :last-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
       margin-bottom: 0;
     }
+<<<<<<< HEAD
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+>>>>>>> 2120fc1 (.)
     .lg\:block {
       display: block;
     }
@@ -1765,6 +1937,7 @@
       aspect-ratio: auto;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     .lg\:h-80 {
       height: calc(var(--spacing) * 80);
     }
@@ -1773,6 +1946,8 @@
     }
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+>>>>>>> 2120fc1 (.)
     .lg\:h-full {
       height: 100%;
     }
@@ -1785,6 +1960,7 @@
       grid-column: span 1 / span 1;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     .xl\:col-span-5 {
       grid-column: span 5 / span 5;
     }
@@ -1793,6 +1969,8 @@
     }
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+>>>>>>> 2120fc1 (.)
     .xl\:col-span-7 {
       grid-column: span 7 / span 7;
     }
@@ -1800,12 +1978,15 @@
       grid-column: span 8 / span 8;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     .xl\:col-span-9 {
       grid-column: span 9 / span 9;
     }
     .xl\:col-span-10 {
       grid-column: span 10 / span 10;
     }
+=======
+>>>>>>> 2120fc1 (.)
     .xl\:prose-xl {
       font-size: 1.25rem;
       line-height: 1.8;
@@ -2005,8 +2186,11 @@
     .xl\:prose-xl :where(.xl\:prose-xl > :last-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
       margin-bottom: 0;
     }
+<<<<<<< HEAD
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+>>>>>>> 2120fc1 (.)
     .xl\:block {
       display: block;
     }
@@ -2014,16 +2198,20 @@
       display: none;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     .xl\:h-\[26rem\] {
       height: 26rem;
     }
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+>>>>>>> 2120fc1 (.)
     .xl\:bg-blue-200 {
       background-color: var(--color-blue-200);
     }
   }
   @media (width >= 1536px) {
+<<<<<<< HEAD
 <<<<<<< HEAD
     .\32 xl\:col-span-5 {
       grid-column: span 5 / span 5;
@@ -2033,6 +2221,8 @@
     }
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+>>>>>>> 2120fc1 (.)
     .\32 xl\:col-span-7 {
       grid-column: span 7 / span 7;
     }
@@ -2040,12 +2230,15 @@
       grid-column: span 8 / span 8;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     .\32 xl\:col-span-9 {
       grid-column: span 9 / span 9;
     }
     .\32 xl\:col-span-10 {
       grid-column: span 10 / span 10;
     }
+=======
+>>>>>>> 2120fc1 (.)
     .\32 xl\:prose-2xl {
       font-size: 1.5rem;
       line-height: 1.6666667;
@@ -2245,8 +2438,11 @@
     .\32 xl\:prose-2xl :where(.\32 xl\:prose-2xl > :last-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
       margin-bottom: 0;
     }
+<<<<<<< HEAD
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+>>>>>>> 2120fc1 (.)
     .\32 xl\:block {
       display: block;
     }
@@ -2254,11 +2450,14 @@
       display: none;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     .\32 xl\:h-\[31rem\] {
       height: 31rem;
     }
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+>>>>>>> 2120fc1 (.)
     .\32 xl\:bg-pink-200 {
       background-color: var(--color-pink-200);
     }
@@ -2269,17 +2468,21 @@
   }
   @media (width >= 1800px) {
 <<<<<<< HEAD
+<<<<<<< HEAD
     .\33 xl\:col-span-4 {
       grid-column: span 4 / span 4;
     }
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+>>>>>>> 2120fc1 (.)
     .\33 xl\:col-span-7 {
       grid-column: span 7 / span 7;
     }
     .\33 xl\:col-span-8 {
       grid-column: span 8 / span 8;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
     .\33 xl\:col-span-9 {
       grid-column: span 9 / span 9;
@@ -2289,6 +2492,8 @@
     }
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+>>>>>>> 2120fc1 (.)
     .\33 xl\:block {
       display: block;
     }
@@ -2296,20 +2501,33 @@
       display: none;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     .\33 xl\:h-\[42rem\] {
       height: 42rem;
     }
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+>>>>>>> 2120fc1 (.)
     .\33 xl\:bg-violet-200 {
       background-color: var(--color-violet-200);
     }
   }
+<<<<<<< HEAD
   .dark\:bg-zinc-900:where(.dark, .dark *) {
     background-color: var(--color-zinc-900);
   }
   .dark\:text-black:where(.dark, .dark *) {
     color: var(--color-black);
+=======
+  @media (prefers-color-scheme: dark) {
+    .dark\:bg-zinc-900 {
+      background-color: var(--color-zinc-900);
+    }
+    .dark\:text-black {
+      color: var(--color-black);
+    }
+>>>>>>> 2120fc1 (.)
   }
 }
 @layer base {
@@ -2331,10 +2549,37 @@
   font-weight: 700;
   src: url("../fonts/Silkscreen-Bold.ttf") format("truetype");
 }
+<<<<<<< HEAD
 h1, h2, h3, h4, h5, h6 {
   font-family: "pixel";
   font-weight: normal;
   letter-spacing: -5px;
+=======
+@font-face {
+  font-display: swap;
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/lexend-v25-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/lexend-v25-latin-600.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/lexend-v25-latin-800.woff2") format("woff2");
+}
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+>>>>>>> 2120fc1 (.)
 }
 @property --tw-translate-x {
   syntax: "*";
@@ -2356,10 +2601,13 @@ h1, h2, h3, h4, h5, h6 {
   inherits: false;
   initial-value: solid;
 }
+<<<<<<< HEAD
 @property --tw-leading {
   syntax: "*";
   inherits: false;
 }
+=======
+>>>>>>> 2120fc1 (.)
 @property --tw-font-weight {
   syntax: "*";
   inherits: false;
@@ -2491,6 +2739,7 @@ h1, h2, h3, h4, h5, h6 {
   inherits: false;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 @property --tw-scale-x {
   syntax: "*";
   inherits: false;
@@ -2508,6 +2757,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+>>>>>>> 2120fc1 (.)
 @keyframes pulse {
   50% {
     opacity: 0.5;
@@ -2520,7 +2771,10 @@ h1, h2, h3, h4, h5, h6 {
       --tw-translate-y: 0;
       --tw-translate-z: 0;
       --tw-border-style: solid;
+<<<<<<< HEAD
       --tw-leading: initial;
+=======
+>>>>>>> 2120fc1 (.)
       --tw-font-weight: initial;
       --tw-shadow: 0 0 #0000;
       --tw-shadow-color: initial;
@@ -2552,11 +2806,14 @@ h1, h2, h3, h4, h5, h6 {
       --tw-duration: initial;
       --tw-ease: initial;
 <<<<<<< HEAD
+<<<<<<< HEAD
       --tw-scale-x: 1;
       --tw-scale-y: 1;
       --tw-scale-z: 1;
 =======
 >>>>>>> 89496c7 (updated readme)
+=======
+>>>>>>> 2120fc1 (.)
     }
   }
 }
