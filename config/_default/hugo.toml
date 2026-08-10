@@ -42,6 +42,13 @@ defaultContentLanguageInSubdir = false  # or true if you want /en/ prefix
     target = 'css'
 
 
+# This markup config is necessary, and
+# required by the layouts/shorcode/download.html
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 # the following caches is used only by github for github pages
 # remove if you change hosting
 [caches]
