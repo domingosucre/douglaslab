@@ -217,6 +217,7 @@
       "-z-50",
       "2xl:bg-pink-200",
       "2xl:block",
+      "2xl:col-span-10",
       "2xl:col-span-7",
       "2xl:col-span-8",
 <<<<<<< HEAD
@@ -224,7 +225,25 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+      "2xl:col-span-9",
+      "2xl:h-[19rem]",
+      "2xl:h-[30rem]",
+      "2xl:h-[31rem]",
+      "2xl:h-[33rem]",
+      "2xl:h-[35rem]",
+      "2xl:h-[36rem]",
+      "2xl:h-[37rem]",
+      "2xl:h-[38rem]",
+      "2xl:h-[42rem]",
+      "2xl:h-[43rem]",
+      "2xl:h-[44rem]",
+      "2xl:h-[45rem]",
+      "2xl:h-[50rem]",
+      "2xl:h-[55rem]",
+>>>>>>> e9b0f75 (.)
       "2xl:hidden",
 =======
 >>>>>>> 5a9e042 (.)
@@ -242,8 +261,10 @@
       "2xl:text-normal",
       "3xl:bg-violet-200",
       "3xl:block",
+      "3xl:col-span-10",
       "3xl:col-span-7",
       "3xl:col-span-8",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -261,6 +282,22 @@
 =======
       "3xl:hidden",
 >>>>>>> 078a22c (.)
+=======
+      "3xl:col-span-9",
+      "3xl:h-[37rem]",
+      "3xl:h-[38rem]",
+      "3xl:h-[39rem]",
+      "3xl:h-[40rem]",
+      "3xl:h-[41rem]",
+      "3xl:h-[42rem]",
+      "3xl:h-[43rem]",
+      "3xl:h-[45rem]",
+      "3xl:hidden",
+      "3xl:outline",
+      "3xl:outline-10",
+      "3xl:outline-red",
+      "3xl:outline-red-300",
+>>>>>>> e9b0f75 (.)
       "absolute",
 >>>>>>> ef25709 (.)
       "aspect-[5/3]",
@@ -298,6 +335,7 @@
       "border-y-8",
       "bottom-0",
       "col-span-16",
+      "col-span-20",
       "container",
       "delay-150",
       "drop-shadow-2xl",
@@ -320,9 +358,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
+=======
+      "grid-cols-18",
+      "grid-cols-20",
+>>>>>>> e9b0f75 (.)
       "h-1/3",
+      "h-64",
       "h-8",
 >>>>>>> f14906e (.)
 =======
@@ -369,6 +413,12 @@
       "lg:block",
       "lg:col-span-10",
       "lg:col-span-6",
+      "lg:h-80",
+      "lg:h-[23rem]",
+      "lg:h-[24]",
+      "lg:h-[25]",
+      "lg:h-[26]",
+      "lg:h-[26rem]",
       "lg:h-full",
       "lg:hidden",
       "lg:order-2",
@@ -440,7 +490,17 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+      "md:col-span-20",
+      "md:h-[25rem]",
+      "md:h-[30rem]",
+      "md:h-[32rem]",
+      "md:h-[33rem]",
+      "md:h-[34rem]",
+      "md:h-[]",
+>>>>>>> e9b0f75 (.)
       "md:hidden",
 =======
 >>>>>>> 5a9e042 (.)
@@ -580,11 +640,13 @@
 >>>>>>> 078a22c (.)
       "xl:block",
       "xl:col-span-1",
+      "xl:col-span-10",
       "xl:col-span-7",
 <<<<<<< HEAD
       "xl:col-span-8"
 =======
       "xl:col-span-8",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -613,6 +675,15 @@
       "about-page",
 >>>>>>> 5a9e042 (.)
 =======
+=======
+      "xl:col-span-9",
+      "xl:h-[16rem]",
+      "xl:h-[26rem]",
+      "xl:h-[28rem]",
+      "xl:h-[32rem]",
+      "xl:h-[33rem]",
+      "xl:h-[35rem]",
+>>>>>>> e9b0f75 (.)
       "xl:hidden",
       "xl:prose-xl",
       "z-50"

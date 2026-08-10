@@ -1,9 +1,13 @@
 ---
 title: Contact
 <<<<<<< HEAD
+<<<<<<< HEAD
 slug: "contact"
 =======
 >>>>>>> 078a22c (.)
+=======
+slug: "contact"
+>>>>>>> e9b0f75 (.)
 description: See above
 picture_left: contact_right.png
 picture_right: contact_right.png
