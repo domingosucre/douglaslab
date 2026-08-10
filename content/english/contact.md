@@ -1,6 +1,9 @@
 ---
 title: Contact
+<<<<<<< HEAD
 slug: "contact"
+=======
+>>>>>>> 078a22c (.)
 description: See above
 picture_left: contact_right.png
 picture_right: contact_right.png
@@ -41,3 +44,10 @@ For shipments sent via FedEx, UPS, etc., use zip code: 94158
 
 
 
+<<<<<<< HEAD
+=======
+This will be the contact page
+sdfdsfsdf
+sdfsdfs
+sadasdsadsad
+>>>>>>> 078a22c (.)
