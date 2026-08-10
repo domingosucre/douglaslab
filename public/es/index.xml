@@ -1,36 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>I guess this is the front page of Spanishs stuff on The Douglas Lab</title>
-		<link>http://localhost:44431/es/</link>
-		<description>Recent content in I guess this is the front page of Spanishs stuff on The Douglas Lab</description>
-		<generator>Hugo</generator>
-		<language>es</language>
-		
-		
-		
-		
-			<atom:link href="http://localhost:44431/es/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>About Page | Research</title>
-				<link>http://localhost:44431/es/about/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:44431/es/about/</guid>
-				<description>&lt;h2 id=&#34;about-page&#34;&gt;ABOUT PAGE&lt;/h2&gt;&#xA;&lt;p&gt;SPANISH&lt;/p&gt;&#xA;&lt;p&gt;DONDE&#xA;ESTA&#xA;BIBLOTEQUE&lt;/p&gt;&#xA;&lt;p&gt;BLAH BLAH BLAH&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Douglas Lab | Research</title>
-				<link>http://localhost:44431/es/es/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:44431/es/es/</guid>
-				<description>&lt;h2 id=&#34;what-are-we-doing-in-spanish&#34;&gt;What are we doing? IN SPANISH?&lt;/h2&gt;&#xA;&lt;p&gt;We aim to use the building blocks of life to create novel tools and devices to perform useful tasks on the nanoscale. A short introduction to our research can be found &lt;a href=&#34;http://youtu.be/ITtGJUGXFKc&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-do-we-do-it&#34;&gt;How do we do it?&lt;/h2&gt;&#xA;&lt;p&gt;We build with biomolecules, especially DNA and proteins, so most of our work is focused on molecular design and related method development. We also write a lot of software to support these efforts.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Publications</title>
-				<link>http://localhost:44431/es/publications/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:44431/es/publications/</guid>
-				<description>&lt;h1 id=&#34;spanish&#34;&gt;spanish&lt;/h1&gt;&#xA;&lt;p&gt;This will be the publications page&#xA;sdfdsfsdf&#xA;sdfsdfs&#xA;sadasdsadsad&lt;/p&gt;</description>
-			</item>
-	</channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>I guess this is the front page of Spanishs stuff on The Douglas Lab</title><link>https://domingosucre.github.io/douglaslab/es/</link><description>Recent content in I guess this is the front page of Spanishs stuff on The Douglas Lab</description><generator>Hugo</generator><language>es</language><atom:link href="https://domingosucre.github.io/douglaslab/es/index.xml" rel="self" type="application/rss+xml"/><item><title>About Page | Research</title><link>https://domingosucre.github.io/douglaslab/es/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://domingosucre.github.io/douglaslab/es/about/</guid><description>&lt;h2 id="about-page"&gt;ABOUT PAGE&lt;/h2&gt;
+&lt;p&gt;SPANISH&lt;/p&gt;
+&lt;p&gt;DONDE
+ESTA
+BIBLOTEQUE&lt;/p&gt;
+&lt;p&gt;BLAH BLAH BLAH&lt;/p&gt;</description></item><item><title>Douglas Lab | Research</title><link>https://domingosucre.github.io/douglaslab/es/es/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://domingosucre.github.io/douglaslab/es/es/</guid><description>&lt;h2 id="what-are-we-doing-in-spanish"&gt;What are we doing? IN SPANISH?&lt;/h2&gt;
+&lt;p&gt;We aim to use the building blocks of life to create novel tools and devices to perform useful tasks on the nanoscale. A short introduction to our research can be found &lt;a href="http://youtu.be/ITtGJUGXFKc"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="how-do-we-do-it"&gt;How do we do it?&lt;/h2&gt;
+&lt;p&gt;We build with biomolecules, especially DNA and proteins, so most of our work is focused on molecular design and related method development. We also write a lot of software to support these efforts.&lt;/p&gt;</description></item><item><title>Publications</title><link>https://domingosucre.github.io/douglaslab/es/publications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://domingosucre.github.io/douglaslab/es/publications/</guid><description>&lt;h1 id="spanish"&gt;spanish&lt;/h1&gt;
+&lt;p&gt;This will be the publications page
+sdfdsfsdf
+sdfsdfs
+sadasdsadsad&lt;/p&gt;</description></item></channel></rss>
