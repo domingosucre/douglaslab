@@ -1,104 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Supongo que esta es la página principal en español on The Douglas Lab</title><link>https://domingosucre.github.io/douglaslab/es/</link><description>Recent content in Supongo que esta es la página principal en español on The Douglas Lab</description><generator>Hugo</generator><language>es</language><atom:link href="https://domingosucre.github.io/douglaslab/es/index.xml" rel="self" type="application/rss+xml"/><item><title>About Page | Research</title><link>https://domingosucre.github.io/douglaslab/es/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://domingosucre.github.io/douglaslab/es/about/</guid><description>&lt;h2 id="about-page"&gt;ABOUT PAGE&lt;/h2&gt;
-&lt;p&gt;SPANISH&lt;/p&gt;
-&lt;p&gt;DONDE
-ESTA
-BIBLOTEQUE&lt;/p&gt;
-&lt;p&gt;BLAH BLAH BLAH&lt;/p&gt;</description></item><item><title>Contacto</title><link>https://domingosucre.github.io/douglaslab/es/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://domingosucre.github.io/douglaslab/es/contact/</guid><description>&lt;h1 id="póngase-en-contacto"&gt;Póngase en contacto&lt;/h1&gt;
-&lt;p&gt;Correo electrónico: shawn.douglas [at] ucsf.edu
-Teléfono: 415-502-1947 (oficina)&lt;/p&gt;
-&lt;h2 id="visítenos"&gt;Visítenos&lt;/h2&gt;
-&lt;p&gt;Genentech Hall Rm. S472C
-600 16th St. MC 2240
-San Francisco, CA 94158
-(&lt;a href="http://goo.gl/maps/XQqww"&gt;mapa&lt;/a&gt;)&lt;/p&gt;
-&lt;h2 id="envíos-por-usps-vs-mensajería-comercial"&gt;Envíos por USPS vs. mensajería comercial&lt;/h2&gt;
-&lt;p&gt;Para correo enviado por USPS, use el código postal: 94143-2240
-Para envíos por FedEx, UPS, etc., use el código postal: 94158&lt;/p&gt;
-&lt;h2 id="únete-al-laboratorio"&gt;Únete al laboratorio&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Estudiantes de posgrado&lt;/strong&gt;: escriban por correo electrónico para programar una rotación.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Postdoctorados&lt;/strong&gt;: envíen carta de presentación, CV y referencias. Incluyan respuestas a las siguientes preguntas:&lt;/p&gt;</description></item><item><title>Descargas</title><link>https://domingosucre.github.io/douglaslab/es/downloads/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://domingosucre.github.io/douglaslab/es/downloads/</guid><description>&lt;h1 id="descargas"&gt;descargas&lt;/h1&gt;
-&lt;div class="download-item flex items-center gap-4 mb-8"&gt;
-&lt;a href="http://douglaslab.org/gelbox/" target="_blank" rel="noopener" aria-label="Descargar Gelbox" class="w-16 h-16 shrink-0 flex items-center justify-center"&gt;&lt;img src="https://domingosucre.github.io/douglaslab/images/icons/download_a_cube.png" alt="" class="max-w-full max-h-full object-contain"&gt;&lt;/a&gt;
-&lt;div&gt;
-&lt;h2 class="text-lg font-bold mt-4 leading-tight"&gt;Gelbox&lt;/h2&gt;
-&lt;div class="prose-sm"&gt;
-&lt;p&gt;Simulador de electroforesis en gel (aplicación para macOS).&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="download-item flex items-center gap-4 mb-8"&gt;
-&lt;a href="https://sdouglas.github.io/lr-notebook/" target="_blank" rel="noopener" aria-label="Ver lr-notebook" class="w-16 h-16 shrink-0 flex items-center justify-center"&gt;&lt;img src="https://domingosucre.github.io/douglaslab/images/icons/download_g_cube.png" alt="" class="max-w-full max-h-full object-contain"&gt;&lt;/a&gt;
-&lt;div&gt;
-&lt;h2 class="text-lg font-bold mt-4 leading-tight"&gt;lr-notebook&lt;/h2&gt;
-&lt;div class="prose-sm"&gt;
-&lt;p&gt;Cuaderno electrónico basado en Lektor: &lt;a href="https://github.com/douglaslab/lr-notebook"&gt;lr-notebook&lt;/a&gt;. El código fuente está disponible bajo la licencia BSD-3. Aquí hay un &lt;a href="https://sdouglas.github.io/lr-notebook/"&gt;ejemplo en vivo&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="download-item flex items-center gap-4 mb-8"&gt;
-&lt;a href="https://douglaslab.github.io/grantmerge/" target="_blank" rel="noopener" aria-label="Ver GrantMerge" class="w-16 h-16 shrink-0 flex items-center justify-center"&gt;&lt;img src="https://domingosucre.github.io/douglaslab/images/icons/download_t_cube.png" alt="" class="max-w-full max-h-full object-contain"&gt;&lt;/a&gt;
-&lt;div&gt;
-&lt;h2 class="text-lg font-bold mt-4 leading-tight"&gt;GrantMerge&lt;/h2&gt;
-&lt;div class="prose-sm"&gt;
-&lt;p&gt;Una &lt;a href="https://douglaslab.github.io/grantmerge/"&gt;herramienta&lt;/a&gt; para combinar rápidamente hojas de cálculo con plantillas de documentos.&lt;/p&gt;</description></item><item><title>Douglas Lab | Research</title><link>https://domingosucre.github.io/douglaslab/es/es/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://domingosucre.github.io/douglaslab/es/es/</guid><description>&lt;h2 id="what-are-we-doing-in-spanish"&gt;What are we doing? IN SPANISH?&lt;/h2&gt;
-&lt;p&gt;We aim to use the building blocks of life to create novel tools and devices to perform useful tasks on the nanoscale. A short introduction to our research can be found &lt;a href="http://youtu.be/ITtGJUGXFKc"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="how-do-we-do-it"&gt;How do we do it?&lt;/h2&gt;
-&lt;p&gt;We build with biomolecules, especially DNA and proteins, so most of our work is focused on molecular design and related method development. We also write a lot of software to support these efforts.&lt;/p&gt;</description></item><item><title>Personas</title><link>https://domingosucre.github.io/douglaslab/es/people/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://domingosucre.github.io/douglaslab/es/people/</guid><description>&lt;h1 id="personas-del-laboratorio"&gt;Personas del laboratorio&lt;/h1&gt;
-&lt;div class="space-y-6"&gt;
- &lt;div class="flex items-start gap-4"&gt;
- &lt;img src="https://domingosucre.github.io/douglaslab/images/portraits/shawn.png"
- alt="Portrait of Shawn Douglas, Ph.D."
- class="w-20 h-20 rounded-sm object-cover shrink-0"&gt;
- &lt;div&gt;
- &lt;h2 class="text-lg font-bold"&gt;&lt;a target="_blank" rel="noopener" href="http://www.shawndouglas.com/" class="hover:underline"&gt;Shawn Douglas, Ph.D.&lt;/a&gt;&lt;/h2&gt;
- &lt;p class="text-sm text-gray-600"&gt;
- Principal Investigator&lt;br&gt;shawn.douglas[at]ucsf.edu&lt;br&gt;415-502-1947&lt;br&gt;&lt;/p&gt;
- &lt;/div&gt;
- &lt;/div&gt;
- &lt;div class="flex items-start gap-4"&gt;
- &lt;img src="https://domingosucre.github.io/douglaslab/images/portraits/brian.png"
- alt="Portrait of Brian O&amp;#39;Donovan"
- class="w-20 h-20 rounded-sm object-cover shrink-0"&gt;
- &lt;div&gt;
- &lt;h2 class="text-lg font-bold"&gt;&lt;a target="_blank" rel="noopener" href="http://www.iambrianodonovan.com/" class="hover:underline"&gt;Brian O&amp;#39;Donovan&lt;/a&gt;&lt;/h2&gt;
- &lt;p class="text-sm text-gray-600"&gt;
- Graduate student (iPQB)&lt;br&gt;odonovan.brian[at]gmail.com&lt;br&gt;&lt;/p&gt;
- &lt;/div&gt;
- &lt;/div&gt;
- &lt;div class="flex items-start gap-4"&gt;
- &lt;img src="https://domingosucre.github.io/douglaslab/images/portraits/kat.png"
- alt="Portrait of Kathy Tsui"
- class="w-20 h-20 rounded-sm object-cover shrink-0"&gt;
- &lt;div&gt;
- &lt;h2 class="text-lg font-bold"&gt;Kathy Tsui&lt;/h2&gt;
- &lt;p class="text-sm text-gray-600"&gt;
- Staff Research Associate&lt;br&gt;kathy.tsui[at]ucsf.edu&lt;br&gt;415-502-2106&lt;br&gt;&lt;/p&gt;
- &lt;/div&gt;
- &lt;/div&gt;
- &lt;div class="flex items-start gap-4"&gt;
- &lt;img src="https://domingosucre.github.io/douglaslab/images/portraits/bullet.png"
- alt="Portrait of Bullet"
- class="w-20 h-20 rounded-sm object-cover shrink-0"&gt;
- &lt;div&gt;
- &lt;h2 class="text-lg font-bold"&gt;Bullet&lt;/h2&gt;
- &lt;p class="text-sm text-gray-600"&gt;
- Lab Security&lt;br&gt;&lt;/p&gt;
- &lt;/div&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;hr class="my-10 border-gray-300"&gt;
-&lt;h1 class="text-2xl font-bold mb-6"&gt;Former Lab Members&lt;/h1&gt;
-
-&lt;div class="space-y-6"&gt;
- &lt;div class="flex items-start gap-4"&gt;
- &lt;img src="https://domingosucre.github.io/douglaslab/images/portraits/lisa.png"
- alt="Portrait of Lisa Nip"
- class="w-20 h-20 rounded-sm object-cover shrink-0"&gt;
- &lt;div&gt;
- &lt;h2 class="text-lg font-bold"&gt;&lt;a target="_blank" rel="noopener" href="http://lisanip.com/" class="hover:underline"&gt;Lisa Nip&lt;/a&gt;&lt;/h2&gt;
- &lt;p class="text-sm text-gray-600"&gt;
- Junior Specialist&lt;br&gt;&lt;/p&gt;</description></item><item><title>Publicaciones</title><link>https://domingosucre.github.io/douglaslab/es/publications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://domingosucre.github.io/douglaslab/es/publications/</guid><description>&lt;h2 id="publicaciones"&gt;Publicaciones&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;A Logic-Gated Nanorobot for Targeted Transport of Molecular Payloads.&lt;/strong&gt; SM Douglas, I Bachelet, GM Church (2012) Science. 335:831–4 &lt;a href="https://www.dropbox.com/s/2hgv3n1d2bnxt6a/22344439.pdf?dl=0"&gt;pdf&lt;/a&gt; – &lt;a href="http://www.ncbi.nlm.nih.gov/pubmed/22344439"&gt;pubmed&lt;/a&gt; – &lt;a href="http://www.sciencemag.org/content/335/6070/831.abstract"&gt;publisher&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Multilayer DNA Origami Packed on a Square Lattice.&lt;/strong&gt; Y Ke, SM Douglas, M Liu, J Sharma, A Cheng, A Leung, Y Liu, WM Shih, H Yan. (2009) JACS. 131: 15903-8 &lt;a href="https://dl.dropbox.com/u/5290041/publications/19807088.pdf"&gt;pdf&lt;/a&gt; – &lt;a href="http://www.ncbi.nlm.nih.gov/pubmed/19807088"&gt;pubmed&lt;/a&gt; – &lt;a href="http://pubs.acs.org/doi/abs/10.1021/ja906381y"&gt;publisher&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Folding DNA Into Twisted and Curved Nanoscale Shapes.&lt;/strong&gt; H Dietz, SM Douglas, WM Shih (2009) Science. 325:725–730 &lt;a href="https://dl.dropbox.com/u/5290041/publications/19661424.pdf"&gt;pdf&lt;/a&gt; – &lt;a href="http://www.ncbi.nlm.nih.gov/pubmed/19661424"&gt;pubmed&lt;/a&gt; – &lt;a href="http://www.sciencemag.org/cgi/content/abstract/325/5941/725"&gt;publisher&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Supongo que esta es la página principal en español on The Douglas Lab</title>
+		<link>http://localhost:34119/es/</link>
+		<description>Recent content in Supongo que esta es la página principal en español on The Douglas Lab</description>
+		<generator>Hugo</generator>
+		<language>es</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:34119/es/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>About Page | Research</title>
+				<link>http://localhost:34119/es/about/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:34119/es/about/</guid>
+				<description>&lt;h2 id=&#34;about-page&#34;&gt;ABOUT PAGE&lt;/h2&gt;&#xA;&lt;p&gt;SPANISH&lt;/p&gt;&#xA;&lt;p&gt;DONDE&#xA;ESTA&#xA;BIBLOTEQUE&lt;/p&gt;&#xA;&lt;p&gt;BLAH BLAH BLAH&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Contacto</title>
+				<link>http://localhost:34119/es/contact/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:34119/es/contact/</guid>
+				<description>&lt;h1 id=&#34;póngase-en-contacto&#34;&gt;Póngase en contacto&lt;/h1&gt;&#xA;&lt;p&gt;Correo electrónico: shawn.douglas [at] ucsf.edu&#xA;Teléfono: 415-502-1947 (oficina)&lt;/p&gt;&#xA;&lt;h2 id=&#34;visítenos&#34;&gt;Visítenos&lt;/h2&gt;&#xA;&lt;p&gt;Genentech Hall Rm. S472C&#xA;600 16th St. MC 2240&#xA;San Francisco, CA 94158&#xA;(&lt;a href=&#34;http://goo.gl/maps/XQqww&#34;&gt;mapa&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;h2 id=&#34;envíos-por-usps-vs-mensajería-comercial&#34;&gt;Envíos por USPS vs. mensajería comercial&lt;/h2&gt;&#xA;&lt;p&gt;Para correo enviado por USPS, use el código postal: 94143-2240&#xA;Para envíos por FedEx, UPS, etc., use el código postal: 94158&lt;/p&gt;&#xA;&lt;h2 id=&#34;únete-al-laboratorio&#34;&gt;Únete al laboratorio&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Estudiantes de posgrado&lt;/strong&gt;: escriban por correo electrónico para programar una rotación.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Postdoctorados&lt;/strong&gt;: envíen carta de presentación, CV y referencias. Incluyan respuestas a las siguientes preguntas:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Descargas</title>
+				<link>http://localhost:34119/es/downloads/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:34119/es/downloads/</guid>
+				<description>&lt;h1 id=&#34;descargas&#34;&gt;descargas&lt;/h1&gt;&#xA;&lt;div class=&#34;download-item flex items-center gap-4 mb-8&#34;&gt;&#xA;&lt;a href=&#34;http://douglaslab.org/gelbox/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; aria-label=&#34;Descargar Gelbox&#34; class=&#34;w-16 h-16 shrink-0 flex items-center justify-center&#34;&gt;&lt;img src=&#34;http://localhost:34119/images/icons/download_a_cube.png&#34; alt=&#34;&#34; class=&#34;max-w-full max-h-full object-contain&#34;&gt;&lt;/a&gt;&#xA;&lt;div&gt;&#xA;&lt;h4 class=&#34;mt-4 leading-tight&#34;&gt;Gelbox&lt;/h4&gt;&#xA;&lt;div class=&#34;prose-sm&#34;&gt;&#xA;&lt;p&gt;Simulador de electroforesis en gel (aplicación para macOS).&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;download-item flex items-center gap-4 mb-8&#34;&gt;&#xA;&lt;a href=&#34;https://sdouglas.github.io/lr-notebook/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; aria-label=&#34;Ver lr-notebook&#34; class=&#34;w-16 h-16 shrink-0 flex items-center justify-center&#34;&gt;&lt;img src=&#34;http://localhost:34119/images/icons/download_g_cube.png&#34; alt=&#34;&#34; class=&#34;max-w-full max-h-full object-contain&#34;&gt;&lt;/a&gt;&#xA;&lt;div&gt;&#xA;&lt;h4 class=&#34;mt-4 leading-tight&#34;&gt;lr-notebook&lt;/h4&gt;&#xA;&lt;div class=&#34;prose-sm&#34;&gt;&#xA;&lt;p&gt;Cuaderno electrónico basado en Lektor: &lt;a href=&#34;https://github.com/douglaslab/lr-notebook&#34;&gt;lr-notebook&lt;/a&gt;. El código fuente está disponible bajo la licencia BSD-3. Aquí hay un &lt;a href=&#34;https://sdouglas.github.io/lr-notebook/&#34;&gt;ejemplo en vivo&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;download-item flex items-center gap-4 mb-8&#34;&gt;&#xA;&lt;a href=&#34;https://douglaslab.github.io/grantmerge/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; aria-label=&#34;Ver GrantMerge&#34; class=&#34;w-16 h-16 shrink-0 flex items-center justify-center&#34;&gt;&lt;img src=&#34;http://localhost:34119/images/icons/download_t_cube.png&#34; alt=&#34;&#34; class=&#34;max-w-full max-h-full object-contain&#34;&gt;&lt;/a&gt;&#xA;&lt;div&gt;&#xA;&lt;h4 class=&#34;mt-4 leading-tight&#34;&gt;GrantMerge&lt;/h4&gt;&#xA;&lt;div class=&#34;prose-sm&#34;&gt;&#xA;&lt;p&gt;Una &lt;a href=&#34;https://douglaslab.github.io/grantmerge/&#34;&gt;herramienta&lt;/a&gt; para combinar rápidamente hojas de cálculo con plantillas de documentos.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Douglas Lab | Research</title>
+				<link>http://localhost:34119/es/es/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:34119/es/es/</guid>
+				<description>&lt;h2 id=&#34;what-are-we-doing-in-spanish&#34;&gt;What are we doing? IN SPANISH?&lt;/h2&gt;&#xA;&lt;p&gt;We aim to use the building blocks of life to create novel tools and devices to perform useful tasks on the nanoscale. A short introduction to our research can be found &lt;a href=&#34;http://youtu.be/ITtGJUGXFKc&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-do-we-do-it&#34;&gt;How do we do it?&lt;/h2&gt;&#xA;&lt;p&gt;We build with biomolecules, especially DNA and proteins, so most of our work is focused on molecular design and related method development. We also write a lot of software to support these efforts.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Personas</title>
+				<link>http://localhost:34119/es/people/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:34119/es/people/</guid>
+				<description>&lt;h1 id=&#34;personas-del-laboratorio&#34;&gt;Personas del laboratorio&lt;/h1&gt;&#xA;&lt;div class=&#34;space-y-6&#34;&gt;&#xA;  &lt;div class=&#34;flex items-start gap-4&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:34119/images/portraits/shawn.png&#34;&#xA;         alt=&#34;Portrait of Shawn Douglas, Ph.D.&#34;&#xA;         class=&#34;w-20 h-20 rounded-sm object-cover shrink-0&#34;&gt;&#xA;    &lt;div&gt;&#xA;      &lt;h2 class=&#34;text-lg font-bold&#34;&gt;&lt;a target=&#34;_blank&#34; rel=&#34;noopener&#34; href=&#34;http://www.shawndouglas.com/&#34; class=&#34;hover:underline&#34;&gt;Shawn Douglas, Ph.D.&lt;/a&gt;&lt;/h2&gt;&#xA;      &lt;p class=&#34;text-sm text-gray-600&#34;&gt;&#xA;        Principal Investigator&lt;br&gt;shawn.douglas[at]ucsf.edu&lt;br&gt;415-502-1947&lt;br&gt;&lt;/p&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;flex items-start gap-4&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:34119/images/portraits/brian.png&#34;&#xA;         alt=&#34;Portrait of Brian O&amp;#39;Donovan&#34;&#xA;         class=&#34;w-20 h-20 rounded-sm object-cover shrink-0&#34;&gt;&#xA;    &lt;div&gt;&#xA;      &lt;h2 class=&#34;text-lg font-bold&#34;&gt;&lt;a target=&#34;_blank&#34; rel=&#34;noopener&#34; href=&#34;http://www.iambrianodonovan.com/&#34; class=&#34;hover:underline&#34;&gt;Brian O&amp;#39;Donovan&lt;/a&gt;&lt;/h2&gt;&#xA;      &lt;p class=&#34;text-sm text-gray-600&#34;&gt;&#xA;        Graduate student (iPQB)&lt;br&gt;odonovan.brian[at]gmail.com&lt;br&gt;&lt;/p&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;flex items-start gap-4&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:34119/images/portraits/kat.png&#34;&#xA;         alt=&#34;Portrait of Kathy Tsui&#34;&#xA;         class=&#34;w-20 h-20 rounded-sm object-cover shrink-0&#34;&gt;&#xA;    &lt;div&gt;&#xA;      &lt;h2 class=&#34;text-lg font-bold&#34;&gt;Kathy Tsui&lt;/h2&gt;&#xA;      &lt;p class=&#34;text-sm text-gray-600&#34;&gt;&#xA;        Staff Research Associate&lt;br&gt;kathy.tsui[at]ucsf.edu&lt;br&gt;415-502-2106&lt;br&gt;&lt;/p&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;flex items-start gap-4&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:34119/images/portraits/bullet.png&#34;&#xA;         alt=&#34;Portrait of Bullet&#34;&#xA;         class=&#34;w-20 h-20 rounded-sm object-cover shrink-0&#34;&gt;&#xA;    &lt;div&gt;&#xA;      &lt;h2 class=&#34;text-lg font-bold&#34;&gt;Bullet&lt;/h2&gt;&#xA;      &lt;p class=&#34;text-sm text-gray-600&#34;&gt;&#xA;        Lab Security&lt;br&gt;&lt;/p&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;hr class=&#34;my-10 border-gray-300&#34;&gt;&#xA;&lt;h1 class=&#34;text-2xl font-bold mb-6&#34;&gt;Former Lab Members&lt;/h1&gt;&#xA;&#xA;&lt;div class=&#34;space-y-6&#34;&gt;&#xA;  &lt;div class=&#34;flex items-start gap-4&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:34119/images/portraits/lisa.png&#34;&#xA;         alt=&#34;Portrait of Lisa Nip&#34;&#xA;         class=&#34;w-20 h-20 rounded-sm object-cover shrink-0&#34;&gt;&#xA;    &lt;div&gt;&#xA;      &lt;h2 class=&#34;text-lg font-bold&#34;&gt;&lt;a target=&#34;_blank&#34; rel=&#34;noopener&#34; href=&#34;http://lisanip.com/&#34; class=&#34;hover:underline&#34;&gt;Lisa Nip&lt;/a&gt;&lt;/h2&gt;&#xA;      &lt;p class=&#34;text-sm text-gray-600&#34;&gt;&#xA;        Junior Specialist&lt;br&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Publicaciones</title>
+				<link>http://localhost:34119/es/publications/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:34119/es/publications/</guid>
+				<description>&lt;h2 id=&#34;publicaciones&#34;&gt;Publicaciones&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;A Logic-Gated Nanorobot for Targeted Transport of Molecular Payloads.&lt;/strong&gt; SM Douglas, I Bachelet, GM Church (2012) Science. 335:831–4 &lt;a href=&#34;https://www.dropbox.com/s/2hgv3n1d2bnxt6a/22344439.pdf?dl=0&#34;&gt;pdf&lt;/a&gt; – &lt;a href=&#34;http://www.ncbi.nlm.nih.gov/pubmed/22344439&#34;&gt;pubmed&lt;/a&gt; – &lt;a href=&#34;http://www.sciencemag.org/content/335/6070/831.abstract&#34;&gt;publisher&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Multilayer DNA Origami Packed on a Square Lattice.&lt;/strong&gt; Y Ke, SM Douglas, M Liu, J Sharma, A Cheng, A Leung, Y Liu, WM Shih, H Yan. (2009) JACS. 131: 15903-8 &lt;a href=&#34;https://dl.dropbox.com/u/5290041/publications/19807088.pdf&#34;&gt;pdf&lt;/a&gt; – &lt;a href=&#34;http://www.ncbi.nlm.nih.gov/pubmed/19807088&#34;&gt;pubmed&lt;/a&gt; – &lt;a href=&#34;http://pubs.acs.org/doi/abs/10.1021/ja906381y&#34;&gt;publisher&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Folding DNA Into Twisted and Curved Nanoscale Shapes.&lt;/strong&gt; H Dietz, SM Douglas, WM Shih (2009) Science. 325:725–730 &lt;a href=&#34;https://dl.dropbox.com/u/5290041/publications/19661424.pdf&#34;&gt;pdf&lt;/a&gt; – &lt;a href=&#34;http://www.ncbi.nlm.nih.gov/pubmed/19661424&#34;&gt;pubmed&lt;/a&gt; – &lt;a href=&#34;http://www.sciencemag.org/cgi/content/abstract/325/5941/725&#34;&gt;publisher&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
