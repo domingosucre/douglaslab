@@ -17,8 +17,10 @@
       "hr",
       "html",
       "img",
+      "li",
       "link",
       "meta",
+<<<<<<< HEAD
 <<<<<<< HEAD
       "nav",
       "ol",
@@ -137,6 +139,11 @@
 =======
 =======
 =======
+=======
+      "nav",
+      "p",
+      "script",
+>>>>>>> c2c51e3 (added some transition to top menu)
       "span",
       "table",
       "tbody",
@@ -177,7 +184,10 @@
       "bottom-0",
       "col-span-16",
       "container",
+      "delay-150",
       "drop-shadow-2xl",
+      "duration-300",
+      "ease-in-out",
       "fixed",
       "flex",
       "font-pixel",
@@ -192,6 +202,7 @@
       "h-full",
       "h-screen",
       "hidden",
+      "hover:-translate-y-1",
       "hover:text-white",
       "inset-0",
       "italic",
@@ -209,11 +220,11 @@
       "lg:order-2",
       "lg:order-3",
       "max-h-256",
->>>>>>> 8eb73dd (a pixel art font replacement for headers. im not convinced yet)
       "max-w-none",
       "mb-2",
       "md:bg-yellow-200",
       "md:block",
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d2281f6 (a pixel art font replacement for headers. im not convinced yet)
       "md:col-span-1",
@@ -245,6 +256,8 @@
       "w-20",
 =======
 =======
+=======
+>>>>>>> c2c51e3 (added some transition to top menu)
       "md:col-span-16",
       "md:hidden",
       "mr-8",
@@ -260,7 +273,6 @@
       "pointer-events-auto",
       "pointer-events-none",
       "pr-2",
->>>>>>> 8eb73dd (a pixel art font replacement for headers. im not convinced yet)
       "prose",
       "prose-lg",
       "right-0",
@@ -280,10 +292,12 @@
       "text-sm",
       "top-0",
       "touch-auto",
+      "transition",
       "uppercase",
       "w-8",
 >>>>>>> d2281f6 (a pixel art font replacement for headers. im not convinced yet)
       "w-full",
+<<<<<<< HEAD
 <<<<<<< HEAD
       "xl:col-span-1",
 <<<<<<< HEAD
@@ -305,6 +319,8 @@
       "downloads",
 =======
 =======
+=======
+>>>>>>> c2c51e3 (added some transition to top menu)
       "xl:bg-blue-200",
       "xl:block",
       "xl:col-span-1",
@@ -312,7 +328,6 @@
       "xl:col-span-8",
       "xl:hidden",
       "z-50"
->>>>>>> 8eb73dd (a pixel art font replacement for headers. im not convinced yet)
     ],
     "ids": [
       "about-page",
