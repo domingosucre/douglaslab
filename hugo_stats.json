@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "br",
 =======
       "button",
@@ -28,6 +29,8 @@
       "button",
       "caption",
 >>>>>>> f14906e (.)
+=======
+>>>>>>> 430ceea (.)
       "div",
       "h1",
       "h2",
@@ -44,8 +47,8 @@
       "nav",
       "ol",
       "p",
-      "script",
       "span",
+<<<<<<< HEAD
 <<<<<<< HEAD
       "strong",
       "title",
@@ -192,19 +195,18 @@
 >>>>>>> 5a9e042 (.)
 =======
 >>>>>>> f14906e (.)
+=======
+>>>>>>> 430ceea (.)
       "title",
-      "tr",
       "ul"
     ],
     "classes": [
-      "-z-50",
-      "2xl:bg-pink-200",
-      "2xl:block",
       "2xl:col-span-7",
       "2xl:col-span-8",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       "2xl:hidden",
 =======
@@ -212,17 +214,18 @@
 =======
       "2xl:hidden",
 >>>>>>> f14906e (.)
+=======
+>>>>>>> 430ceea (.)
       "2xl:prose-2xl",
 >>>>>>> ef25709 (.)
       "2xl:text-2xl",
       "2xl:text-normal",
-      "3xl:bg-violet-200",
-      "3xl:block",
       "3xl:col-span-7",
       "3xl:col-span-8",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       "3xl:hidden",
 =======
@@ -230,14 +233,14 @@
 =======
       "3xl:hidden",
 >>>>>>> f14906e (.)
+=======
+>>>>>>> 430ceea (.)
       "absolute",
 >>>>>>> ef25709 (.)
       "aspect-[5/3]",
       "bg-black",
-      "bg-opacity-25",
-      "bg-red-200",
-      "bg-slate-200",
       "bg-white",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -248,31 +251,24 @@
 =======
       "bg-white/[.95]",
 >>>>>>> f14906e (.)
+=======
+>>>>>>> 430ceea (.)
       "bg-yellow-400",
-      "block",
       "border-2",
       "border-black",
 >>>>>>> ef25709 (.)
       "border-l",
-      "border-slate-200",
-      "border-t",
-      "border-white/50",
-      "border-y-8",
-      "bottom-0",
       "col-span-16",
-      "container",
       "delay-150",
       "drop-shadow-2xl",
       "duration-200",
       "duration-300",
       "ease-in-out",
-      "fixed",
       "flex",
       "flex-wrap",
       "font-bold",
       "font-pixel",
       "font-sans",
-      "font-semibold",
       "gap-2",
       "gap-4",
       "gap-6",
@@ -280,11 +276,14 @@
       "grid-cols-16",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
       "h-1/3",
       "h-8",
 >>>>>>> f14906e (.)
+=======
+>>>>>>> 430ceea (.)
       "h-full",
 >>>>>>> 5a9e042 (.)
       "h-screen",
@@ -298,6 +297,7 @@
       "inline-block",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "inset-0",
       "italic",
 >>>>>>> ef25709 (.)
@@ -307,16 +307,15 @@
       "inset-0",
       "italic",
 >>>>>>> f14906e (.)
+=======
+>>>>>>> 430ceea (.)
       "items-center",
       "justify-end",
       "left-0",
       "lg:aspect-auto",
-      "lg:bg-green-200",
-      "lg:block",
       "lg:col-span-10",
       "lg:col-span-6",
       "lg:h-full",
-      "lg:hidden",
       "lg:order-2",
       "lg:order-3",
       "lg:prose-lg",
@@ -325,6 +324,7 @@
 <<<<<<< HEAD
 =======
       "mb-16",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "mb-2",
@@ -337,6 +337,8 @@
       "mb-2",
       "md:bg-yellow-200",
 >>>>>>> f14906e (.)
+=======
+>>>>>>> 430ceea (.)
       "md:block",
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -376,6 +378,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       "md:hidden",
 =======
@@ -383,10 +386,10 @@
 =======
       "md:hidden",
 >>>>>>> f14906e (.)
+=======
+>>>>>>> 430ceea (.)
       "ml-1",
-      "mr-8",
       "mt-1",
-      "mt-12",
       "mt-16",
 <<<<<<< HEAD
       "mt-6",
@@ -396,14 +399,9 @@
       "mx-auto",
       "order-1",
       "order-2",
-      "overflow-y-auto",
       "p-12",
-      "p-2",
       "p-4",
       "pl-4",
-      "pointer-events-auto",
-      "pointer-events-none",
-      "pr-2",
       "prose",
 <<<<<<< HEAD
       "prose-lg",
@@ -413,25 +411,13 @@
       "px-16",
       "py-6",
       "relative",
-      "right-0",
       "rounded",
-      "rounded-full",
-      "scroll-auto",
-      "scroll-py-4",
-      "sm:bg-red-200",
-      "sm:block",
-      "sm:hidden",
-      "table-auto",
-      "table-collapse",
       "text-3xl",
       "text-black",
       "text-gray-400",
-      "text-left",
       "text-lg",
-      "text-right",
-      "text-slate-600",
-      "text-sm",
       "top-0",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "touch-auto",
@@ -494,6 +480,10 @@
 =======
       "xl:bg-blue-200",
 >>>>>>> f14906e (.)
+=======
+      "transition",
+      "w-full",
+>>>>>>> 430ceea (.)
       "xl:block",
       "xl:col-span-1",
       "xl:col-span-7",
@@ -501,6 +491,7 @@
       "xl:col-span-8"
 =======
       "xl:col-span-8",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "xl:hidden",
@@ -536,9 +527,16 @@
       "container-area",
       "container-menu",
 >>>>>>> f14906e (.)
+=======
+      "xl:prose-xl"
+    ],
+    "ids": [
+      "about-page",
+>>>>>>> 430ceea (.)
       "frontpage-in-spanish",
       "get-in-touch",
       "how-do-we-do-it",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -577,6 +575,9 @@
 >>>>>>> 5a9e042 (.)
 =======
 >>>>>>> f14906e (.)
+=======
+      "people-page",
+>>>>>>> 430ceea (.)
       "spanish",
       "usps-vs-commercial-deliveries",
       "what-are-we-doing",
