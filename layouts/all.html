@@ -11,7 +11,7 @@
 
 
     <!-- left column: thin sliver image -->
-    <div class="hidden xl:block xl:col-span-1 h-64 lg:h-80 xl:h-[26rem] 2xl:h-[31rem] 3xl:h-[42rem]"
+    <div class="hidden xl:block xl:col-span-1 h-64 lg:h-80 xl:h-[26rem] 2xl:h-[34rem] 3xl:h-dvh"
 
          style="background-image:url('{{ printf "images/%s" .Params.picture_left | relURL }}');
                 background-repeat:no-repeat;
@@ -20,13 +20,20 @@
     </div>
 
     <!-- right column: wide artwork image -->
-    <div class="order-1 lg:order-3 hidden
-                md:block md:col-span-20 lg:sticky lg:col-span-10 xl:col-span-9 2xl:col-span-9 3xl:col-span-9
-                h-64 lg:h-80 md:h-[34rem] lg:h-[23rem] xl:h-[26rem] 2xl:h-[31rem] 3xl:h-[42rem]"
-         style="background-image:url('{{ printf "images/%s" .Params.picture_right | relURL }}');
+    <div class="order-1 lg:order-3 bg-red-500
+hidden md:block md:col-span-20	
+	 lg:col-span-10 xl:col-span-9 2xl:col-span-9 3xl:col-span-9
+
+	    ">
+
+            <div class="
+			h-64 lg:h-80 md:h-[34rem] lg:h-[23rem] xl:h-[26rem] 2xl:h-[34rem] {{ if false }}3xl:h-[42rem]{{ end }} 3xl:h-dvh" 
+		style="background-image:url('{{ printf "images/%s" .Params.picture_right | relURL }}');
                 background-repeat:no-repeat;
                 background-size:auto 100%;
                 background-position:left top;">
+    	    </div>
+	    <div class="p-6 xl:p-12">footer</div>
     </div>
 
     <!-- center -->

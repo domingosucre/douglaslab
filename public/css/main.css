@@ -7,6 +7,7 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-red-200: oklch(88.5% 0.062 18.334);
+    --color-red-500: oklch(63.7% 0.237 25.331);
     --color-yellow-200: oklch(94.5% 0.129 101.54);
     --color-yellow-400: oklch(85.2% 0.199 91.936);
     --color-green-200: oklch(92.5% 0.084 155.995);
@@ -1177,6 +1178,9 @@
   .bg-red-200 {
     background-color: var(--color-red-200);
   }
+  .bg-red-500 {
+    background-color: var(--color-red-500);
+  }
   .bg-slate-200 {
     background-color: var(--color-slate-200);
   }
@@ -1940,6 +1944,12 @@
     .\32 xl\:h-\[31rem\] {
       height: 31rem;
     }
+    .\32 xl\:h-\[32rem\] {
+      height: 32rem;
+    }
+    .\32 xl\:h-\[34rem\] {
+      height: 34rem;
+    }
     .\32 xl\:bg-pink-200 {
       background-color: var(--color-pink-200);
     }
@@ -1961,8 +1971,36 @@
     .\33 xl\:hidden {
       display: none;
     }
+    .\33 xl\:size-40 {
+      width: calc(var(--spacing) * 40);
+      height: calc(var(--spacing) * 40);
+    }
     .\33 xl\:h-\[42rem\] {
       height: 42rem;
+    }
+    .\33 xl\:h-\[60rem\] {
+      height: 60rem;
+    }
+    .\33 xl\:h-\[100rem\] {
+      height: 100rem;
+    }
+    .\33 xl\:h-auto {
+      height: auto;
+    }
+    .\33 xl\:h-dvh {
+      height: 100dvh;
+    }
+    .\33 xl\:h-full {
+      height: 100%;
+    }
+    .\33 xl\:h-max {
+      height: max-content;
+    }
+    .\33 xl\:h-screen {
+      height: 100vh;
+    }
+    .\33 xl\:max-h-screen {
+      max-height: 100vh;
     }
     .\33 xl\:bg-violet-200 {
       background-color: var(--color-violet-200);

@@ -2,82 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:34391/es/about/</loc>
+    <loc>http://localhost:39715/es/about/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>http://localhost:34391/es/contact/</loc>
+    <loc>http://localhost:39715/es/contact/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:34391/contact/"
+                href="http://localhost:39715/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:34391/es/contact/"
+                href="http://localhost:39715/es/contact/"
                 />
   </url><url>
-    <loc>http://localhost:34391/es/downloads/</loc>
+    <loc>http://localhost:39715/es/downloads/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:34391/downloads/"
+                href="http://localhost:39715/downloads/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:34391/es/downloads/"
+                href="http://localhost:39715/es/downloads/"
                 />
   </url><url>
-    <loc>http://localhost:34391/es/es/</loc>
+    <loc>http://localhost:39715/es/es/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>http://localhost:34391/es/people/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:34391/people/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:34391/es/people/"
-                />
-  </url><url>
-    <loc>http://localhost:34391/es/publications/</loc>
+    <loc>http://localhost:39715/es/people/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:34391/publications/"
+                href="http://localhost:39715/people/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:34391/es/publications/"
+                href="http://localhost:39715/es/people/"
                 />
   </url><url>
-    <loc>http://localhost:34391/es/</loc>
+    <loc>http://localhost:39715/es/publications/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:34391/"
+                href="http://localhost:39715/publications/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:34391/es/"
+                href="http://localhost:39715/es/publications/"
+                />
+  </url><url>
+    <loc>http://localhost:39715/es/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:39715/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:39715/es/"
                 />
   </url>
 </urlset>
