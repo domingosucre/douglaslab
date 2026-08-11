@@ -6,7 +6,7 @@
     {{ partial "menu.html" . }}
   </div>
 
-<div class="w-full mx-auto">
+    <div class="w-screen relative left-1/2 -translate-x-1/2">
   <div class="grid grid-cols-20">
 
 
@@ -26,15 +26,12 @@ hidden md:block md:col-span-20
 
 	    ">
 
-            <div class="z-8
-			h-64 lg:h-80 md:h-[34rem] lg:h-[23rem] xl:h-[26rem] 2xl:h-[34rem] {{ if false }}3xl:h-[42rem]{{ end }} 3xl:h-dvh
-			drop-shadow-3xl/50" 
-
-		style="background-image:url('{{ printf "images/%s" .Params.picture_right | relURL }}');
-                background-repeat:no-repeat;
-                background-size:auto 100%;
-                background-position:left top;">
-    	    </div>
+            <div class="z-8 h-64 lg:h-80 md:h-[34rem] lg:h-[23rem] xl:h-[26rem] 2xl:h-[34rem] 3xl:h-dvh drop-shadow-3xl/50"
+     style="background-image:url('{{ printf "images/%s" .Params.picture_right | relURL }}');
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-position:center;">
+</div>
 	    <div class="p-6 xl:p-12 z-6">
 		    <b>University of California, San Francisco</b></br>
 		Dept. of Cellular and Molecular Mad Science</br>
