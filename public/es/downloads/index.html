@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="es">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+
+
+  
+  
+    
+      <link rel="stylesheet" href="/css/main.css">
+    
+  
+
+<link rel="preload" href="/fonts/lexend-v25-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/lexend-v25-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/lexend-v25-latin-800.woff2" as="font" type="font/woff2" crossorigin>
+
+
+<link rel="preload" href="/fonts/Silkscreen-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+<link rel="preload" href="/fonts/Silkscreen-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+<link rel="manifest" href="/favicons/site.webmanifest">
+  </head>
+
+  <body class="text-black font-sans bg-black">
+<div class="fixed top-0 right-0 mt-12 mr-8 z-50">
+<div id="size-indicator"
+     class="flex items-center justify-center w-8 h-8 mb-2 text-sm text-slate-600 uppercase bg-slate-200 rounded-full
+	    sm:bg-red-200
+	    md:bg-yellow-200
+	    lg:bg-green-200
+	    xl:bg-blue-200
+	    2xl:bg-pink-200
+	    3xl:bg-violet-200
+	    ">
+    <span class="block sm:hidden">all</span>
+    <span class="hidden sm:block md:hidden">sm</span>
+    <span class="hidden md:block lg:hidden">md</span>
+    <span class="hidden lg:block xl:hidden">lg</span>
+    <span class="hidden xl:block 2xl:hidden">xl</span>
+    <span class="hidden 2xl:block 3xl:hidden">2xl</span>
+    <span class="hidden 3xl:block">3xl</span>
+</div>
+
+
+<button id="container-menu" onclick="changeContainerVisibility()"
+    class="w-8 h-8 mb-2 block rounded-full text-slate-600 text-sm bg-slate-200 uppercase pointer-events-auto">
+    <span>C</span>
+</button>
+
+<div id="container-area"
+    class="fixed inset-0 top-0 -z-50 container mx-auto h-full bg-red-200 bg-opacity-25 pointer-events-none hidden">
+    <p></p>
+</div>
+
+<script>
+    function setContainerVisibility(data) {
+        var showContainer = data;
+        var e = document.querySelector("#container-area");
+        if (e.classList.contains("hidden") == showContainer) {
+            e.classList.toggle("hidden");
+        }
+        sessionStorage.setItem("showContainer", showContainer);
+    }
+
+    function changeContainerVisibility() {
+        var e = document.querySelector("#container-area");
+        var showContainer = e.classList.contains("hidden") ? true : false;
+        setContainerVisibility(showContainer);
+    }
+
+    function setupContainerIndicator() {
+         
+        var showContainer = sessionStorage.getItem("showContainer") === "true";
+
+        setContainerVisibility(showContainer);
+    }
+
+    window.onload = setupContainerIndicator;
+</script>
+
+
+<button id="parameter-menu" onclick="changeParameterVisibility()"
+    class="w-8 h-8 mb-2 rounded-full text-slate-600 text-sm bg-slate-200 uppercase pointer-events-auto">
+    <span>P</span>
+</button>
+
+<div id="parameter-area"
+    class="fixed w-full z-50 right-0 bottom-0 h-1/3 p-4 overflow-y-auto scroll-auto scroll-py-4 touch-auto text-slate-600 bg-white/[.95] border-y-8 border-white/50 hidden">
+    <table class="w-full text-left table-auto table-collapse border-slate-200">
+        <caption class="text-left pb-2">Hugo Variables for the current page.</caption>
+        <thead>
+            <tr class="p-2 font-semibold bg-slate-200 border-t ">
+                <th>Variable</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="p-2 border-t">
+                <td>.Name</td>
+                <td>&#34;Descargas&#34;</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Title</td>
+                <td>&#34;Descargas&#34;</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Kind</td>
+                <td>&#34;page&#34;</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Type</td>
+                <td>&#34;page&#34;</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.IsPage</td>
+                <td>true</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.IsHome</td>
+                <td>false</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Next</td>
+                <td>/home/kris/projects/douglaslab/content/espanol/contact.md</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Prev</td>
+                <td>/home/kris/projects/douglaslab/content/espanol/research.md</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Params</td>
+                <td>
+                    <table>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">&#34;description&#34;:</td>
+                            <td>&#34;Ver arriba&#34;</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">&#34;draft&#34;:</td>
+                            <td>false</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">&#34;iscjklanguage&#34;:</td>
+                            <td>false</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">&#34;picture_left&#34;:</td>
+                            <td>&#34;downloads_left.png&#34;</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">&#34;picture_right&#34;:</td>
+                            <td>&#34;downloads_right.png&#34;</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">&#34;slug&#34;:</td>
+                            <td>&#34;downloads&#34;</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">&#34;title&#34;:</td>
+                            <td>&#34;Descargas&#34;</td>
+                        </tr>
+                        
+                    </table>
+                </td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Section</td>
+                <td>&#34;&#34;</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.CurrentSection</td>
+                <td>/home/kris/projects/douglaslab/content/espanol/_index.md</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Pages</td>
+                <td>
+                    Pages(0)
+                    <table></table>
+                </td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Resources</td>
+                <td>[]</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.File</td>
+                <td>downloads</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.File.Dir</td>
+                <td>&#34;/&#34;</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<script>
+    function setParameterVisibility(data) {
+        var showParameter = data;
+        var e = document.querySelector("#parameter-area");
+        if (e.classList.contains("hidden") == showParameter) {
+            e.classList.toggle("hidden");
+        }
+        sessionStorage.setItem("showParameter", showParameter);
+    }
+
+    function changeParameterVisibility() {
+        var e = document.querySelector("#parameter-area");
+        var showParameter = e.classList.contains("hidden") ? true : false;
+        setParameterVisibility(showParameter);
+    }
+
+    function setupParameterIndicator() {
+         
+        var showParameter = sessionStorage.getItem("showParameter") === "true";
+
+        setParameterVisibility(showParameter);
+    }
+
+    window.onload = setupParameterIndicator;
+</script>
+
+</div>
+
+
+
+
+  <div class="grid grid-cols-16">
+    <nav class="col-span-16 flex justify-end items-center gap-4 p-4">
+    <ul class="flex gap-4">
+      
+        <li>
+          <a href="/es/"
+             class="  text-gray-400 text-lg 2xl:text-2xl font-pixel 
+            transition delay-150 duration-300 ease-in-out hover:-translate-y-1 
+             hover:text-white
+
+             ">
+            Investigación
+          </a>
+        </li>
+      
+        <li>
+          <a href="/es/people/"
+             class="  text-gray-400 text-lg 2xl:text-2xl font-pixel 
+            transition delay-150 duration-300 ease-in-out hover:-translate-y-1 
+             hover:text-white
+
+             ">
+            Personas
+          </a>
+        </li>
+      
+        <li>
+          <a href="/es/publications/"
+             class="  text-gray-400 text-lg 2xl:text-2xl font-pixel 
+            transition delay-150 duration-300 ease-in-out hover:-translate-y-1 
+             hover:text-white
+
+             ">
+            Publicaciones
+          </a>
+        </li>
+      
+        <li>
+          <a href="/es/downloads/"
+             class="  text-gray-400 text-lg 2xl:text-2xl font-pixel 
+            transition delay-150 duration-300 ease-in-out hover:-translate-y-1 
+             hover:text-white
+
+             ">
+            Descargas
+          </a>
+        </li>
+      
+        <li>
+          <a href="/es/contact/"
+             class="  text-gray-400 text-lg 2xl:text-2xl font-pixel 
+            transition delay-150 duration-300 ease-in-out hover:-translate-y-1 
+             hover:text-white
+
+             ">
+            Contacto
+          </a>
+        </li>
+      
+    </ul>
+
+    
+      <ul class="flex gap-2 border-l pl-4  text-gray-400  2xl:text-normal font-pixel">
+        
+          <li class="">
+            <a class="hover:text-white" href="/downloads/">en</a>
+          </li>
+        
+        <li aria-current="true">es</li>
+      </ul>
+    
+  </nav>
+
+
+
+
+  </div>
+
+    <div class="w-screen relative left-1/2 -translate-x-1/2 bg-zinc-200">
+  <div class="grid grid-cols-24">
+
+
+    
+    <div class="z-8 hidden xl:block xl:col-span-1 h-[clamp(16rem,30vw,34rem)]  shadow-black/25"
+
+         style="background-image:url('/images/downloads_left.png');
+                background-repeat:no-repeat;
+                background-size:auto 110%;
+                background-position:left top;">
+    </div>
+
+    
+    <div class="order-1 lg:order-3 hidden md:block md:col-span-24	
+	 lg:col-span-12 xl:col-span-11 2xl:col-span-11 3xl:col-span-11
+
+	    ">
+
+            <div class="z-8 md:h-[30rem] lg:h-[clamp(16rem,30vw,34rem)] shadow-2xl shadow-black/25"
+                style="background-image:url('/images/downloads_right.png');
+                background-repeat:no-repeat;
+                background-size:cover;
+                background-position:left 20%;">
+</div>
+	    <div class="hidden lg:block p-6 xl:p-12 z-6">
+		    <b>University of California, San Francisco</b></br>
+		Dept. of Cellular and Molecular Mad Science</br>
+		Mission Bay — Genentech Hall</br>
+	    </div>
+    </div>
+
+    
+    <div class="order-2 lg:order-2 col-span-24 z-10
+                md:col-span-24 lg:col-span-12 xl:col-span-12 2xl:col-span-12 3xl:col-span-12
+                max-w-none prose lg:prose-md xl:prose-xl 2xl:prose-2xl
+                bg-white shadow-2xl shadow-black/25 p-6 xl:p-12
+                ">
+      <h1 id="descargas">descargas</h1>
+<div class="download-item flex items-center gap-4 mb-8">
+<a href="http://douglaslab.org/gelbox/" target="_blank" rel="noopener" aria-label="Descargar Gelbox" class="w-16 h-16 shrink-0 flex items-center justify-center"><img src="/images/icons/download_a_cube.png" alt="" class="max-w-full max-h-full object-contain"></a>
+<div>
+<h4 class="mt-4 leading-tight">Gelbox</h4>
+<div class="prose-sm">
+<p>Simulador de electroforesis en gel (aplicación para macOS).</p>
+</div>
+</div>
+</div>
+<div class="download-item flex items-center gap-4 mb-8">
+<a href="https://sdouglas.github.io/lr-notebook/" target="_blank" rel="noopener" aria-label="Ver lr-notebook" class="w-16 h-16 shrink-0 flex items-center justify-center"><img src="/images/icons/download_g_cube.png" alt="" class="max-w-full max-h-full object-contain"></a>
+<div>
+<h4 class="mt-4 leading-tight">lr-notebook</h4>
+<div class="prose-sm">
+<p>Cuaderno electrónico basado en Lektor: <a href="https://github.com/douglaslab/lr-notebook">lr-notebook</a>. El código fuente está disponible bajo la licencia BSD-3. Aquí hay un <a href="https://sdouglas.github.io/lr-notebook/">ejemplo en vivo</a>.</p>
+</div>
+</div>
+</div>
+<div class="download-item flex items-center gap-4 mb-8">
+<a href="https://douglaslab.github.io/grantmerge/" target="_blank" rel="noopener" aria-label="Ver GrantMerge" class="w-16 h-16 shrink-0 flex items-center justify-center"><img src="/images/icons/download_t_cube.png" alt="" class="max-w-full max-h-full object-contain"></a>
+<div>
+<h4 class="mt-4 leading-tight">GrantMerge</h4>
+<div class="prose-sm">
+<p>Una <a href="https://douglaslab.github.io/grantmerge/">herramienta</a> para combinar rápidamente hojas de cálculo con plantillas de documentos.</p>
+</div>
+</div>
+</div>
+<div class="download-item flex items-center gap-4 mb-8">
+<a href="http://cadnano.org/license#download" target="_blank" rel="noopener" aria-label="Descargar cadnano" class="w-16 h-16 shrink-0 flex items-center justify-center"><img src="/images/icons/download_c_cube.png" alt="" class="max-w-full max-h-full object-contain"></a>
+<div>
+<h4 class="mt-4 leading-tight">cadnano</h4>
+<div class="prose-sm">
+<p>Para descargar nuestro software de diseño asistido por computadora para origami de ADN, visite <a href="http://cadnano.org/">cadnano.org</a>. El código fuente está disponible bajo la licencia MIT en <a href="https://github.com/sdouglas">github</a>.</p>
+</div>
+</div>
+</div>
+<div class="download-item flex items-center gap-4 mb-8">
+<a href="http://bit.ly/STnpgA" target="_blank" rel="noopener" aria-label="Descargar animaciones" class="w-16 h-16 shrink-0 flex items-center justify-center"><img src="/images/icons/download_a_cube.png" alt="" class="max-w-full max-h-full object-contain"></a>
+<div>
+<h4 class="mt-4 leading-tight">animaciones</h4>
+<div class="prose-sm">
+<p>Obtenga nuestras animaciones <a href="http://bit.ly/STnpgA">aquí</a>. Están disponibles bajo la <a href="http://creativecommons.org/licenses/by-nc/3.0/">licencia CC Atribución-NoComercial</a>, lo que significa que usted es libre de compartirlas y modificarlas siempre que nos acredite y no las use con fines comerciales.</p>
+</div>
+</div>
+</div>
+<div class="download-item flex items-center gap-4 mb-8">
+<span class="w-16 h-16 shrink-0 flex items-center justify-center"><img src="/images/icons/download_t_cube.png" alt="" class="max-w-full max-h-full object-contain"></span>
+<div>
+<h4 class="mt-4 leading-tight">este sitio</h4>
+<div class="prose-sm">
+<p>Las ilustraciones de este sitio están disponibles bajo la <a href="http://creativecommons.org/licenses/by-nc/3.0/">licencia CC Atribución-NoComercial</a>, lo que significa que usted es libre de compartirlas y modificarlas siempre que nos acredite y no las use con fines comerciales.</p>
+<p>Las ilustraciones fueron creadas por <a href="http://pendulumswingmedia.com/">Jason Brown</a> y <a href="http://www.shawndouglas.com/">Shawn Douglas</a>. Aquí están los archivos fuente PSD:</p>
+<ul>
+<li><a href="http://bit.ly/QqyvOA">research</a></li>
+<li><a href="http://bit.ly/S6ZLjK">people</a></li>
+<li><a href="http://bit.ly/XuvK1P">publications</a></li>
+<li><a href="http://bit.ly/XXob2z">downloads</a></li>
+<li><a href="http://bit.ly/TNdmZu">contact</a></li>
+<li><a href="http://bit.ly/TUAc3K">404</a></li>
+</ul>
+<p>El diseño del sitio fue creado por <a href="https://stgabriel.io">Kris St.Gabriel</a>.</p>
+</div>
+</div>
+</div>
+
+    </div>
+
+  </div>
+</div> 
+  </body>
+</html>
