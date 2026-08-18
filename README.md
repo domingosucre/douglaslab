@@ -14,13 +14,13 @@
 
 [x] - upscale the other images
 
-[ ] - usability for people with disabilities
+[ ] - usability /screenreader (still untested)
 
-[ ] - keyboard navigation
+[x] - keyboard navigation
 
-[ ] - nav menu usability
+[x] - nav menu usability
 
-[ ] - create mobile menu
+[x] - create mobile menu
 
 [ ] - copyright footer
 
@@ -30,7 +30,7 @@
 
 [ ] - json+ld metatags
 
-[ ] - aria everywhere
+[x] - aria MOST places
 
 [ ] - robots.txt
 
@@ -43,8 +43,6 @@
 [x] - 404 page added with new design
 
 [ ] - finish 404 page content
-
-[ ] - consider a larger breakpoint
 
 ## ARIA
 
