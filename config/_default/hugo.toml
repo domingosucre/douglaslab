@@ -71,27 +71,27 @@ defaultContentLanguageInSubdir = false  # or true if you want /en/ prefix
   [[languages.en.menus.main]]
     identifier = 'research'
     name = 'Research'
-    url = '/'
+    pageRef = '/'
     weight = 1
   [[languages.en.menus.main]]
     identifier = 'people'
     name = 'People'
-    url = '/people/'
+    pageRef  = '/people/'
     weight = 10
   [[languages.en.menus.main]]
     identifier = 'publications'
     name = 'Publications'
-    url = '/publications/'
+    pageRef  = '/publications/'
     weight = 20
   [[languages.en.menus.main]]
     identifier = 'downloads'
     name = 'Downloads'
-    url = '/downloads/'
+    pageRef = '/downloads/'
     weight = 30
   [[languages.en.menus.main]]
     identifier = 'contact'
     name = 'Contact'
-    url = '/contact/'
+    pageRef = '/contact/'
     weight = 40
 
 [languages.es]
@@ -101,25 +101,26 @@ defaultContentLanguageInSubdir = false  # or true if you want /en/ prefix
   [[languages.es.menus.main]]
     identifier = 'research'
     name = 'Investigación'
-    url = '/es/'
+    pageRef = '/'
     weight = 1
   [[languages.es.menus.main]]
     identifier = 'people'
     name = 'Personas'
-    url = '/es/people/'
+    pageRef = '/people/'
     weight = 10
   [[languages.es.menus.main]]
     identifier = 'publications'
     name = 'Publicaciones'
-    url = '/es/publications/'
+    pageRef = '/publications/'
     weight = 20
   [[languages.es.menus.main]]
     identifier = 'downloads'
     name = 'Descargas'
-    url = '/es/downloads/'
+    pageRef = '/downloads/'
     weight = 30
   [[languages.es.menus.main]]
     identifier = 'contact'
     name = 'Contacto'
-    url = '/es/contact/'
+    pageRef = '/contact/'
     weight = 40
+
