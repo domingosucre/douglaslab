@@ -1,4 +1,8 @@
 {{- $link := .Get "link" | default (.Get 0) -}}
+{{- if not (or (hasPrefix $link "http://") (hasPrefix $link "https://") (hasPrefix $link "//")) -}}
+  {{- $link = strings.TrimPrefix "/" $link | relURL -}}
+{{- end -}}
+
 {{- $text := .Get "text" | default (.Get 1) -}}
 {{- $external := .Get "external" | default (.Get 2) -}}
 
