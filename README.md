@@ -44,6 +44,10 @@
 
 [ ] - finish 404 page content
 
+[ ] - fix the people partial because the h1 tags are too big
+
+[ ] - front page header area
+
 ## ARIA
 
 Uses a disclosure pattern (a labeled toggle button revealing a hidden panel),
