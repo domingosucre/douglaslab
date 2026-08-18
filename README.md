@@ -53,4 +53,19 @@ not (for example) role="menu" role="menuitem"- long story short, better for comp
 
 (longer story) ARIA's menu role is meant for application-style menus, like a desktop app's File menu
 
-check the keyboard tabbing through menus.
+### check the keyboard tabbing through menus.
+
+[ ] - test the site using a screenreader (orca in linux)
+
+## shortcodes
+
+Usage:
+
+```
+{{< button link="/contact/" text="Join the lab!" >}}
+
+```
+
+If you're linking to an external link, add 'external="true"' and it will add the right aria label, example:
+
+{{< button link="https://ucsf.com" text="some text" external="true" >}}

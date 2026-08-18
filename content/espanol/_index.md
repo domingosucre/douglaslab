@@ -23,5 +23,4 @@ Estamos colaborando con [Dynamicland](https://dynamicland.org/) para reimaginar 
 
 [Compartimos actualizaciones informales de nuestro progreso aquí](https://posts.dynamic.land/@shawn).
 
-{{< button link="/es/contact" text="Únete al laboratorio!" >}}
-
+{{< button link="/es/contact/" text="Únete al laboratorio!" >}}

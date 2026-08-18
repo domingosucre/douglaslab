@@ -23,4 +23,4 @@ We are collaborating with [Dynamicland](https://dynamicland.org/) to reimagine h
 
 [We share informal progress updates here](https://posts.dynamic.land/@shawn).
 
-{{< button link="/contact" text="Join the lab!" >}}
+{{< button link="/contact/" text="Join the lab!" >}}
