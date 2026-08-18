@@ -6,12 +6,12 @@
     {{ partial "menu.html" . }}
   </div>
 
-    <div class="w-screen relative left-1/2 -translate-x-1/2 bg-zinc-200">
+    <div class="w-screen relative left-1/2 -translate-x-1/2 bg-zinc-200 z-1">
   <div class="grid grid-cols-24">
 
 
     <!-- left column: thin sliver image -->
-    <div class="z-8 hidden xl:block xl:col-span-1 h-[clamp(16rem,30vw,34rem)]  shadow-black/25"
+    <div class="z-6 hidden xl:block xl:col-span-1 h-[clamp(16rem,30vw,34rem)] shadow-2xl shadow-black/25"
 
          style="background-image:url('{{ printf "images/%s" .Params.picture_left | relURL }}');
                 background-repeat:no-repeat;
@@ -32,9 +32,9 @@
                 background-position:left 20%;">
 </div>
 	    <div class="hidden lg:block p-6 xl:p-12 z-6">
-		    <b>University of California, San Francisco</b></br>
-		Dept. of Cellular and Molecular Mad Science</br>
-		Mission Bay — Genentech Hall</br>
+		    <b>University of California, San Francisco</b><br>
+		Dept. of Cellular and Molecular Mad Science<br>
+		Mission Bay — Genentech Hall<br>
 	    </div>
     </div>
 

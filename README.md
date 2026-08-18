@@ -45,3 +45,12 @@
 [ ] - finish 404 page content
 
 [ ] - consider a larger breakpoint
+
+## ARIA
+
+Uses a disclosure pattern (a labeled toggle button revealing a hidden panel),
+not (for example) role="menu" role="menuitem"- long story short, better for compliance.
+
+(longer story) ARIA's menu role is meant for application-style menus, like a desktop app's File menu
+
+check the keyboard tabbing through menus.
