@@ -24,7 +24,7 @@
 
 [ ] - copyright footer
 
-[ ] - logo area
+[x] - logo area
 
 [ ] - metatag data (the modern ones)
 
@@ -46,7 +46,7 @@
 
 [ ] - fix the people partial because the h1 tags are too big
 
-[ ] - front page header area
+[x] - front page header area
 
 ## ARIA
 
