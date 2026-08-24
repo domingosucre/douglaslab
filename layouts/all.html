@@ -38,14 +38,23 @@
 	    </div>
     </div>
 
-    <!-- center -->
     <div class="order-2 lg:order-2 col-span-24 z-10
-                md:col-span-24 lg:col-span-12 xl:col-span-12 2xl:col-span-12 3xl:col-span-12
-                max-w-none prose lg:prose-md xl:prose-xl 2xl:prose-2xl
-                bg-white shadow-2xl shadow-black/25 p-6 xl:p-12
-                ">
-      {{ .Content }}
-    </div>
+            md:col-span-24 lg:col-span-12 xl:col-span-12 2xl:col-span-12 3xl:col-span-12
+            max-w-none bg-white shadow-2xl shadow-black/25">
+
+  <!--header-->
+  <div class="grid grid-cols-[minmax(0,200fr)_minmax(0,1075fr)] items-center
+       lg:-mt-6 
+      ">
+      <a href="/"><img src="{{ "images/header-shawn.png" | relURL }}" alt="Shawn Douglas" width="200" height="250" class="w-full h-auto block min-w-0"></a>
+    <img src="{{ "images/header-logo.png" | relURL }}" alt="Lab logo" width="1075" height="250" class="w-full h-auto block min-w-0">
+  </div>
+  <!--/header-->
+
+  <main class="max-w-none p-6 xl:p-12 prose lg:prose-md xl:prose-xl 2xl:prose-2xl">
+    {{ .Content }}
+  </main>
+</div>
 
   </div>
 </div>

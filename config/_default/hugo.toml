@@ -31,6 +31,10 @@ filename = "sitemap.xml"
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false  # or true if you want /en/ prefix
 
+[security]
+  [security.exec]
+    allow = ['^(dart-)?sass$', '^go$', '^git$', '^node$', '^postcss$', '^tailwindcss$']
+
 [build]
   [build.buildStats]
     enable = true
