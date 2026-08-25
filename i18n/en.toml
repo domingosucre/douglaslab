@@ -1,3 +1,0 @@
-[footer_copyright]
-other = '© {{ .years }} {{ .org }}, UCSF. Artwork by Jason Brown and Shawn Douglas, licensed <a href="https://creativecommons.org/licenses/by-nc/3.0/" rel="license noopener">CC BY-NC 3.0</a>. Site design by <a href="https://stgabriel.io" rel="author">Kris St.Gabriel</a>.'
-
