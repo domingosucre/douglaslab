@@ -4,7 +4,7 @@
 
 <div class="not-prose flex flex-col gap-6 my-10">
   {{- range $people.current }}
-  <div class="grid grid-cols-[auto_1fr] sm:gap-4 items-start">
+  <div class="grid grid-cols-[auto_1fr] gap-4 items-start">
     <img src="{{ printf "images/portraits/%s" .portrait | relURL }}"
          alt="Portrait of {{ .name }}"
          class="w-24 h-24 rounded-sm object-cover block mb-4 ">
