@@ -6,7 +6,7 @@ picture_left: contact_right.png
 picture_right: contact_right.png
 ---
 
-# Póngase en contacto
+## Póngase en contacto
 
 Correo electrónico: shawn.douglas \[at\] ucsf.edu
 Teléfono: 415-502-1947 (oficina)

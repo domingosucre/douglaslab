@@ -7,7 +7,7 @@
     {{- block "metatags" . }}{{ end }} {{ partial "head.html" . }}
   </head>
 
-  <body class="text-black font-sans bg-black">
+  <body class="text-black font-sans bg-black pb-4 2xl:pb-6">
     {{- partial "dev/dev-tools.html" . -}} {{ partial "nav-mobile.html" . }} {{-
     block "main" . }}{{- end }} {{ if false}} {{- partial "dark-toggle.html" .
     }} {{ end }}

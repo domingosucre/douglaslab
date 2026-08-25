@@ -6,7 +6,7 @@ picture_left: contact_right.png
 picture_right: contact_right.png
 ---
 
-# Get in touch
+## Get in touch
 
 Email: shawn.douglas \[at\] ucsf.edu  
 Call: 415-502-1947 (office)

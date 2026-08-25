@@ -6,6 +6,6 @@ picture_left: people_left.png
 picture_right: people_right.png
 ---
 
-# People in the Lab
+## People in the Lab
 
 {{< people >}}

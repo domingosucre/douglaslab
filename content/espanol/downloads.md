@@ -7,7 +7,7 @@ picture_left: downloads_left.png
 picture_right: downloads_right.png
 ---
 
-# descargas
+## descargas
 
 {{% download link="http://douglaslab.org/gelbox/" label="Descargar Gelbox" letter="A" title="Gelbox" %}}
 Simulador de electroforesis en gel (aplicación para macOS).
