@@ -1,0 +1,24 @@
+{{- $people := .Site.Data.people -}}
+
+
+<div class="flex flex-col gap-6">
+  <div class="not-prose flex flex-col gap-6 my-10">
+  {{- range $people.former }}
+  <div class="grid grid-cols-[auto_1fr] sm:gap-4 items-start">
+    <img src="{{ printf "images/portraits/%s" .portrait | relURL }}"
+         alt="Portrait of {{ .name }}"
+         class="w-24 h-24 rounded-sm object-cover block mb-4 sm:mb-0">
+    <div>
+      <h4 class="text-lg font-bold">
+        {{- if .url }}<a target="_blank" rel="noopener" href="{{ .url }}" class="hover:underline">{{ .name }}</a>{{ else }}{{ .name }}{{ end -}}
+      </h4>
+      <p class="mt-1 text-sm">
+        {{ .role }}<br>
+        {{- with .email }}{{ . | replaceRE `@` `[at]` }}<br>{{ end -}}
+        {{- with .phone }}{{ . }}<br>{{ end -}}
+      </p>
+    </div>
+  </div>
+  {{- end }}
+</div>
+

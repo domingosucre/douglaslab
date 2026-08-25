@@ -8,4 +8,8 @@ picture_right: people_right.png
 
 ## Personas del laboratorio
 
-{{< people >}}
+{{< people-current >}}
+
+## Antiguos miembros del laboratorio
+
+{{< people-former >}}

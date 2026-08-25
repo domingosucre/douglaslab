@@ -8,4 +8,8 @@ picture_right: people_right.png
 
 ## People in the Lab
 
-{{< people >}}
+{{< people-current >}}
+
+## Former Members
+
+{{< people-former >}}
