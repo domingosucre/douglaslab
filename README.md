@@ -44,9 +44,11 @@
 
 [ ] - finish 404 page content
 
-[ ] - fix the people partial because the h1 tags are too big
+[x] - fix the people partial because the h1 tags are too big
 
 [x] - front page header area
+
+[x] - people-page(s) and downloads have weird image alignments. fix
 
 ## ARIA
 

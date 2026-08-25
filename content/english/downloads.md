@@ -7,7 +7,7 @@ picture_left: downloads_left.png
 picture_right: downloads_right.png
 ---
 
-## downloads
+## Downloads
 
 {{% download link="http://douglaslab.org/gelbox/" label="Download Gelbox" letter="A" title="Gelbox" %}}
 Gel electrophoresis simulator (macOS app).
