@@ -9,7 +9,7 @@ og_description: "Gelbox, cadnano, lr-notebook, GrantMerge, animaciones del labor
 og_image: og_downloads.png
 ---
 
-## descargas
+## Descargas
 
 {{% download link="http://douglaslab.org/gelbox/" label="Descargar Gelbox" letter="A" title="Gelbox" %}}
 Simulador de electroforesis en gel (aplicación para macOS).

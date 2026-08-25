@@ -9,7 +9,7 @@ og_description: "Gelbox, cadnano, lr-notebook, GrantMerge, lab animations and th
 og_image: og_downloads.png
 ---
 
-## downloads
+## Downloads
 
 {{% download link="http://douglaslab.org/gelbox/" label="Download Gelbox" letter="A" title="Gelbox" %}}
 Gel electrophoresis simulator (macOS app).
