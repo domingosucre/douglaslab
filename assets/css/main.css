@@ -84,10 +84,14 @@
 
 h1,
 h2,
-h3,
+h3 {
+  line-height: 1.5;
+  margin-bottom: 1.2rem;
+}
+
 h4,
 h5,
 h6 {
   line-height: 1.2;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }

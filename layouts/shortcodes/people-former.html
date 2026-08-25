@@ -12,7 +12,7 @@
       <h4 class="text-lg font-bold">
         {{- if .url }}<a target="_blank" rel="noopener" href="{{ .url }}" class="hover:underline">{{ .name }}</a>{{ else }}{{ .name }}{{ end -}}
       </h4>
-      <p class="mt-1 text-sm">
+      <p class="text-lg">
         {{ .role }}<br>
         {{- with .email }}{{ . | replaceRE `@` `[at]` }}<br>{{ end -}}
         {{- with .phone }}{{ . }}<br>{{ end -}}
