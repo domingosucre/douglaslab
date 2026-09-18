@@ -1,6 +1,6 @@
 
 
-{{- $people := .Site.Data.people -}}
+{{- $people := hugo.Data.people -}}
 
 <div class="not-prose flex flex-col gap-6 my-10">
   {{- range $people.current }}
