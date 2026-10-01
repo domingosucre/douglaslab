@@ -1,1 +1,5 @@
 baseURL = "https://bionano.ucsf.edu"
+
+[params]
+  allow_indexing = true
+

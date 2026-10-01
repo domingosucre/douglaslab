@@ -1,1 +1,4 @@
 baseURL = "http://localhost:1313/"
+
+[params]
+  allow_indexing = false   # this is true in the production config

@@ -30,17 +30,17 @@
 
 [ ] - resize the images in static/images/og_research (etcetera) to 1200x630
 
-[ ] - json+ld metatags
+[x] - json+ld metatags
 
 [x] - aria MOST places
 
-[ ] - robots.txt
+[x] - robots.txt
 
-[ ] - sitemap.xml
+[x] - sitemap.xml
 
-[ ] - imagesitemap.xml
+[x] - imagesitemap.xml
 
-[ ] - humans.txt
+[x] - humans.txt
 
 [x] - 404 page added with new design
 

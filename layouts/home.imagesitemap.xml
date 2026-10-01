@@ -1,0 +1,41 @@
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+{{- $base := urls.Parse site.BaseURL -}}
+{{- range where site.Pages "Kind" "in" (slice "home" "section" "page") -}}
+  {{- if not .Params.noindex -}}
+
+    {{/* Collect image sources: front matter, site-wide extras (home only), then <img> tags in rendered content */}}
+    {{- $srcs := slice -}}
+    {{- with .Params.og_image }}{{ $srcs = $srcs | append . }}{{ end -}}
+    {{- if .IsHome -}}
+      {{- range site.Params.sitemap_images }}{{ $srcs = $srcs | append . }}{{ end -}}
+    {{- end -}}
+    {{- range findRE `<img\s[^>]*>` .Content -}}
+      {{- range findRESubmatch `\ssrc="([^"]+)"` . 1 -}}
+        {{- $srcs = $srcs | append (index . 1 | htmlUnescape) -}}
+      {{- end -}}
+    {{- end -}}
+
+    {{/* Resolve each to an absolute URL (handles relative, /subpath/, and full URLs) */}}
+    {{- $locs := slice -}}
+    {{- range $srcs -}}
+      {{- if not (hasPrefix . "data:") -}}
+        {{- $locs = $locs | append (($base.ResolveReference (urls.Parse .)).String) -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $locs = $locs | uniq -}}
+
+    {{- if $locs }}
+  <url>
+    <loc>{{ .Permalink }}</loc>
+    {{- range $locs }}
+    <image:image>
+      <image:loc>{{ . }}</image:loc>
+    </image:image>
+    {{- end }}
+  </url>
+    {{- end -}}
+  {{- end -}}
+{{- end }}
+</urlset>

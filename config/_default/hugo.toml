@@ -20,21 +20,23 @@ disableKinds = ["taxonomy", "term"] # turn off taxonomy terms so template doesnt
 
 [outputs]
 page = [ "html" ]
-home = [ "html", "json", "rss", "imagessitemap" ]
+home = [ "html", "rss", "imagesitemap" ]
 
-[outputFormats.IMAGESSITEMAP]
-MediaType = "application/xml"
-BaseName = "imagessitemap"
-isPlainText = false
-isHTML = false
-noUgly = true
-permalinkable = false
+
+[outputFormats.imagesitemap]
+  mediaType      = "application/xml"
+  baseName       = "imagesitemap"
+  isHTML         = false
+  notAlternative = true
+
+
+
+enableGitInfo = true
+[frontmatter]
+  lastmod = [":git", "lastmod", "date", "publishDate"]
 
 [sitemap]
-changefreq = "weekly"
-priority = 0.8
-filename = "sitemap.xml"
-
+  filename = "sitemap.xml"
 
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false  # or true if you want /en/ prefix
