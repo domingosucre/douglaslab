@@ -1,10 +1,12 @@
 ---
 title: Downloads
 slug: "downloads"
-description: See above
-
 picture_left: downloads_left.png
 picture_right: downloads_right.png
+description:
+og_title: 
+og_description: 
+og_image: og_downloads.png
 ---
 
 ## downloads

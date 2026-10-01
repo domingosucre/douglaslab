@@ -1,8 +1,12 @@
 ---
 title: I guess this is the front page of english stuff
-description: See above
 picture_left: research_left.png
 picture_right: research_right.png
+description:
+og_title: 
+og_description: 
+og_image: og_research.png
+
 ---
 
 ## What are we doing?

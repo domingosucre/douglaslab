@@ -1,9 +1,12 @@
 ---
 title: Contact
 slug: "contact"
-description: See above
 picture_left: contact_right.png
 picture_right: contact_right.png
+description:
+og_title: 
+og_description: 
+og_images: og_contact.png
 ---
 
 ## Get in touch

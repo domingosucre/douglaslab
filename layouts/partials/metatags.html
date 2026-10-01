@@ -1,0 +1,126 @@
+{{/*
+  Basic metadata for the Douglas Lab site.
+  Front matter (all optional): title_tag, meta_description / description,
+  og_title, og_description, og_image, noindex
+  Site params (config): description, og_image, twitter, author
+*/}}
+
+{{- $siteName := site.Title -}}
+
+{{/* Title: "Page | Site", or just the site name on the home page */}}
+{{- $title := .Params.title_tag | default .Title -}}
+{{- if .IsHome }}{{ $title = $siteName }}{{ else }}{{ $title = printf "%s | %s" $title $siteName }}{{ end -}}
+{{- $ogTitle := .Params.og_title | default $title -}}
+
+{{/* Description: most specific first, then the auto-summary, then the site-wide one */}}
+{{- $desc := .Params.meta_description | default .Params.description | default .Summary | default site.Params.description -}}
+{{- $desc = $desc | plainify | htmlUnescape | truncate 160 -}}
+{{- $ogDesc := .Params.og_description | default $desc -}}
+
+{{/* Image: page front matter, then the site default. absURL leaves full URLs alone. */}}
+{{ $og_base := .Params.og_image | default .Site.Params.og_image | default "og_research.png" }}
+{{ $image := (printf "/images/%s" $og_base) | absURL }}
+
+<title>{{ $title }}</title>
+{{ with $desc }}<meta name="description" content="{{ . }}">{{ end }}
+<link rel="canonical" href="{{ .Permalink }}">
+{{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+{{ if or .Params.noindex (eq .Kind "404") }}<meta name="robots" content="noindex">{{ end }}
+
+{{/* Translations (en/es) */}}
+{{ if gt (len .AllTranslations) 1 }}
+{{ range .AllTranslations }}<link rel="alternate" hreflang="{{ .Language.Locale }}" href="{{ .Permalink }}">
+{{ end }}
+{{ end }}
+
+{{/* Open Graph */}}
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ $siteName }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:title" content="{{ $ogTitle }}">
+{{ with $ogDesc }}<meta property="og:description" content="{{ . }}">{{ end }}
+<meta property="og:image" content="{{ $image }}">
+{{ with .Params.image_alt }}<meta property="og:image:alt" content="{{ . }}">{{ end }}
+{{ with .Language.Locale }}<meta property="og:locale" content="{{ replace . "-" "_" }}">{{ end }}
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+
+{{/* Twitter / X */}}
+<meta name="twitter:card" content="summary_large_image">
+{{ with site.Params.twitter }}<meta name="twitter:site" content="{{ . }}">{{ end }}
+<meta name="twitter:title" content="{{ $ogTitle }}">
+{{ with $ogDesc }}<meta name="twitter:description" content="{{ . }}">{{ end }}
+<meta name="twitter:image" content="{{ $image }}">
+{{ with .Params.image_alt }}<meta name="twitter:image:alt" content="{{ . }}">{{ end }}
+
+
+{{/* ─── JSON-LD ───────────────────────────────────────────────────
+  Built as Hugo dicts and serialised with jsonify, so quotes and
+  special characters in titles/descriptions can't break the JSON.
+  Org details come from [params.org] in config.
+*/}}
+{{- $page   := . -}}
+{{- $org    := site.Params.org | default (dict) -}}
+{{- $orgID  := printf "%s#organization" site.BaseURL -}}
+{{- $siteID := printf "%s#website" site.BaseURL -}}
+
+{{/* Organization (the lab) */}}
+{{- $orgNode := dict
+      "@type" "ResearchOrganization"
+      "@id"   $orgID
+      "name"  ($org.name | default site.Title)
+      "url"   site.BaseURL -}}
+{{- with $org.logo -}}
+  {{- $orgNode = merge $orgNode (dict "logo" (dict "@type" "ImageObject" "url" (. | absURL))) -}}
+{{- end -}}
+{{- with $org.parent -}}
+  {{- $parent := dict "@type" "CollegeOrUniversity" "name" . -}}
+  {{- with $org.parent_url }}{{ $parent = merge $parent (dict "url" .) }}{{ end -}}
+  {{- $orgNode = merge $orgNode (dict "parentOrganization" $parent) -}}
+{{- end -}}
+{{- with $org.sameAs -}}
+  {{- $orgNode = merge $orgNode (dict "sameAs" .) -}}
+{{- end -}}
+
+{{/* WebSite */}}
+{{- $siteNode := dict
+      "@type"      "WebSite"
+      "@id"        $siteID
+      "name"       site.Title
+      "url"        site.BaseURL
+      "inLanguage" site.Language.Locale
+      "publisher"  (dict "@id" $orgID) -}}
+
+{{/* This page. Set schema_type in front matter to override
+     (e.g. ContactPage, AboutPage, CollectionPage). */}}
+{{- $pageNode := dict
+      "@type"      ($page.Params.schema_type | default "WebPage")
+      "@id"        (printf "%s#webpage" $page.Permalink)
+      "url"        $page.Permalink
+      "name"       $page.Title
+      "inLanguage" $page.Language.Locale
+      "isPartOf"   (dict "@id" $siteID)
+      "about"      (dict "@id" $orgID)
+      "primaryImageOfPage" (dict "@type" "ImageObject" "url" $image) -}}
+{{- with $desc -}}
+  {{- $pageNode = merge $pageNode (dict "description" .) -}}
+{{- end -}}
+{{- if not $page.Lastmod.IsZero -}}
+  {{- $pageNode = merge $pageNode (dict "dateModified" ($page.Lastmod.Format "2006-01-02T15:04:05Z07:00")) -}}
+{{- end -}}
+
+{{- $graph := slice $orgNode $siteNode $pageNode -}}
+
+{{/* Breadcrumbs (skipped on the home page) */}}
+{{- if not $page.IsHome -}}
+  {{- $crumbs := slice -}}
+  {{- range $i, $a := $page.Ancestors.Reverse -}}
+    {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" (add $i 1) "name" $a.Title "item" $a.Permalink) -}}
+  {{- end -}}
+  {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" (add (len $page.Ancestors) 1) "name" $page.Title "item" $page.Permalink) -}}
+  {{- $graph = $graph | append (dict "@type" "BreadcrumbList" "itemListElement" $crumbs) -}}
+{{- end -}}
+
+<script type="application/ld+json">
+{{ dict "@context" "https://schema.org" "@graph" $graph | jsonify (dict "indent" "  ") | safeJS }}
+</script>

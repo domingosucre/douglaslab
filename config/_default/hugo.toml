@@ -1,10 +1,18 @@
 # locale = 'en-us'
 
-title = 'The Douglas Lab'
+title = 'The Douglas Lab at UCSF'
 
 enableRobotsTXT = true
 
 disableKinds = ["taxonomy", "term"] # turn off taxonomy terms so template doesnt look for them.
+
+[params.org]
+  name       = "Douglas Lab"
+  logo       = "images/header-logo.png"
+  parent     = "University of California, San Francisco"
+  parent_url = "https://www.ucsf.edu"
+  sameAs     = ["https://posts.dynamic.land/@shawn"]
+
 
 [permalinks.page]
 "pages" = "/:slugorcontentbasename/"
@@ -72,7 +80,8 @@ defaultContentLanguageInSubdir = false  # or true if you want /en/ prefix
 
 [languages.en]
   contentDir = 'content/english'
-  label = 'en'
+  locale = "en-US"
+  label = "English"
   weight = 10
   [[languages.en.menus.main]]
     identifier = 'research'
@@ -102,7 +111,8 @@ defaultContentLanguageInSubdir = false  # or true if you want /en/ prefix
 
 [languages.es]
   contentDir = 'content/espanol'
-  label = 'es'
+  locale = "es-ES"
+  label = "Español"
   weight = 20
   [[languages.es.menus.main]]
     identifier = 'research'

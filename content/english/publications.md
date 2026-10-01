@@ -1,9 +1,12 @@
 ---
 title: Publications
 slug: "publications"
-description: See above
 picture_left: publications_left.png
 picture_right: publications_right.png
+description:
+og_title: 
+og_description: 
+og_image: og_publications.png
 ---
 
 ## Publications

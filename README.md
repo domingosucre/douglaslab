@@ -28,6 +28,8 @@
 
 [ ] - metatag data (the modern ones)
 
+[ ] - resize the images in static/images/og_research (etcetera) to 1200x630
+
 [ ] - json+ld metatags
 
 [x] - aria MOST places
