@@ -52,6 +52,15 @@
   <main class="max-w-none p-6 xl:p-12 prose lg:prose-md xl:prose-xl 2xl:prose-2xl">
     {{ .Content }}
   </main>
+  
+   <footer class="max-w-none p-6 xl:p-12">
+    <p class="text-xs">
+      {{ i18n "footer_copyright" (dict
+          "years" (printf "2011–%d" now.Year)
+          "org"   (site.Params.org.name | default site.Title)
+      ) | safeHTML }}
+    </p>
+  </footer>
 </div>
 
   </div>

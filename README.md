@@ -1,3 +1,52 @@
+# HOW-TO
+
+install hugo (see: https://gohugo.io/installation/ ) 
+
+You can run the site locally at http://localhost:1313
+
+```
+hugo serve
+```
+
+To change layout-related things, you have to run 'npm run dev', or 
+
+```
+./run.sh
+```
+
+because tailwindcss and its dependencies are nodejs.
+
+I used tailwind in this project, because it's so well-documented, that a lab-member (or LLM)
+won't struggle to understand my own custom-coded css, if they need to change anything. 
+
+
+# To Deploy
+
+```
+./deploy.sh
+
+```
+
+You will probably need to change that script to match your github hosting.
+
+# other notes
+
+page content is stored under
+
+content/
+
+## copyright in footer
+
+Most of the template loads from layouts/all.html, but the footer text is customized (confusingly) under.
+
+i18n/en.toml
+i18n/es.toml
+
+This is because it was the only sensible way I could think to do it for a multi-language site.
+
+
+
+
 # TO DO
 
 [x] - layout fixed, now - i think
@@ -22,11 +71,9 @@
 
 [x] - create mobile menu
 
-[ ] - copyright footer
+[x] - copyright footer
 
 [x] - logo area
-
-[ ] - metatag data (the modern ones)
 
 [ ] - resize the images in static/images/og_research (etcetera) to 1200x630
 
@@ -46,7 +93,7 @@
 
 [ ] - finish 404 page content
 
-[ ] - fix the people partial because the h1 tags are too big
+[x] - (i think this was fixed a while ago) fix the people partial because the h1 tags are too big
 
 [x] - front page header area
 
@@ -56,10 +103,6 @@ Uses a disclosure pattern (a labeled toggle button revealing a hidden panel),
 not (for example) role="menu" role="menuitem"- long story short, better for compliance.
 
 (longer story) ARIA's menu role is meant for application-style menus, like a desktop app's File menu
-
-### check the keyboard tabbing through menus.
-
-[ ] - test the site using a screenreader (orca in linux)
 
 ## shortcodes
 

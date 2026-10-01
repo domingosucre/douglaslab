@@ -1,0 +1,3 @@
+
+[footer_copyright]
+other = '© {{ .years }} {{ .org }}, UCSF. Ilustraciones de Jason Brown y Shawn Douglas, con licencia <a href="https://creativecommons.org/licenses/deed.es" rel="license noopener" hreflang="es">CC BY-NC 3.0</a>. Diseño del sitio: <a href="https://stgabriel.io" rel="author">Kris St.Gabriel</a>.'
