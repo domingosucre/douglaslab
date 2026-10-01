@@ -4,13 +4,19 @@
   <url>
     <loc>http://localhost:1313/404/</loc>
     <image:image>
-      <image:loc>http://localhost:1313/og_404.png</image:loc>
+      <image:loc>http://localhost:1313/images/og_404.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://localhost:1313/contact/</loc>
+    <image:image>
+      <image:loc>http://localhost:1313/images/og_contact.png</image:loc>
     </image:image>
   </url>
   <url>
     <loc>http://localhost:1313/downloads/</loc>
     <image:image>
-      <image:loc>http://localhost:1313/og_downloads.png</image:loc>
+      <image:loc>http://localhost:1313/images/og_downloads.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://localhost:1313/images/icons/download_a_cube.png</image:loc>
@@ -28,7 +34,7 @@
   <url>
     <loc>http://localhost:1313/</loc>
     <image:image>
-      <image:loc>http://localhost:1313/og_research.png</image:loc>
+      <image:loc>http://localhost:1313/images/og_research.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://localhost:1313/images/computation.png</image:loc>
@@ -37,7 +43,7 @@
   <url>
     <loc>http://localhost:1313/people/</loc>
     <image:image>
-      <image:loc>http://localhost:1313/og_people.png</image:loc>
+      <image:loc>http://localhost:1313/images/og_people.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://localhost:1313/images/portraits/shawn.png</image:loc>
@@ -61,7 +67,7 @@
   <url>
     <loc>http://localhost:1313/publications/</loc>
     <image:image>
-      <image:loc>http://localhost:1313/og_publications.png</image:loc>
+      <image:loc>http://localhost:1313/images/og_publications.png</image:loc>
     </image:image>
   </url>
 </urlset>

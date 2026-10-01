@@ -7,7 +7,7 @@
 
     {{/* Collect image sources: front matter, site-wide extras (home only), then <img> tags in rendered content */}}
     {{- $srcs := slice -}}
-    {{- with .Params.og_image }}{{ $srcs = $srcs | append . }}{{ end -}}
+    {{- with .Params.og_image }}{{ $srcs = $srcs | append (printf "images/%s" (strings.TrimPrefix "/" .)) }}{{ end -}}
     {{- if .IsHome -}}
       {{- range site.Params.sitemap_images }}{{ $srcs = $srcs | append . }}{{ end -}}
     {{- end -}}

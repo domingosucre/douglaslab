@@ -2,9 +2,9 @@
 title: I guess this is the front page of english stuff
 picture_left: research_left.png
 picture_right: research_right.png
-description:
-og_title: 
-og_description: 
+description: "The Douglas Lab at UCSF builds nanoscale tools and devices from DNA and proteins, using a lot of computation and a Dynamicland collaboration."
+og_title: "Douglas Lab: Building with biomolecules at UCSF"
+og_description: "We use DNA, proteins and a lot of computation to design tools and devices that work on the nanoscale."
 og_image: og_research.png
 
 ---

@@ -1,9 +1,12 @@
 ---
 title: Publicaciones
 slug: "publications"
-description: Ver arriba
 picture_left: publications_left.png
 picture_right: publications_right.png
+description: "Publicaciones sobre origami de ADN y nanotecnología de ADN de Shawn Douglas y colaboradores, en Nature, Science, PNAS y JACS."
+og_title: "Publicaciones del Laboratorio Douglas"
+og_description: "Origami de ADN, caDNAno y un nanorrobot con puertas lógicas: artículos en Nature, Science, PNAS, JACS y Nucleic Acids Research."
+og_image: og_publications.png
 ---
 
 ## Publicaciones

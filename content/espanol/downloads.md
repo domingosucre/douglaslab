@@ -1,10 +1,12 @@
 ---
 title: Descargas
 slug: "downloads"
-description: Ver arriba
-
 picture_left: downloads_left.png
 picture_right: downloads_right.png
+description: "Software, animaciones e ilustraciones del Laboratorio Douglas de la UCSF: Gelbox, lr-notebook, GrantMerge y cadnano, con arte del sitio bajo CC BY-NC."
+og_title: "Descargas del Laboratorio Douglas"
+og_description: "Gelbox, cadnano, lr-notebook, GrantMerge, animaciones del laboratorio y las ilustraciones de este sitio."
+og_image: og_downloads.png
 ---
 
 ## descargas

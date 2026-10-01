@@ -6,6 +6,9 @@ enableRobotsTXT = true
 
 disableKinds = ["taxonomy", "term"] # turn off taxonomy terms so template doesnt look for them.
 
+[params]
+  og_image = "og_research.png"
+
 [params.org]
   name       = "Douglas Lab"
   logo       = "images/header-logo.png"

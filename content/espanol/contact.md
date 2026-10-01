@@ -1,9 +1,12 @@
 ---
 title: Contacto
 slug: "contact"
-description: Ver arriba
 picture_left: contact_right.png
 picture_right: contact_right.png
+description: "Contacta con el Laboratorio Douglas en UCSF Mission Bay, encuentra la dirección en Genentech Hall y descubre cómo unirte como estudiante, posdoc o pregrado."
+og_title: "Contacto y cómo unirte al Laboratorio Douglas"
+og_description: "Visítanos en UCSF Mission Bay o descubre cómo unirte al laboratorio como estudiante de posgrado, posdoc o pregrado."
+og_image: og_contact.png
 ---
 
 ## Póngase en contacto

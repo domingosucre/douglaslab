@@ -1,8 +1,11 @@
 ---
 title: Supongo que esta es la página principal en español
-description: Ver arriba
 picture_left: research_left.png
 picture_right: research_right.png
+description: "El Laboratorio Douglas de la UCSF construye herramientas y dispositivos a nanoescala con ADN y proteínas, apoyándose mucho en la computación."
+og_title: "Laboratorio Douglas: construir con biomoléculas en la UCSF"
+og_description: "Usamos ADN, proteínas y mucha computación para diseñar herramientas y dispositivos que funcionan a nanoescala."
+og_image: og_research.png
 ---
 
 ## ¿Qué hacemos?

@@ -18,8 +18,14 @@
 {{- $ogDesc := .Params.og_description | default $desc -}}
 
 {{/* Image: page front matter, then the site default. absURL leaves full URLs alone. */}}
-{{ $og_base := .Params.og_image | default .Site.Params.og_image | default "og_research.png" }}
-{{ $image := (printf "/images/%s" $og_base) | absURL }}
+{{- $ogFile := .Params.og_image | default site.Params.og_image | default "og_research.png" -}}
+{{- $image := $ogFile -}}
+{{- if not (hasPrefix $ogFile "http") -}}
+  {{- $image = printf "images/%s" (strings.TrimPrefix "/" $ogFile) -}}
+{{- end -}}
+{{- $image = $image | absURL -}}
+
+
 
 <title>{{ $title }}</title>
 {{ with $desc }}<meta name="description" content="{{ . }}">{{ end }}

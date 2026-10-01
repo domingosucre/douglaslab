@@ -1,4 +1,4 @@
-# HOW-TO
+## HOW-TO
 
 install hugo (see: https://gohugo.io/installation/ ) 
 
@@ -20,7 +20,7 @@ I used tailwind in this project, because it's so well-documented, that a lab-mem
 won't struggle to understand my own custom-coded css, if they need to change anything. 
 
 
-# To Deploy
+## To Deploy
 
 ```
 ./deploy.sh
@@ -29,7 +29,7 @@ won't struggle to understand my own custom-coded css, if they need to change any
 
 You will probably need to change that script to match your github hosting.
 
-# other notes
+## other notes
 
 page content is stored under
 
@@ -45,9 +45,12 @@ i18n/es.toml
 This is because it was the only sensible way I could think to do it for a multi-language site.
 
 
+## pdf downloads
 
+I showed the site to a frontier LLM (Claude), and received this odd note:
+Dropbox links: Five of the six PDFs use dl.dropbox.com/u/... links. As far as I know, Dropbox retired that old public-folder URL scheme years ago, so those links are probably dead. Click through to confirm. If they are, host the PDFs in static/ or link to a DOI or PubMed Central copy instead.
 
-# TO DO
+## TO DO
 
 [x] - layout fixed, now - i think
 

@@ -3,10 +3,10 @@ title: Contact
 slug: "contact"
 picture_left: contact_right.png
 picture_right: contact_right.png
-description:
-og_title: 
-og_description: 
-og_images: og_contact.png
+description: "Contact the Douglas Lab at UCSF Mission Bay, find the address in Genentech Hall, and learn how grad students, postdocs and undergrads can join."
+og_title: "Contact and join the Douglas Lab"
+og_description: "Visit us at UCSF Mission Bay, or find out how to join the lab as a grad student, postdoc or undergrad."
+og_image: og_contact.png
 ---
 
 ## Get in touch
