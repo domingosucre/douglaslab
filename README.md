@@ -84,7 +84,7 @@ Dropbox links: Five of the six PDFs use dl.dropbox.com/u/... links. As far as I 
 
 [x] - logo area
 
-[ ] - resize the images in static/images/og_research (etcetera) to 1200x630
+[x] - resize the images in static/images/og_research (etcetera) to 1200x630
 
 [x] - json+ld metatags
 
@@ -102,12 +102,7 @@ Dropbox links: Five of the six PDFs use dl.dropbox.com/u/... links. As far as I 
 
 [ ] - finish 404 page content
 
-<<<<<<< HEAD
 [x] - (i think this was fixed a while ago) fix the people partial because the h1 tags are too big
-=======
-[x] - fix the people partial because the h1 tags are too big
-
-> > > > > > > b8c7d3d (made downloads shortcode nicer)
 
 [x] - front page header area
 
