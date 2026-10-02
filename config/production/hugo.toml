@@ -1,4 +1,5 @@
-baseURL = "https://bionano.ucsf.edu"
+baseURL = "https://domingosucre.github.io/douglaslab"
+#baseURL = "https://bionano.ucsf.edu"
 
 [params]
   allow_indexing = true
