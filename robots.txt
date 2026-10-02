@@ -1,3 +1,6 @@
 User-agent: *
-Disallow: /
+Allow: /
 
+Sitemap: https://bionano.ucsf.edu/sitemap.xml
+Sitemap: https://bionano.ucsf.edu/imagesitemap.xml
+Sitemap: https://bionano.ucsf.edu/es/imagesitemap.xml
