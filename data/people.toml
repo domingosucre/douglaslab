@@ -25,6 +25,12 @@ name = "Bullet"
 portrait = "bullet.png"
 role = "Lab Security"
 
+[[current]]
+name = "Kris St.Gabriel"
+portrait = "kris.png"
+role = "Developer"
+url = "https://stgabriel.io"
+
 [[former]]
 name = "Lisa Nip"
 portrait = "lisa.png"

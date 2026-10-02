@@ -1,6 +1,6 @@
 ## HOW-TO
 
-install hugo (see: https://gohugo.io/installation/ ) 
+install hugo (see: https://gohugo.io/installation/ )
 
 You can run the site locally at http://localhost:1313
 
@@ -8,7 +8,7 @@ You can run the site locally at http://localhost:1313
 hugo serve
 ```
 
-To change layout-related things, you have to run 'npm run dev', or 
+To change layout-related things, you have to run 'npm run dev', or
 
 ```
 ./run.sh
@@ -17,8 +17,7 @@ To change layout-related things, you have to run 'npm run dev', or
 because tailwindcss and its dependencies are nodejs.
 
 I used tailwind in this project, because it's so well-documented, that a lab-member (or LLM)
-won't struggle to understand my own custom-coded css, if they need to change anything. 
-
+won't struggle to understand my own custom-coded css, if they need to change anything.
 
 ## To Deploy
 
@@ -35,6 +34,14 @@ page content is stored under
 
 content/
 
+## people page
+
+Change the data on this page here:
+
+data/people.toml
+
+Note, you can set their status as current or former labmembers
+
 ## copyright in footer
 
 Most of the template loads from layouts/all.html, but the footer text is customized (confusingly) under.
@@ -43,7 +50,6 @@ i18n/en.toml
 i18n/es.toml
 
 This is because it was the only sensible way I could think to do it for a multi-language site.
-
 
 ## pdf downloads
 
@@ -100,7 +106,8 @@ Dropbox links: Five of the six PDFs use dl.dropbox.com/u/... links. As far as I 
 [x] - (i think this was fixed a while ago) fix the people partial because the h1 tags are too big
 =======
 [x] - fix the people partial because the h1 tags are too big
->>>>>>> b8c7d3d (made downloads shortcode nicer)
+
+> > > > > > > b8c7d3d (made downloads shortcode nicer)
 
 [x] - front page header area
 

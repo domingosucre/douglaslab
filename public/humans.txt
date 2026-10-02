@@ -1,0 +1,22 @@
+/* TEAM */
+Design & development: Kris St.Gabriel
+Site: https://stgabriel.io
+Location: Brisbane, Australia
+
+Principal investigator: Shawn Douglas
+Site: https://YOUR-DOMAIN
+Location: San Francisco, California
+
+/* THANKS */
+The Douglas Lab, for the content and the patience.
+Hugo (https://gohugo.io), for being fast and out of the way.
+Tailwind CSS, for the styling.
+Lexend, for the headings.
+
+/* SITE */
+Last update: 2026/10/02
+Language: English, Español
+Standards: HTML5, CSS3, WAI-ARIA
+Components: Hugo, Tailwind CSS
+Software: Hugo, Arch Linux
+Hosting: Github
